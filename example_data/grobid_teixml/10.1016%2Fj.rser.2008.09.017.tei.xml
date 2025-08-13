@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Land use and electricity generation: A life-cycle analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Vasilis</forename><surname>Fthenakis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">National Photovoltaic Environmental Research Center</orgName>
+								<orgName type="institution" key="instit2">Brookhaven National Laboratory</orgName>
+								<address>
+									<addrLine>Bldg 475B Upton</addrLine>
+									<postCode>11973</postCode>
+									<region>NY</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Life Cycle Analysis</orgName>
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<postCode>10027</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hyung</forename><forename type="middle">Chul</forename><surname>Kim</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Center for Life Cycle Analysis</orgName>
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<postCode>10027</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">National PV Environmental Research Center</orgName>
+								<orgName type="institution" key="instit2">Brookhaven National Laboratory</orgName>
+								<address>
+									<addrLine>Bldg 475B Upton</addrLine>
+									<postCode>11973</postCode>
+									<settlement>NY</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">United State</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Land use and electricity generation: A life-cycle analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.rser.2008.09.017</idno>
+					<note type="submission">Received 23 July 2008 Accepted 9 September 2008</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-07-08T08:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Land occupation Transformation Renewable Photovoltaics Coal Biomass Wind Nuclear</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Renewable-energy sources often are regarded as dispersed and difficult to collect, thus requiring substantial land resources in comparison to conventional energy sources. In this review, we present the normalized land requirements during the life cycles of conventional-and renewable-energy options, covering coal, natural gas, nuclear, hydroelectric, photovoltaics, wind, and biomass. We compared the land transformation and occupation matrices within a life-cycle framework across those fuel cycles. Although the estimates vary with regional and technological conditions, the photovoltaic (PV) cycle requires the least amount of land among renewable-energy options, while the biomass cycle requires the largest amount. Moreover, we determined that, in most cases, ground-mount PV systems in areas of high insolation transform less land than the coal-fuel cycle coupled with surface mining. In terms of land occupation, the biomass-fuel cycle requires the greatest amount, followed by the nuclear-fuel cycle.</p><p>Although not detailed in this review, conventional electricity-generation technologies also pose secondary effects on land use, including contamination and disruptions of the ecosystems of adjacent lands, and land disruptions by fuel-cycle-related accidents.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The potential role of renewable-energy sources, such as solar electric and wind power, is becoming increasingly important as they offer numerous advantages over non-renewable, conventional energy sources in terms of environmental health and safety.</p><p>Still, critics often charge that renewable-energy sources require large amounts of land compared to conventional energy-generation options; hence, deem them inadequate to resolve the foreseeable crisis of climate change. Our review revealed quite contrasting results on this topic from various sources, and that the number and scope of such sources were limited. Gagnon et al. <ref type="bibr" target="#b0">[1]</ref>, estimated land use as 45 km 2 /TWh for the photovoltaic (PV)-fuel cycle compared to 4 km 2 /TWh for the coal-fuel cycle; however, they did not include in the latter surface mining and indirect land use by underground mining. Further, the International Energy Agency (IEA) <ref type="bibr" target="#b1">[2]</ref>, and Pimentel et al. <ref type="bibr" target="#b2">[3]</ref> reported that the former requires 7-17 times more land than the latter to produce unit of electricity per year. Other life-cycle-based land assessments <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>, including Ecoinvent, a major commercial database <ref type="bibr" target="#b5">[6]</ref>, and a study commissioned by the U.S. Department of Energy <ref type="bibr" target="#b6">[7]</ref> gave contrasting figures, namely, that conventional energy sources, such as coal and natural gas, require comparable amounts of land as does PV throughout their life cycles.</p><p>Admittedly, the scarcity of data and the different metrics employed in each study add more complexity to discerning actual land use in different fuel cycles. A variety of land-use metrics were devised to support environmental impact assessment, risk analysis, and policy decision-making. The life cycle assessment (LCA) for a process-and product-level appraisal commonly measures ''life-cycle land use'' via metrics that are parsed into land transformation (unit: m 2 ), and land occupation (unit: m 2 Â year). The former indicates the area of land altered from a reference state, while the latter denotes the area of land occupied and the duration of the occupation. Incorporating static-or dynamic-land quality information into these metrics resolves the impact of the full life cycle from land use <ref type="bibr" target="#b7">[8]</ref>. Current information is considered too incomplete to accurately describe the potential for ecosystem damage or land-quality indicators of the specific type of land use <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>.</p><p>We review in this study the life-cycle land use for renewablefuel cycles, i.e., wind, photovoltaic, hydroelectric geothermal, and biomass, and for conventional fuel cycles, i.e., coal, nuclear, and natural gas. It is based on our analyses of the literature and actual data. Our assessment of land use employs land transformation and occupation metrics, thus accounting for both direct-and indirectusages. For the latter, which is linked with materials and energy use, we employed the Ecoinvent database that includes land transformation and occupation factors associated with their usage <ref type="bibr" target="#b5">[6]</ref>. Finally, we added a comparative analysis for energy options in terms of the metrics examined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Land transformation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Coal</head><p>The coal-fuel cycle affects the pattern of land use both directly and indirectly during the stages of mining, beneficiation, and electricity-generation. Coal mining transforms the existing landscape, destroys the soil, and removes ground vegetation, all direct effects of land use. Furthermore, the usage of materials and the energy for operating coal mines and building infrastructures requires additional land during the upstream processes-indirect land use. Further, there are secondary land disturbances (not quantified in this study) that are due to pollutants and effluents from the coal-fuel cycle, such as water contamination, land acidification, and deterioration of forests. They are caused primarily by acid or alkaline drainage, dust, and soil erosion from coal mines, and by pollutant emissions from coal power plants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1.">Direct land transformation</head><p>Table <ref type="table">1</ref> presents the land area transformed during coal mining, and the conditions assumed for this estimation. The size of land transformed varies with factors, including the coal's heating value, seam thickness, density, and the mining method. Disturbed areas are related reciprocally to the seam's thickness, particularly in surface mining. In the U.S., about 70% of coal is mined at the surface <ref type="bibr" target="#b10">[11]</ref>, stripping mountaintops and changing contours. The comparable amount of land for underground mining is undetermined, although the surface area disturbed is smaller than in surface mining. The major concern in underground operations centers on land subsidence or slumping around coal-bearing fragile lands, including roads, dwellings, and national forests <ref type="bibr" target="#b11">[12]</ref>. Land is required for many facilities in operating a coal power plant, including a powerhouse, switchyard, stacks, precipitators, walkways, coal storage, and cooling towers. A 1000 MW plant in the U.S. requires between 330 and 1000 acres <ref type="bibr" target="#b12">[13]</ref> that translates into 6-18 m 2 /GWh of transformed land based on a capacity factor of 0.85.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1</head><p>Direct land transformation during the coal-mining stage <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b46">48,</ref><ref type="bibr" target="#b53">55]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Region</head><p>Land transformation (m</p><p>2 /1000 t), facilities and waste disposal Land transformation (m 2 /1000 t), excavated Total land transformation a (m 2 /GWh) Average seam thickness (m) Reference Surface mining Western U.S. 0.31 250 140 7.0 [22] Eastern U.S.-case 1 1.8 650 310 1.8 [7] Eastern U.S.-case 2 1.8 3040 1450 0.9 [22] Northern Appalachia na 760 350 1-1.6 [48] Central Appalachia na 780 360 0.8-1.5 [48] Southern Appalachia na 1240 570 0.8 [48] Wyoming na 90 43 9.1 [48] Kansas na 1820 840 0.5 [48] U.S. average na na 400 na [5] Underground mining Eastern U.S. 0.8 4.5 2.3 na [22] Eastern Europe 156 0 67 na [55] Northern Appalachia b na 1010 470 1.4-1.9 [48] Central Appalachia b na 1110 510 1-1.6 [48] Southern Appalachia b na 1050 480 1.4 [48] Utah b na 520 240 2.9 [48] U.S. average na na 200 na [4,5]</p><p>a Based on electricity conversion efficiency of 35%; loss during preparation = 25% <ref type="bibr" target="#b21">[22]</ref> b Area undermined.</p><p>Furthermore, a coal-fired power plant in this country generates during its operation a significant amount of ash and sludge. Disposing of the solid wastes accounts for 2-11 m 2 /GWh <ref type="bibr" target="#b12">[13]</ref>. Summarily, we estimate 6-33 m 2 /GWh of land transformation for the entire operation (Table <ref type="table" target="#tab_1">2</ref>). In the U.S., the dominant ($70%) mode of transporting coal from mines to power plants is railroads <ref type="bibr" target="#b13">[14]</ref>. In 2001, mined coal accounted for 41% of the total mass and 32% of the ton-miles shipped via Class I large freight railroad carriers <ref type="bibr" target="#b14">[15]</ref>. As 2 million acres of land is used for Class I railroads in the U.S. <ref type="bibr" target="#b15">[16]</ref>, allocating 32% of the land use to coal shipping results in 30 and 80 m 2 /GWh of land use for the Eastern and Western coal respectively based on the hauling distance to power plants, over a 30-year time frame when normalized by the 1600 TWh of electricity generated from coal in 2001 <ref type="bibr" target="#b16">[17]</ref>.</p><p>Recent data on land areas disturbed by surface coal mining gives the national average figures. Table <ref type="table" target="#tab_2">3</ref> shows the acreages permitted for surface coal mining and reclaimed <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b17">18]</ref>. Normalizing these values by annual coal-production figures allows us to estimate the extent of land areas transformed. According to the Surface Mining Control and Reclamation Act of 1977, to obtain a coal-mining permit, applicants must pay the federal-or stategovernment a certain performance bond, or deposit it with a landreclamation plan. After closing the mine and completing the planned reclamation, the regulatory authority inspects and evaluates the work to decide about releasing the bond <ref type="bibr" target="#b18">[19]</ref>. Reclaiming typically includes backfilling, regrading, establishing drainage control, and re-vegetation. Reclaiming the mined land and receiving back the bond typically requires around 5 years, but reverting to the original, native landscape and its productivity, especially that of forests, is very difficult and necessitates substantial effort and time. For example, although the current reclaiming practice in the U.S. Appalachian region that is populated by woody species, tolerant of harsh physical-and chemicalconditions, could address short-term concerns of erosion and acid-mine drainage, it would take 200-300 years before the composition of native forest was reestablished <ref type="bibr" target="#b19">[20]</ref>. Nonetheless, we assumed for our analysis that the acreage of bond released in Table <ref type="table" target="#tab_2">3</ref> represents land returned to its original state. Because of the time lag between granting permission and the final release of the bond, the amount of land that was actually mined, and thus transformed for a given year is not completely clear. Indeed, permissions are canceled if the mining operation does not start within 3 years of permission, partially explaining the difference between the permitted and reclaimed areas. Overall, the estimates of the range of land transformation (i.e., 300-784 m 2 /1000 t) in Table <ref type="table" target="#tab_2">3</ref>, overlaps the original estimates for the Eastern U.S. and the Appalachian region in Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2.">Indirect land transformation</head><p>We used the land-transformation factors in the Ecoinvent database <ref type="bibr" target="#b5">[6]</ref> to assess indirect land transformation from the materials and energy requirements for mining and operating the power plant <ref type="bibr" target="#b5">[6]</ref>. For underground mining, wood usages account for the majority of indirect land transformation, which reflects the forest area needed to grow those timbers (Table <ref type="table" target="#tab_3">4</ref>). The estimates vary with the region of country mined. The higher usage of timber in the Eastern U.S. than in the Western U.S. is because leaner coal seams are found in the former area <ref type="bibr" target="#b20">[21]</ref>. As shown in Table <ref type="table" target="#tab_3">4</ref>, for surface mining, the indirect effects from materials and energy usage are lower than those from underground mining.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Nuclear</head><p>We analyzed both the direct and indirect land transformation for the U.S. nuclear-fuel cycle. Data on the energy and materials  Plant operation Eastern U.S. 0.8 <ref type="bibr" target="#b21">[22]</ref> Western U.S. 0.9 <ref type="bibr" target="#b21">[22]</ref> inputs for each stage were adapted from U.S. DOE's characterizations of the nuclear-fuel cycle <ref type="bibr" target="#b21">[22]</ref>. We subsequently converted these values to land-transformation equivalents based on the Ecoinvent database <ref type="bibr" target="#b5">[6]</ref>. The land covered by nuclear power plants accounts for the largest land transformation (Fig. <ref type="figure" target="#fig_0">1</ref>). Since most uranium is imported from outside the U.S., either in the form of uranium ore or enriched fuel, the land-transformation data may not represent the reality of the countries that export them. The land use of a nuclear-power plant itself is higher than that of a coalfired plant probably because it adds an exclusion area and a barrier space reserved for a possible accident. Although a permanent storage for spent nuclear-fuel has not been constructed, we estimated the land transformed per GWh of electricity generated based on the planning of the Yucca Mountain repository that will accommodate the spent fuel generated in the U.S. until 2011. To meet the Nuclear Regulatory Commission's licensing requirements, an area of 150,000 acres will be permanently withdrawn, isolating the site from the public <ref type="bibr" target="#b22">[23]</ref>. By 2011, the total amount of electricity generated by nuclear power plants in this country will reach around 21,000 TWh <ref type="bibr" target="#b23">[24]</ref>. Accordingly, disposal of the spent fuel will necessitate 29 m 2 /GWh of land (Fig. <ref type="figure" target="#fig_0">1</ref>). Additional land may be required for storing low-and mid-level wastes. Lack of data precludes a quantification of the land requirement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Natural gas</head><p>The natural-gas fuel cycle consists of extracting, purifying, transporting, and storing fuels, followed by electricity generation. The data on energy and materials usage are taken from the DOE's description of the natural-gas fuel cycle <ref type="bibr" target="#b21">[22]</ref>, which we subsequently converted into land-transformation equivalence using the Ecoinvent database <ref type="bibr" target="#b5">[6]</ref>. The on-shore extraction method requires a significant amount of direct and indirect land use (Fig. <ref type="figure" target="#fig_1">2</ref>). The latter is primarily (&gt;90%) related to using diesel-fuel for drilling 1500 m deep with a 67% chance of success for each of the 120 gas wells, a typical size for a single production field. On the other hand, off shore extraction, accounting for around 20% of the U.S. volume produced between 2002 and 2006, entails negligible land transformation although encompassing a large area of water surface (140 m 2 /GWh) <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b24">25]</ref>. For the gas-transmission stage, we assumed that 970 km of underground pipeline is constructed <ref type="bibr" target="#b21">[22]</ref>. A swath of land some 20 m wide above the pipeline is designated as ''right-of-way'' for gas transmission to ensure the public's safety, thereby prohibiting land development and limiting activities on it <ref type="bibr" target="#b25">[26]</ref>. We note that natural gas often is stored in depleted gas wells, so that adding the area of land transformation for gas storage to the total may constitute double counting. The direct land use for a natural-gas power plant is smaller than that required for a coalfired plant probably because large structures are not required for fuel storage or emission-control equipment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Solar</head><p>Recent progress in PV module and balance-of-system (BOS) technologies demonstrated that a large-scale solar electric power plant could provide electric energy at a competitive cost in the near future. A good example is Tucson Electric Power's (TEP's) 4.6 MWp PV plant in Springerville, AZ <ref type="bibr" target="#b26">[27]</ref> that we used in this study to model the land area required. The PV-fuel cycle consists of materials acquisition, module production, operation and maintenance, and material disposal. We estimated the direct land use for ground-mounted solar PV based on the configuration of TEP's plant <ref type="bibr" target="#b27">[28]</ref> (Table <ref type="table" target="#tab_4">5</ref>). For a typical ground-mounted configuration, land is required in addition to that accommodating the PV module area, for access, maintenance, and to avoid shading. We used an insolation of 1800 kWh/m 2 /year, the U.S. average, and 2400 kWh/ m 2 /year, an insolation representing the U.S. southwest where commercial power plants are likely to be located. For concentrator PV, the array design of a proposed 1 MW plant in Byron, CA, of expected system efficiency of 20.2% has been modeled based on a typical direct normal irradiance with tracker in the Southwestern U.S., 2500 kWh/m 2 /year [29 <ref type="bibr">-31]</ref>. We also listed the land use estimates of concentrator PV and thermal power plant from previous reports <ref type="bibr" target="#b30">[32,</ref><ref type="bibr" target="#b31">33]</ref>. Unlike conventional non-renewable technologies, the solar electric-fuel cycle generates electricity without fuel extraction. Therefore, the electricity generated from a given area of land cumulates proportionally to the lifetime of the solar power plant. Its lifetime will be virtually infinite, as no major structures or machines, for example, generators, reactors, or cooling systems, need to be demolished for safety or economic reasons. Nonetheless, a lifetime of 30 years and 60 years was used for this analysis, representing, correspondingly, the life expectancy for the PV module and structural components of the BOS in the TEP plant <ref type="bibr" target="#b26">[27]</ref>. Indirect land usages are assessed from the life-cycle inventories of the PV modules and BOS components given in recent publications <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b32">34,</ref><ref type="bibr" target="#b33">35]</ref>, along with the land-use factors from the Ecoinvent database <ref type="bibr" target="#b5">[6]</ref>. The effect of indirect land use, which related to the life-cycle usage of energy and materials is insignificant compared with the direct effect. The indirect land area transformed for multi-, mono-, and ribbon-Si is estimated as 18.4, 18, and 15 m 2 /GWh, respectively, using an insolation of 1800 kWh/m 2 /year and 30 years of power-plant lifetime. Additionally, we determined an indirect land use for balance-of-system as 7.5 m 2 /GWh based on the same conditions.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Wind</head><p>The necessary land area for wind power varies with the turbines' spacing and their configuration. The land required for a GWh of electricity from wind turbines typically is larger than that needed for the solar-electric cycle (Table <ref type="table">6</ref>). The U.S. cases 1 and 2 in Table <ref type="table">6</ref> represent configurations of two rows with 25 turbines per row, a distance of 2.5 rotor diameters side-by-side, and 20 rotor diameters between rows <ref type="bibr" target="#b30">[32]</ref>. Depending on the resource availability and terrain, wind turbines use only 1-10% of the wind farm areas <ref type="bibr" target="#b30">[32,</ref><ref type="bibr" target="#b34">36]</ref>. The remaining free lands typically are utilized for grazing, agriculture, and recreation. We estimated indirect land transformation from two LCA studies for an on-shore wind farm in Denmark. We adopted the materials and energy inputs given by Schleisner <ref type="bibr" target="#b35">[37]</ref> and Vestas <ref type="bibr" target="#b36">[38]</ref> along with the Ecoinvent database. The former source, based on 0.5 MW wind turbine, results in 5.5 m 2 /GWh while the latter, based on 1.65 MW wind turbine, gave 1.84 m 2 /GWh assuming a 30-years lifetime <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b35">37,</ref><ref type="bibr" target="#b36">38]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Hydroelectric</head><p>The land required for generating hydroelectric power varies significantly according to site-specific conditions. Water reservoirs in flat contours are likely to be long and large, while higher and shorter dams in mountains may need less land. In addition, reservoir type-hydroelectric power plants require a significant amount of land area for the water reservoir, while the run-of-river type of hydroelectric power plants occupies a much small area as they do not need a reservoir. Table <ref type="table" target="#tab_5">7</ref> provides some estimates for hydroelectric power plants in North America. We estimated the indirect land use from Pacca and Horvath's <ref type="bibr" target="#b37">[39]</ref> data for constructing the Glen Canyon Hydroelectric Plant. Applying the land transformation factors for concrete, steel, copper, and aluminum in the Ecoinvent database results in an area of 13.6 m 2 /GWh <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b37">39]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Biomass</head><p>Electricity generated from biomass is uncommon yet; it is mostly converted to liquid-fuel (e.g., ethanol) for combustion. The possibility is being explored of growing woody biomass (e.g., willow and poplar) for generating electricity. Table <ref type="table" target="#tab_6">8</ref> lists the direct land use for producing ethanol and electricity derived from major biomass life-cycle studies. The land area needed primarily depends on the growth rate of biomass that varies with soil, climate, and species. The woody crops for electric-power plants, willow and hybrid poplar, typically yield more biomass from unit area than food crops like corn and soybean if their residues are not harvested. But generating electricity from the former is less efficient than converting the latter to ethanol through ''biorefinery''; biomass   a Assumed in this study.</p><p>power plants convert only 23-37% of biomass energy content into electricity <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b30">32,</ref><ref type="bibr" target="#b38">40]</ref> while ethanol contains 53-56% of biomass energy content <ref type="bibr" target="#b39">[41]</ref><ref type="bibr" target="#b40">[42]</ref><ref type="bibr" target="#b41">[43]</ref><ref type="bibr" target="#b42">[44]</ref><ref type="bibr" target="#b43">[45]</ref><ref type="bibr" target="#b44">[46]</ref>. In addition to the crop land, a biomass power plant requires 7-11 m 2 /TJ of area assuming a lifetime of 30 years <ref type="bibr" target="#b30">[32]</ref>. The indirect land usages are calculated from materials and energy input data (Table <ref type="table">9</ref>); they are insignificant compared to the direct-usages <ref type="bibr" target="#b38">[40,</ref><ref type="bibr" target="#b43">45,</ref><ref type="bibr" target="#b57">59</ref>].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8.">Comparative analysis</head><p>Fig. <ref type="figure">3</ref> illustrates representative examples of the total landarea transformation across electricity-generation options. We consider the entire life cycle stages, i.e., extracting resources, generating the electricity, disposing of the waste, and both direct-and indirect-transformations. As shown, the land requirements are diverse within a technology, depending on regional conditions and the technologies adopted. The photovoltaic-fuel cycle transforms the least amount of land per GWh of electricity generated among the renewable technologies we assessed. Notably, over a 30-year timeframe, the land areas transformed by PV-fuel cycles are comparable to those of the natural-gas fuel cycle and less than most coal-fuel cycles coupled with surface mining. Further, integrating PV modules within buildings or structures will disturb indirectly only a minimal amount of land, mostly associated with materials-and energy-usages for producing PV modules. Except for the fuel cycle, renewable technologies transform more land than does conventional electricity technologies under the conditions described. However, we caution that the matrix of land transformation alone cannot characterize the real land-use impacts since it does not convey the duration of land use and recovery, and any functional degradation.</p><p>We also note that the land-use profile for renewable technologies changes with the timeframe chosen for assessing transformed land and energy generated. Fig. <ref type="figure">4</ref> illustrates the effect of the power plant's lifetime in measuring the land required by plotting the land transformed against the lifetime of a power plant using renewable-energy technologies. Unlike conventional-fuel cycles, the land transformed per unit electricity gradually will become smaller with increasing plant operation time as the transformed area is normalized by the amount of cumulative electricity generated over the years. However, land transformation will not approach to zero; as shown for the PV cycles, land will be transformed indirectly by periodically producing components (e.g., PV modules) to replace old ones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Land occupation</head><p>The land occupation metric involves the duration over which the area of the transformed land returns to its original state, typically measured as a product of land area (m 2 ) and time (year). Estimating the time needed to recover the full productivity of land is complicated, and even more so is defining full recovery. Moreover, as shown in Table <ref type="table">10</ref>, restoration time is highly variable depending on the ecosystem disrupted.</p><p>For conventional fuel cycles, such as coal-and nuclear-fuel cycles, the land occupation per unit electricity generated will be very sensitive to the length of recovery for disturbed areas. Fig. <ref type="figure" target="#fig_4">5</ref> illustrates the contrasting occupation patterns between conventional-and renewable-energy systems. The full recovery of forest productivity in coal-mined lands in Eastern U.S. is expected to be several hundred years under the current practice of reclamation that focuses on safety and preventing contamination <ref type="bibr" target="#b19">[20]</ref>. We assume that the reclamation period for coal-mine land is 30 years for the reference case, and 250 years for the maximum case <ref type="bibr" target="#b19">[20]</ref>. Safely sequestering spent nuclear-fuel would need around 10,000 years of land occupation <ref type="bibr" target="#b22">[23]</ref>, that is, the half life of nuclear radiation from fission products and actinides. As shown in Fig. <ref type="figure" target="#fig_4">5</ref>, biomass farming (willow, high-pressure gasification) entails the greatest land occupation, 380,000 m 2 year/GWh, followed by nuclear-fuel disposal, 300,000 m 2 year/GWh (=30 m 2 /GWh Â 10,000 year). We note that the nuclear-fuel cycle demands a high degree of land occupation, something that is not shown by accounting for land transformation only. The land occupation of surface coal mining varies between 1290 m 2 year/GWh for Wyoming (43 m 2 / GWh Â 30 year), and 25,200 m 2 year/GWh for Kansas (840 m 2 / GWh Â 30 year). A PV power plant with 13% efficient modules requires 9900 m 2 year/GWh of land occupation. a 50% corn stover removal. b 70% corn stover removal and use of wheat as winter cover crop.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 9</head><p>Indirect land transformation associated with materials and energy use <ref type="bibr" target="#b38">[40,</ref><ref type="bibr" target="#b43">45,</ref><ref type="bibr" target="#b57">59</ref>].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Energy type</head><p>Biomass Yield (t/10 4 m 2 /year) Land transformation (m 2 /TJ) Reference Ethanol Corn 9.9 18 [59] Ethanol Corn 8.7 31 [45] Electricity Hybrid poplar 13.4 9.3 [40]</p><p>Land occupation of renewable-energy sources, such as PV and wind, remains unchanged per unit electricity generated over the duration of land use. By contrast, for conventional-energy sources that entail non-renewable land usage, a certain amount of electricity generation is correlated with a certain land area increasing occupational time does not translate to increasing electricity. Another feature of land occupation for renewable energy is the interchangeability between area (m 2 ) and time (year). For example, occupying 1 m 2 of land for 10 years would produce the same amount of electricity as occupying 10 m 2 of land for 1 year. As depicted in Fig. <ref type="figure" target="#fig_4">5</ref>, the longer the time that certain land is used for generating renewable energy, the lower is the land requirement. In contrast, the land requirement of conventional, fuel-based power generation is relatively independent of occupation time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>This analysis does not include the secondary effects associated with land exploitation for some fuel cycles that are difficult to quantify. For example, surface mining gradually disturbs the natural balance of forests, causing a loss of original characteristics by increasing the open area near the forest. Water contamination from coal and uranium mining and pile of uranium-mill tailings would alter adjacent lands. On the other hand, land transformed accidentally by disasters in the nuclear-fuel cycle can change these figures dramatically. The Chernobyl accident contaminated 80 million acres of land with radioactive materials, irreversibly disturbing 1.1 million acres of farmland and forest in Belarus alone <ref type="bibr" target="#b45">[47]</ref>.</p><p>In the U.S., the Surface Mining Control and Reclamation Act of 1977 aims to minimize the impacts of land use from mining by requiring reclamation of used land and stringent emission controls. Restoring lands to their original states takes decades and high economic investments. Completely restoring coal-mined lands often is infeasible; thus, for example, forest is transformed to Fig. <ref type="figure">3</ref>. Life-cycle land transformation for fuel cycles based on 30-years timeframe (U.S. cases unless otherwise specified). The estimates for PV are based on multi-crystalline PV modules with 13% efficiency. The reference case refers to a ground-mount installation with the U.S. Southwest insolation of 2400 kWh/m 2 /year, while the rooftop case is based on the U.S. average insolation of 1800 kWh/m 2 /year. For Germany, the insolation of Brandis, 1120 kWh/m 2 /year has been used. The packing ratio of the close-packing case is 2.1 compared with 2.5 for the reference case. The estimate for wind is based on a capacity factor of 0.24 for California and 0.2 for Germany <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b50">[52]</ref><ref type="bibr" target="#b51">[53]</ref><ref type="bibr" target="#b52">[54]</ref>.</p><p>Fig. <ref type="figure">4</ref>. Land transformation for renewable-fuel cycles over time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 10</head><p>Estimated time of restoration for select ecosystem types <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b58">60]</ref>. Mature peat bogs, old growth forests 1,000-10,000 flat contour for industrial-or residential-areas after mining stops <ref type="bibr" target="#b46">[48]</ref>. Moreover, coal-mine lands abandoned before 1977 pose continuing hazards to local residents as state laws that then regulated surface mining were ineffective <ref type="bibr" target="#b47">[49]</ref>. The inventories of these abandoned coal-mine lands are available in the website of U.S. Office of Surface Mining Reclamation and Enforcement (OSMRE) <ref type="bibr" target="#b48">[50]</ref>; they are not included in our analysis because mines will not be abandoned under the current law and mining practices.</p><p>A recent study showed that mountaintop removal mining in Appalachia (strip mining) alters the landscape characteristics of interior forest in a large area i.e., 1.75-5.0 times more than the direct loss of forest <ref type="bibr" target="#b49">[51]</ref>. Such activities change the boundary between open land and forest, so disturbing the provision of natural ecological factors (sunlight, nutrients, moisture) to interior forests and eventually modifying the type of thriving habitats. Sunlight and wind penetrate much more, drying out the interior of the forest close to the edge and encouraging the rampant growth of opportunistic species at there. Air temperature, vapor-pressure deficit, soil moisture, light intensity, and levels of photosynthetically active radiation all change at edges, thereby illustrating the complexity of the effects of secondary land use, and warranting further assessment of land use in surface coal mining.</p><p>The land use of renewable-energy sources, like PV, wind, and biomass, pose distinct features from conventional fuel cycles in that they use land statically. Once the infrastructure of renewable-energy technologies is constructed, there is no need for further extraction of resources. Moreover, PV-and windpower-plants can be located on low quality lands (e.g., brownfields), and often be used for multiple purposes (e.g., grazing, shading <ref type="bibr" target="#b50">[52]</ref>). On the other hand, fossil-or nuclear-fuel cycles continuously must transform some land in search of fuels. To restore the disturbed land, reclamation projects have been in place for many areas in the U.S. However, as discussed above, restoring land and its productivity to the original state may take a long time and often is not possible. In many cases the land is safely restored, but transformed into a different contour that is suitable primarily for residential-or industrial-areas <ref type="bibr" target="#b46">[48]</ref>. Our purpose in this work was not to determine the economic-or ecological-productivity of the transformed land although understanding the dynamics of land-quality restoration either by humans or naturally would enable measurements of the land occupation indicator.</p><p>Finally, as shown in Fig. <ref type="figure" target="#fig_5">6</ref>, PV uses land more efficiently than coal to generate electricity. The statistics compiled by the Office of Surface Mining Reclamation and Enforcement state that the total area permitted for coal mining in the U.S. ranges from 5 to 8 million acres <ref type="bibr" target="#b48">[50]</ref>. Among them, over 1 million acres are defined as having ''disturbed'' status and are under reclamation (Fig. <ref type="figure" target="#fig_5">6(a</ref>)); the rest may be under active mining or in preparation for it. We estimated the amount of electricity that PV technology can generate in 1 year on those permitted acreages. Fig. <ref type="figure" target="#fig_5">6</ref>(b) shows that the PV-fuel cycle with an insolation of 2400 kWh/m 2 /year and 13% conversion efficiency will produce, on average, 40% more electricity than the coal-fuel cycle from the same area of land; with the U.S. average insolation, 1800 kWh/m 2 /year will generate a comparable amount of electricity to the coal-fuel cycle <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b48">50]</ref>. Further, as discussed in this study, an increasing area of land will be permitted and disturbed for coal mining in the future, while PV technology would not trigger further land transformation.  <ref type="bibr" target="#b37">[39]</ref>. The reclamation period for surface coal-mine land is assumed 30 years for the low case, and 250 years for the high case. The 10,000 years of occupation time for nuclear power comes from the environmental impact statement of the Yucca Mountain repository project <ref type="bibr" target="#b22">[23]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>Our study reviews and updates the land-transformation metric for conventional-and renewable-fuel cycles for generating electricity. We show that the PV life cycle of power plants in the U.S. Southwest involves less disturbance of land than do conventional and other renewable-fuel cycles. Even under average U.S. solar irradiation, the land requirement of PV is not greater than that of coal-based fuel cycles. In contrast to the fossil-and nuclear-fuel cycles, PV will not disturb land by extracting and transporting fuel to the power plants. Furthermore, PV eliminates the necessity of reclaiming mine lands or securing additional lands for waste disposal. Biomass energy, on the other hand, competes with agricultural products for land, and due to its low energy-production efficiency, it requires significantly more land than PV. Accounting for secondary effects, including water contamination, change of the forest ecosystem, and accidental land contamination will make the advantages of the PV cycle even greater than those described herein. Further investigation will be necessary to assess these impacts on a regional-and global-level.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Land transformation during the nuclear-fuel cycle. Mining method: open pit, 50%; underground, 50%. Enrichment method: centrifuge, 70%; diffusion, 30%. Sources: [6,13,22,23,48].</figDesc><graphic url="image-3.png" coords="4,51.42,556.04,215.62,154.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig.2. Land transformation during the natural-gas fuel cycle<ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b25">26]</ref>.</figDesc><graphic url="image-4.png" coords="4,308.41,65.76,239.73,148.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>a</head><figDesc>Based on a wind speed of class 4, i.e., 5.8 m/s at 10 m. b Based on a wind speed of class 6, i.e., 6.7 m/s at 10 m. c Based on an array of 25 turbines by two rows. Each turbine is separated by 2.5 rotor diameters side-by-side and the rows are positioned 20 rotor diameters apart.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>immature shrubs and hedgerows, oligotrophic vegetation, species-rich marshland, meadows, dry meadows and heathland 25-50 Species-rich forests, shrubs, hedgerows 50-200 Immature peat bogs, old dry meadows and heathland 200-1,000</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig.5. Land occupation for 1 GWh of electricity from the nuclear-, coal-, wind-, PV-, and biomass-fuel cycles. The PV land occupation is based on insolation of 2400 kWh/m 2 /year, an efficiency of 13%, and performance ratio of 0.8. The land occupation for wind is calculated based on class 6 and a capacity factor of 0.36. The biomass-related land occupation is based on willow, high-pressure gasification technology. The land occupation by the hydroelectric dam is estimated from data by Pacca and Horvath<ref type="bibr" target="#b37">[39]</ref>. The reclamation period for surface coal-mine land is assumed 30 years for the low case, and 250 years for the high case. The 10,000 years of occupation time for nuclear power comes from the environmental impact statement of the Yucca Mountain repository project<ref type="bibr" target="#b22">[23]</ref>.</figDesc><graphic url="image-7.png" coords="8,37.93,65.76,242.59,205.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. (a) Land permitted and disturbed through surface coal mining in the U.S. and (b) potential electricity generation by the PV-fuel cycle from the permitted land (=total acreage permitted in (a)). PV module efficiency = 13%; performance ratio = 0.8.</figDesc><graphic url="image-8.png" coords="8,312.21,65.76,232.15,350.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Direct land transformation for the power plant operation in the U.S.<ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b46">48]</ref>.</figDesc><table><row><cell>Plant type</cell><cell>Size (MW)</cell><cell>Land cover (acre)</cell><cell>Lifetime (years)</cell><cell>Land transformation (m 2 /GWh)</cell><cell>Reference</cell></row><row><cell>Eastern U.S.</cell><cell>500</cell><cell>849</cell><cell>30</cell><cell>32.6</cell><cell>[22]</cell></row><row><cell>Western U.S.</cell><cell>500</cell><cell>156</cell><cell>30</cell><cell>6.0</cell><cell>[22]</cell></row><row><cell>FBD a -bituminous</cell><cell>831</cell><cell>246</cell><cell>20</cell><cell>10.8</cell><cell>[22]</cell></row><row><cell>FBD b -western subbituminous</cell><cell>536</cell><cell>442</cell><cell>20</cell><cell>20.1</cell><cell>[22]</cell></row><row><cell>U.S. average b</cell><cell>1000</cell><cell>500</cell><cell>30</cell><cell>9.1 c</cell><cell>[48]</cell></row><row><cell>Eastern U.S.</cell><cell>500</cell><cell>na</cell><cell>30</cell><cell>32.4</cell><cell>[7]</cell></row></table><note><p>a Fluidized bed combustion. b Normalized for 1000 MW capacity. c Facilities only, excluding waste storage yard.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Estimate of land transformed based on statistics of mine land permissions and reclamations<ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b17">18]</ref>.</figDesc><table><row><cell>Category</cell><cell>1997</cell><cell>1999</cell><cell>2000</cell><cell>2001</cell><cell>2002</cell><cell>2003</cell><cell>2004</cell><cell>Average</cell></row><row><cell>New acreage permitted (acre)</cell><cell>117,626</cell><cell>55,720</cell><cell>75,952</cell><cell>108,715</cell><cell>115,926</cell><cell>113,714</cell><cell>116,805</cell><cell>100,637</cell></row><row><cell>Acreage of bond released (acre)</cell><cell>81,288</cell><cell>72,749</cell><cell>63,071</cell><cell>81,853</cell><cell>73,407</cell><cell>60,641</cell><cell>50,084</cell><cell>69,013</cell></row><row><cell>Coal mined from surface (t)</cell><cell>73,728</cell><cell>65,983</cell><cell>57,205</cell><cell>74,241</cell><cell>66,580</cell><cell>55,001</cell><cell>45,426</cell><cell>62,595</cell></row><row><cell>Land transformed, estimated from permission data (m 2 /1000 t)</cell><cell>784</cell><cell>351</cell><cell>484</cell><cell>649</cell><cell>702</cell><cell>706</cell><cell>700</cell><cell>625</cell></row><row><cell>Land transformed, estimated from bond-release data (m 2 /1000 t)</cell><cell>542</cell><cell>458</cell><cell>402</cell><cell>489</cell><cell>444</cell><cell>376</cell><cell>300</cell><cell>430</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Indirect land transformation for coal mining and power plant operation<ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b54">56]</ref>.</figDesc><table><row><cell>Material/energy use</cell><cell>Land transformation</cell><cell>Reference</cell></row><row><cell></cell><cell>(m 2 /1000 t)</cell><cell></cell></row><row><cell>Mining-wood</cell><cell></cell><cell></cell></row><row><cell>Underground, Appalachia</cell><cell>170</cell><cell>[56]</cell></row><row><cell>Underground, Eastern U.S.</cell><cell>170</cell><cell>[21]</cell></row><row><cell>Underground, Western U.S.</cell><cell>60</cell><cell>[21]</cell></row><row><cell>Underground, Europe</cell><cell>550</cell><cell>[6]</cell></row><row><cell>Mining-other materials/fuel</cell><cell></cell><cell></cell></row><row><cell>Underground, Eastern U.S.</cell><cell>3</cell><cell>[22]</cell></row><row><cell>Surface, Eastern U.S.</cell><cell>10</cell><cell>[22]</cell></row><row><cell>Surface, Western U.S.</cell><cell>0.1</cell><cell>[22]</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>Direct land transformation of solar electric power plant<ref type="bibr" target="#b27">[28,</ref>29,<ref type="bibr" target="#b29">[31]</ref><ref type="bibr" target="#b30">[32]</ref><ref type="bibr" target="#b31">[33]</ref><ref type="bibr" target="#b50">52]</ref>.</figDesc><table><row><cell>Type</cell><cell>System</cell><cell>Packing</cell><cell>Insolation</cell><cell>Plant lifetime</cell><cell>Land transformation</cell><cell>Reference</cell></row><row><cell></cell><cell>efficiency a (%)</cell><cell>factor</cell><cell>(kWh/m 2 /year)</cell><cell>(years)</cell><cell>(m 2 /GWh)</cell><cell></cell></row><row><cell>Multi-Si PV b -case 1</cell><cell>10.6</cell><cell>2.5</cell><cell>1800</cell><cell>30</cell><cell>438</cell><cell>Section 2.4</cell></row><row><cell>Multi-Si PV b -case 2</cell><cell>10.6</cell><cell>2.5</cell><cell>2400</cell><cell>30</cell><cell>329</cell><cell>Section 2.4</cell></row><row><cell>Multi-Si PV b -case 3</cell><cell>10.6</cell><cell>2.5</cell><cell>2400</cell><cell>60</cell><cell>164</cell><cell>Section 2.4</cell></row><row><cell>PV with 258 tilt</cell><cell>9.5</cell><cell>2.1</cell><cell>1770</cell><cell>30</cell><cell>402</cell><cell>[52]</cell></row><row><cell>PV with 1-axis tracker</cell><cell>9.5</cell><cell>2.8</cell><cell>2050</cell><cell>30</cell><cell>463</cell><cell>[52]</cell></row><row><cell>Concentrator PV-case 1</cell><cell>20.2</cell><cell>3.5</cell><cell>2500 c</cell><cell>30</cell><cell>229</cell><cell>[31]</cell></row><row><cell>Concentrator PV-case 2</cell><cell>13.8</cell><cell>5</cell><cell>2200 c</cell><cell>30</cell><cell>549</cell><cell>[32]</cell></row><row><cell>Solar thermal, tower</cell><cell>8.5</cell><cell>5</cell><cell>2700 c</cell><cell>30</cell><cell>552</cell><cell>[32,33]</cell></row><row><cell>Solar thermal, parabolic trough</cell><cell>10.7</cell><cell>3.4</cell><cell>2900 c</cell><cell>30</cell><cell>366</cell><cell>[32,33]</cell></row></table><note><p>a Module efficiency times performance ratio. b Optimum tilt. c Direct Normal Insolation (DNI) with tracker.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 7</head><label>7</label><figDesc>Direct land transformation of hydroelectric power plant<ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b37">39,</ref><ref type="bibr" target="#b56">58]</ref>.</figDesc><table><row><cell>Location/type</cell><cell>Capacity</cell><cell>Area</cell><cell>Lifetime electricity</cell><cell>Lifetime</cell><cell>Land transformation</cell><cell>Reference</cell></row><row><cell></cell><cell>(MW)</cell><cell>(10 4 m 2 )</cell><cell>generation (GWh)</cell><cell>(years)</cell><cell>(m 2 /GWh)</cell><cell></cell></row><row><cell>Lake Powel Reservoir, CO</cell><cell>1296</cell><cell>65,313</cell><cell>277,500</cell><cell>50</cell><cell>2,350</cell><cell>[39]</cell></row><row><cell>U.S., generic reservoir</cell><cell>114</cell><cell>75,000</cell><cell>30,000</cell><cell>30</cell><cell>25,000</cell><cell>[3]</cell></row><row><cell>Canada, reservoir</cell><cell>na</cell><cell>na</cell><cell>na</cell><cell>30 a</cell><cell>3,700</cell><cell>[58]</cell></row><row><cell>Canada, run-of-river</cell><cell>na</cell><cell>na</cell><cell>na</cell><cell>30 a</cell><cell>3</cell><cell>[58]</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 8</head><label>8</label><figDesc>Direct land transformation during production of energy from biomass (normalized for 1 year timeframe)<ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b30">32,</ref><ref type="bibr" target="#b38">[40]</ref><ref type="bibr" target="#b39">[41]</ref><ref type="bibr" target="#b40">[42]</ref><ref type="bibr" target="#b41">[43]</ref><ref type="bibr" target="#b42">[44]</ref><ref type="bibr" target="#b43">[45]</ref><ref type="bibr" target="#b44">[46]</ref>.</figDesc><table><row><cell>Energy type</cell><cell>Biomass</cell><cell>Yield</cell><cell>Land transformation</cell><cell>Reference</cell></row><row><cell></cell><cell></cell><cell>(t/10 4 m 2 /year)</cell><cell>(m 2 /GJ)</cell><cell></cell></row><row><cell>Ethanol &amp; biodiesel</cell><cell>Corn and soybean</cell><cell>5.2</cell><cell>199</cell><cell>[42]</cell></row><row><cell>Ethanol</cell><cell>Corn</cell><cell>7.8</cell><cell>121</cell><cell>[42]</cell></row><row><cell>Ethanol</cell><cell>Corn and corn stover a</cell><cell>11.6</cell><cell>87</cell><cell>[42]</cell></row><row><cell>Ethanol</cell><cell>Corn and corn stover b</cell><cell>13.8</cell><cell>74</cell><cell>[42]</cell></row><row><cell>Ethanol</cell><cell>Corn</cell><cell>7.5</cell><cell>154</cell><cell>[44]</cell></row><row><cell>Ethanol</cell><cell>Corn</cell><cell>7.5</cell><cell>150</cell><cell>[43]</cell></row><row><cell>Ethanol</cell><cell>Corn</cell><cell>8.8</cell><cell>125</cell><cell>[41]</cell></row><row><cell>Ethanol</cell><cell>Corn</cell><cell>7.7</cell><cell>142</cell><cell>[46]</cell></row><row><cell>Ethanol</cell><cell>Corn</cell><cell>8.7</cell><cell>133</cell><cell>[45]</cell></row><row><cell>Electricity</cell><cell>Willow, high-pressure gasification</cell><cell>15.0</cell><cell>104</cell><cell>[10]</cell></row><row><cell>Electricity</cell><cell>Willow, low-pressure gasification</cell><cell>15.0</cell><cell>101</cell><cell>[10]</cell></row><row><cell>Electricity</cell><cell>Willow, direct fire</cell><cell>15.0</cell><cell>136</cell><cell>[10]</cell></row><row><cell>Electricity</cell><cell>Hybrid poplar</cell><cell>13.4</cell><cell>114</cell><cell>[40]</cell></row><row><cell>Electricity</cell><cell>Gasification</cell><cell>11.2</cell><cell>126</cell><cell>[32]</cell></row><row><cell>Electricity</cell><cell>Direct fire</cell><cell>11.2</cell><cell>193</cell><cell>[32]</cell></row><row><cell>Electricity</cell><cell>Co-firing</cell><cell>9.4</cell><cell>175</cell><cell>[32]</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>V. Fthenakis, H.C. Kim / Renewable and Sustainable Energy Reviews 13 (2009) 1465-1474</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Life-cycle assessment of electricity generation options: the status of research in year</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gagnon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Be ´langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Uchiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Policy</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1267" to="1278" />
+			<date type="published" when="2001">2001. 2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Hydropower and the environment: present context and guidelines for future action</title>
+		<author>
+			<persName><surname>Iea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Main Report. International Energy Agency</publisher>
+			<biblScope unit="volume">II</biblScope>
+		</imprint>
+	</monogr>
+	<note>Subtask 5 Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Renewable energy: current and potential issues</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pimentel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Herz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Glickstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Becker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1111" to="1119" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Gates</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Energy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sunderland</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+			<publisher>Sinauer Associates Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Wind energy comes of age</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gipe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<publisher>John Wiley &amp; Sons, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Ecoinvent Centre. Ecoinvent data v1.1. Final reports ecoinvent</title>
+		<imprint>
+			<biblScope unit="issue">1-15</biblScope>
+			<date type="published" when="2000">2000. 2004</date>
+			<publisher>Swiss Centre for Life Cycle Inventories</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Energy system emissions and material requirements</title>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+		<respStmt>
+			<orgName>Meridian Corporation</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Assessment of land use impacts on the natural environment. Part 1. An analytical framework for pure land occupation and land use change</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koellner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Scholz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J LCA</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="16" to="23" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Key elements in a framework for land use impact assessment within LCA</title>
+		<author>
+			<persName><forename type="first">Canals</forename><surname>Lmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Depestele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dubreuil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Knuchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gaillard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J LCA</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="5" to="15" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Life cycle environmental and economic assessment of willow biomass electricity: a comparison with other renewable and nonrenewable sources</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Spitzley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Keoleian</surname></persName>
+		</author>
+		<idno>CSS04-05R</idno>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+		<respStmt>
+			<orgName>Center for Sustainable Systems, University of Michigan</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Energy Information Administration, Office of Coal, Nuclear, Electric, and Alternate Fuels</title>
+		<author>
+			<persName><surname>Eia</surname></persName>
+		</author>
+		<idno>DOE/EIA-0584</idno>
+		<ptr target="http://www.eia.doe.gov/cneaf/coal/acr/acr.pdf" />
+		<imprint>
+			<date type="published" when="2006">2006. 2007. 2006</date>
+			<publisher>U.S. Department of Energy</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Annual Coal Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">US policy instruments to protect coal-bearing fragile lands</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Browne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Resour Policy</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="124" to="140" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Argonne National Laboratory</title>
+		<author>
+			<persName><surname>Anl</surname></persName>
+		</author>
+		<idno>DOE/EV/ 10154-5</idno>
+		<imprint>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note>Energy and land use</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Railroads and coal</title>
+		<author>
+			<persName><surname>Aar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Policy and Economics Department</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Association of American Railroads</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Transportation energy data book</title>
+	</analytic>
+	<monogr>
+		<title level="j">ORNL</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+		<respStmt>
+			<orgName>Oak Ridge National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note>ORNL-6981</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">United States Department of Agriculture</title>
+		<author>
+			<persName><surname>Usda</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Major</surname></persName>
+		</author>
+		<ptr target="www.ers.usda.gov" />
+	</analytic>
+	<monogr>
+		<title level="s">Economic Research Service</title>
+		<imprint>
+			<date type="published" when="2002">2002. 2006</date>
+		</imprint>
+	</monogr>
+	<note>Uses of Land in The United States</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Energy Information Administration</title>
+		<author>
+			<persName><surname>Eia</surname></persName>
+		</author>
+		<idno>DOE/EIA-0384</idno>
+		<ptr target="http://www.eia.doe.gov/aer/pdf/aer.pdf" />
+		<imprint>
+			<date type="published" when="2007">2007. 2008. 2007</date>
+		</imprint>
+	</monogr>
+	<note>Annual Energy Review</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">State and Indian Regulatory Program Permitting</title>
+		<author>
+			<persName><surname>Osm</surname></persName>
+		</author>
+		<ptr target="http://www.osmre.gov/prog-permit04.htm" />
+		<imprint>
+			<date type="published" when="2004">2004. 2004</date>
+			<publisher>Office of Surface Mining, U.S. Department of the Interior</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Surface Mining Control and Reclamation Act of 1977. Office of Surface Mining Reclamation and Enforcement</title>
+		<author>
+			<persName><surname>Osmre</surname></persName>
+		</author>
+		<ptr target="http://www.osmre.gov/pdf/smcra.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Public Law 95-87</title>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Achieving forestry goals on mined land: mine site conditions, species composition, and stand development of economically viable hardwoods forests</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Burger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>U.S. Office of Surface Mining, Mid-Continent Region</publisher>
+		</imprint>
+	</monogr>
+	<note>Market-based approaches to mined land reclamation and reforestation: a technical interactive forum</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Wood products use in coal mining</title>
+		<idno>PB-83-119370</idno>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+			<pubPlace>U.S. Department of Interior</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Bureau of mines</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Energy technology characterizations handbook: environmental pollution and control factors</title>
+		<author>
+			<persName><surname>Doe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<publisher>U.S. Department of Energy</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Final environmental impact statement for a geologic repository for the disposal of spent nuclear fuel and high-level radioactive waste at Yucca Mountain</title>
+		<author>
+			<persName><surname>Doe</surname></persName>
+		</author>
+		<idno>DOE/EIS-0250</idno>
+		<ptr target="http://www.ymp.-gov/documents/feis_2/index.htm" />
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>U.S. Department of Energy</publisher>
+			<pubPlace>Nye County, Nevada</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Office of Civilian Radioactive Waste Management</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Energy Information Administration</title>
+		<author>
+			<persName><surname>Eia</surname></persName>
+		</author>
+		<idno>DOE/EIA-0384</idno>
+		<ptr target="http://www.eia.doe.gov/aer/pdf/aer.pdf" />
+		<imprint>
+			<date type="published" when="2006">2006. 2007. 2006</date>
+		</imprint>
+	</monogr>
+	<note>Annual Energy Review</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Energy Information Administration, US Department of Energy</title>
+		<author>
+			<persName><surname>Eia</surname></persName>
+		</author>
+		<idno>DOE/EIA-0131</idno>
+		<imprint>
+			<date type="published" when="2006">2006. 2007</date>
+		</imprint>
+	</monogr>
+	<note>Natural Gas Annual 06)</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Fact sheet: an interstate natural gas facility on my land? what do I need to know?</title>
+		<author>
+			<persName><surname>Ferc</surname></persName>
+		</author>
+		<ptr target="www.ferc.gov" />
+	</analytic>
+	<monogr>
+		<title level="j">Federal Energy Regulatory Commission</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Energy payback and life-cycle CO 2 emissions of the BOS in an optimized 3.5 MW PV installation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Fthenakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Photovoltaics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="179" to="190" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hansen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>Personal communication</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Solar radiation data manual for flat-plate and concentrating collectors</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Marion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wilcox</surname></persName>
+		</author>
+		<idno>NREL/TP- 463-5607</idno>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Renewable Energy Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Romo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Greenvolts</forename><surname>Inc</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Personal Communication</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Renewable energy technology characterizations</title>
+		<author>
+			<persName><surname>Epri</surname></persName>
+		</author>
+		<idno>1997 [TR-109496</idno>
+		<imprint>
+			<pubPlace>Electric Power Research Institute</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Assessment of parabolic trough and power tower solar technology cost and performance forecasts</title>
+		<author>
+			<persName><surname>Nrel</surname></persName>
+		</author>
+		<idno>NREL/SR-550-34440</idno>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Renewable Energy Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Environmental impacts of PV electricity generation-a critical comparison of energy supply options</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Alsema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Wild Scholten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Fthenakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">21st European Photovoltaic Solar Energy Conference</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A cost and environmental impact comparison of grid-connected rooftop and groundbased PV systems</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Wild Scholten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Alsema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Horst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bachler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Fthenakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">21st European Photovoltaic Solar Energy Conference</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Wind power: a turn of the century review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Mcgowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Connors</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Energy Env</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="147" to="197" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of a wind farm and related externalities</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schleisner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renew Energy</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="279" to="288" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Life cycle assessment of electricity produced from onshore sited wind power plants based on Vestas V82-1.65 MW turbines</title>
+		<author>
+			<persName><surname>Vestas</surname></persName>
+		</author>
+		<ptr target="www.vestas.com" />
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Vestas Wind Systems A/ S</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Greenhouse gas emissions from building and operating electric power plants in the Upper Colorado river basin</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pacca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Horvath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="3194" to="3200" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of a biomass gasification combinedcycle system</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Spath</surname></persName>
+		</author>
+		<idno>NREL/TP-430- 23076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">National Renewable Energy Laboratory</title>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Fossil energy use in the manufacture of corn ethanol</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Graboski</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>National Corn Growers Association</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Life cycle assessment of various cropping systems utilized for producing biofuels: bioethanol and biodiesel</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Dale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="426" to="439" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">How much energy does it take to make a gallon of ethanol</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Morris</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+		<respStmt>
+			<orgName>Institute for Local Self-Reliance</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">CO 2 emissions from the production and combustion of fuel ethanol from corn</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Turhollow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">11/12</biblScope>
+			<biblScope unit="page" from="1307" to="1316" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Ethanol production using corn, switchgrass, and wood; biodiesel production using soybean and sunflower</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pimentel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Patzek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Resour Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="65" to="76" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">The energy balance of corn ethanol; an update</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shapouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Duffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>United States Department of Agriculture</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Chernobyl Disaster&apos;s Agricultural and Environmental Impact</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Barbalace</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Environmentalchemistry.com</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Land use and energy</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Robeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Ballou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>South</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Baker</surname></persName>
+		</author>
+		<idno>ANL/AA-19</idno>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+		<respStmt>
+			<orgName>Argonne National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">US Office of Surface Mining Reclamation and Enforcement</title>
+		<author>
+			<persName><surname>Osmre</surname></persName>
+		</author>
+		<ptr target="http://www.osmre.gov/" />
+		<imprint>
+			<date type="published" when="2008-06">2008 June</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">US Office of Surface Mining Reclamation and Enforcement</title>
+		<author>
+			<persName><surname>Osmre</surname></persName>
+		</author>
+		<ptr target="http://www.osmre.gov/" />
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The effect of Appalachian mountaintop mining on interior forest</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Wickham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Riitters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Wade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Homer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Landscape Ecol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="179" to="187" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Land use requirements and the per-capita solar footprint for photovoltaic generation in the United States</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Denholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Margolis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Policy</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="3531" to="3543" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Wind energy-an energy source with a fantastic future</title>
+		<author>
+			<persName><surname>Bwe</surname></persName>
+		</author>
+		<ptr target="www.wind-energie.de" />
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>German Wind Energy Association</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">California Energy Commission</orgName>
+		</author>
+		<idno>P500-02-034F]</idno>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>Wind Performance Report Summary 2000-2001, Staff Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Abschlussbericht der Untersuchung u ¨ber Fla ¨cheninanspruchnahme durch Aktivita ¨ten des Steinkohlenbergbaus</title>
+		<author>
+			<persName><surname>Rwth</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+		<respStmt>
+			<orgName>Technischen Hochschule Aachen. Technical University of Aachen</orgName>
+		</respStmt>
+	</monogr>
+	<note>in German Institut fu ¨r Bergbaukunde I der Rheinisch-Westfa ¨hlischen</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A look at the mine-timber market in the Appalachian bituminous coal region</title>
+		<author>
+			<persName><surname>Usda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Forest Service Research Paper. US Department of Agriculture</title>
+		<imprint>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Why wind power works for Denmark</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sharman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc ICE Civil Eng</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Levelized cost and full fuel-cycle environmental impacts of Saskatchewan&apos;s electric supply options. Sakatchewan Energy Conservation and Development Authority</title>
+		<author>
+			<persName><surname>Secda</surname></persName>
+		</author>
+		<idno>SECDA Publication No. T800-94-004</idno>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technology Group</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Development and application of GREET 2. 7-the transportation vehicle-cycle model</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<idno>ANL/ESD/06-5</idno>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+		<respStmt>
+			<orgName>Center for Transportation Research, Argonne National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bastian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-F</forename><surname>Schreiber</surname></persName>
+		</author>
+		<title level="m">Analyse und Bewertung der Landschaft</title>
+		<meeting><address><addrLine>Jena</addrLine></address></meeting>
+		<imprint>
+			<publisher>Gustav Fischer</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

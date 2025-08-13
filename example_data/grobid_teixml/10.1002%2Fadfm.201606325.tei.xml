@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder>
+					<orgName type="full">GSK Singapore</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Research Foundation</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministry of Education, Singapore</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NUS</orgName>
+				</funder>
+				<funder ref="#_BZz5EyV">
+					<orgName type="full">Prime Minister&apos;s Office, Singapore</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">P</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemical and Biomolecular Engineering</orgName>
+								<orgName type="institution">National University of Singapore Singapore</orgName>
+								<address>
+									<postCode>119260</postCode>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Prof. H</roleName><forename type="middle">C</forename><surname>Zeng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemical and Biomolecular Engineering</orgName>
+								<orgName type="institution">National University of Singapore Singapore</orgName>
+								<address>
+									<postCode>119260</postCode>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1002/adfm.201606325</idno>
+					<note type="submission">Received: November 30, 2016 Revised: January 8, 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-07-08T08:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Scheme 1. Synthesis procedure for the sandwich-like rGO@CoNiO x nanocomposite.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>(1 of 10) 1606325 an effective electrocatalyst, as the core element in this renewable energy technology, is needed to drive the reaction in terms of reducing the overpotential and promoting the reaction kinetics, <ref type="bibr">[2a]</ref> while some noblemetal-based catalysts such as IrO 2 and RuO 2 are highly active and considered to be the state-of-the-art OER catalysts in both acidic and alkaline media. <ref type="bibr">[3]</ref> The high cost and element scarcity of the noble metals significantly hinder their scalable practical application in electrochemical energy devices. Accordingly, substantial research efforts have been dedicated to develop efficient nonprecious-metal catalysts in recent years. <ref type="bibr">[4]</ref> Particularly, the first-row transition-metal-based materials have received considerable attention to serve as a class of potential alternatives to the precious ones because they are highly active, earth-abundant, and cost-effective. <ref type="bibr">[5]</ref> For example, transition metal oxides and hydroxides that contain Mn, Fe, Co, Ni, Zn or their mixtures have been reported as competent electrocatalysts for water oxidation. <ref type="bibr">[6]</ref> Notwithstanding this progress, it is still challenging to design simple and economical routes to fabricate transition-metal-based electrocatalysts with high efficiency and long-term stability comparable to the benchmark noble-metal-based ones.</p><p>In fact, several approaches can be utilized to further improve the electrocatalytic performance of the transition-metal-based materials for water oxidation. One of the effective strategies is to synthesize mixed transition-metal-based materials that can often favorably outperform their single-component counterparts. <ref type="bibr">[5b,7]</ref> Another attractive strategy is to optimize their structure, morphology, and architecture in order to fully expose electroactive sites, and meanwhile, facilitate mass transportation during water electrolysis. <ref type="bibr">[8]</ref> Moreover, one promising strategy is to hybridize the transition-metal-based components with conductive carbon-based matrixes (i.e., amorphous carbon, carbon nanotubes, and graphene) so as to improve the conductivity and charge transfer of the whole system and thus the corresponding electrocatalytic activity. <ref type="bibr">[9]</ref> In the present work, to obtain an effective and low-cost electrocatalyst, we have integrated all the above three individual approaches into one and designed a mixed transition-metalbased material, CoNiO x /reduced graphene oxide (GO) nanocomposite (denoted as rGO@CoNiO x , where rGO = reduced graphene oxide and CoNiO x = binary oxide of cobalt and nickel)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sandwich-Like Nanocomposite of CoNiO x /Reduced Graphene Oxide for Enhanced Electrocatalytic Water Oxidation</head><p>Ping Li and Hua Chun Zeng*</p><p>The development of cost-effective and high-performance electrocatalysts for oxygen evolution reaction (OER) is essential for sustainable energy storage and conversion processes. This study reports a novel and facile approach to the hierarchical-structured sheet-on-sheet sandwich-like nanocomposite of CoNiO x /reduced graphene oxide as highly active electrocatalysts for water oxidation. Notably, the as-prepared composite can operate smoothly both in 0.1 and 1.0 m KOH alkaline media, displaying extremely low overpotentials, fast kinetics, and strong durability over long-term continuous electrolysis. Impressively, it is found that its catalytic activity can be further promoted by anodic conditioning owing to the in situ generation of electrocatalytic active species (i.e., metal hydroxide/(oxy)hydroxides) and the enriched oxygen deficiencies at the surface. The achieved ultrahigh performance is unmatched by most of the transition-metal/nonmetal-based catalysts reported so far, and even better than the state-of-the-art noble-metal catalysts, which can be attributed to its special well-defined physicochemical textural features including hierarchical architecture, large surface area, porous thin nanosheets constructed from CoNiO x nanoparticles (≈5 nm in size), and the incorporation of charge-conducting graphene. This work provides a promising strategy to develop earth-abundant advanced OER electrocatalysts to replace noble metals for a multitude of renewable energy technologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Growing energy demands and increasing environmental concerns have stimulated a considerable research interest in development of alternative energy conversion and storage systems, including fuel cells, rechargeable metal-air batteries, and water splitting devices. <ref type="bibr">[1]</ref> Oxygen evolution reaction (OER), that is, the generation of molecular oxygen through the electrochemical oxidation of water, is one of the most important core processes to obtain clean fuels from renewable energy sources and thus has attracted lots of studies in the past decades, <ref type="bibr">[2]</ref> noting that the energy required in water electrolysis can also be supplied by solar power. However, OER is inherently sluggish, dramatically diminishing the overall energy conversion efficiency. Therefore, 1606325 (2 of 10) with sandwich-like sheet-on-sheet hierarchical architecture. It is developed through a facile two-step process involving selfassembly and subsequent heat treatment. Benefitting from its special physicochemical structural properties, the rGO@ CoNiO x nanocomposite exhibits remarkable OER performance in both 0.1 and 1.0 m KOH media with large current density, low overpotential, favorable reaction kinetics, and exceptional long-term stability. This composite system is comparable or even superior to those highly active transition-metal/nonmetalbased catalysts as well as the state-of-the-art precious metal catalysts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results and Discussion</head><p>The typical synthesis process for the hierarchical-structured sandwich-like rGO@CoNiO x nanocomposite is illustrated in Scheme 1. First, the prepared GO sheets is dispersed in 1,3-propanediol (PDO) solvent containing polyvinylpyrrolidone (PVP) surfactant and a certain amount of Co salt and Ni salt. Both Co and Ni ions can adsorb strongly on the surface of GO through electrostatic attraction. With heating at elevated temperature, nanosheet-like CoNi-PDO complex can be selectively generated on both sides of GO sheets through the coordination reaction between PDO and GO surface-adsorbed metal ions. Due to the reductive nature of PDO, GO is partially reduced to rGO at the same time, forming rGO@CoNi-PDO intermediate with sheet-on-sheet sandwich-like architecture. Next, with simple heating in air, the rGO@CoNi-PDO can be converted to rGO@CoNiO x nanocomposite with abundant pores and interstitials after releasing gaseous products and moisture. In order to conduct a thorough comparison study, three control samples, including single transition-metal-based samples (i.e., rGO@ Co 3 O 4 and rGO@NiO) with similar sandwich-like morphology, as well as the one without rGO incorporation (i.e., unsupported CoNiO x ), were also prepared via similar approaches (see the Experimental Section for details).</p><p>The rGO@CoNi-PDO precursor is first investigated by scanning electron microscopy (SEM) and transmission electron microscopy (TEM). As shown in Figure <ref type="figure" target="#fig_0">1a-d</ref>, it can be clearly observed that a large number of thin nanosheets are uniformly anchored on the surface of flexible rGO, giving rise to a welldeveloped sheet-on-sheet sandwich-like morphology with a hierarchical architecture. Similar morphologies are also seen for the control sample precursors, rGO@Co-PDO and rGO@ Ni-PDO (Figures <ref type="figure" target="#fig_2">S3a</ref>,<ref type="figure">b</ref> and S4a,b, Supporting Information, respectively). In addition, it is worth noting that in the absence of GO, the resulting freestanding CoNi-PDO is only flowerlike aggregates (Figure <ref type="figure" target="#fig_3">S5a</ref>,b, Supporting Information), indicating the rGO incorporated can not only finely disperse CoNi-PDO complex on its open surface but also serve as a structuredirecting template for the interface engineering of this 2D composite. Figure <ref type="figure" target="#fig_0">1e</ref> shows the Fourier transform infrared spectroscopy (FTIR) spectrum of rGO@CoNi-PDO. The absorption peaks in the range of 2850-2960 cm -1 and 1305-1460 cm -1 can be attributed to the stretching and bending vibrations of CH, respectively. The bands in the range of 1050-1125 cm -1 are ascribed to the CO stretching vibration, confirming the successful incorporation of PDO ligand with the metal ions and thus formation of the coordination polymer CoNi-PDO. The X-ray diffraction (XRD) pattern of rGO@CoNi-PDO precursor in Figure <ref type="figure" target="#fig_0">1f</ref> shows a strong low-angle peak around 10° together with some other peaks in relatively low intensity, which is characteristic for stacked metal-oxygen sheets separated by bonded alcoholate anions. Such a feature is also frequently observed in other reported metal alkoxides. <ref type="bibr">[10]</ref> It should be pointed out that no characteristic diffraction peaks attributed to rGO are displayed, suggesting high dispersion of rGO without any aggregation, as the nanopetal-like CoNi-PDO complex sheets on the rGO surface could effectively prevent them from mutual restacking. Additionally, the energy-dispersive X-ray (EDX) analysis (Figure <ref type="figure" target="#fig_0">S1a</ref>, Supporting Information) demonstrates the precursor is composed of cobalt, nickel, carbon, and oxygen, a chemical composition that agrees well with that of rGO@ CoNi-PDO. Besides, the thermogravimetric analysis (TGA) curve of rGO@CoNi-PDO (Figure <ref type="figure" target="#fig_0">S1b</ref>, Supporting Information) exhibits a pronounced weight-loss step in the temperature range from 250 to 300 °C, which is originated from the thermal decomposition of the organic PDO in the precursor.</p><p>Based on the above TGA result, the thermal conversion of rGO@CoNi-PDO precursor to rGO@CoNiO x nanocomposite was performed at 300 °C for 0.5 h under air ambience. SEM and TEM images (Figure <ref type="figure" target="#fig_1">2a-c</ref>) show that the calcined product rGO@CoNiO x successfully retains the original sheet-on-sheet sandwich-like architecture, demonstrating the robustness of the rGO@CoNi-PDO precursor that is capable of withstanding calcination treatment without structural deterioration. From the TEM images in high magnification (Figure <ref type="figure" target="#fig_1">2d</ref>,e), we can see that nanosheet building blocks with a thickness around 5 nm become porous after calcination. Each sheet is composed of numerous fine crystallites (size = 4-5 nm) with spatial voids and interstitials in between, and uniformly coated on the surface of rGO. A representative high-resolution TEM (HRTEM) image based on a part of nanosheet in Figure <ref type="figure" target="#fig_1">2f</ref> exhibits clear lattice fringes with a spacing of 0.285 nm, which can be readily indexed to the (220) planes of the spinel phase of Ni-Co binary oxide, confirming the formation of Ni-Co oxide nanocrystallites in the calcined product. The EDX elemental mapping of a free-standing rGO@CoNiO x sheet (Figure <ref type="figure" target="#fig_1">2g</ref> and Figure <ref type="figure" target="#fig_1">S2a</ref>, Supporting Information) demonstrates that the sample consists of cobalt, nickel, oxygen, and carbon, with the atomic ratio of Co/Ni about 1 (close to the original ratio of the two metal salts), and all the elements are homogeneously distributed throughout the sheet. Besides, from the TGA result (Figure <ref type="figure" target="#fig_1">S2b</ref>, Supporting Information), it is determined that the rGO content in the rGO@CoNiO x is ≈4.5 wt%. All the XRD diffraction peaks of the calcined product (Figure <ref type="figure" target="#fig_2">3a</ref>) can be indexed to the spinel phase of Ni-Co oxide (similar to the classical AB 2 O 4 -type spinel phase, JCPDS card No. 20-0781), and no original peaks ascribed to the precursor species are detected, indicating the full conversion of the precursor to rGO@CoNiO x . In addition, the crystallite size of CoNiO x is calculated to be 4.8 nm from (400) diffraction peak by using the Debye-Scherrer equation, which is consistent with the TEM observation.</p><p>Nitrogen adsorption-desorption measurement was carried out to investigate the textural property of the resulting rGO@CoNiO x nanocomposite. In Figure <ref type="figure" target="#fig_2">3b</ref>, the composite exhibits type IV isotherm with an H3 type hysteresis loop (P/P 0 &gt; 0.4), suggesting the existence of slit-shaped mesoporous structure. The Brunauer-Emmett-Teller (BET) specific surface area and total pore volume are 125.5 m 2 g -1 and 0.43 cm 3 g -1 , respectively. Besides, from the non-local density functional theory (NLDFT) pore size distribution curve (inset of Figure <ref type="figure" target="#fig_2">3b</ref>), the product possesses pores with a wide size distribution ranging from micropores to mesopores. Note that without rGO inclusion, the corresponding control sample, CoNiO x , displays a much lower surface area and total pore volume (52.6 m 2 g -1 and 0.12 cm 3 g -1 , respectively; Figure <ref type="figure">S9</ref>, Supporting Information). The contrasting properties again imply that the rGO sheets can effectively support and disperse CoNiO x nanosheets to prevent their mutual agglomeration, making the composite possess higher surface area, more open structure, and thus more accessible active sites. Apparently, such unique features of the composite will be particularly beneficial for required mass transportation of reactant/product when used as an OER catalyst.</p><p>In addition, the control samples including sandwich-like rGO@Co 3 O 4 , rGO@NiO, and the rGO-free CoNiO x flowerlike aggregates, as well as their corresponding precursors, were also investigated by SEM, TEM, EDX, XRD, and X-ray photoelectron spectroscopy (XPS), and these characterization results are detailed in Figures S3-S8 and S10 (Supporting Information).</p><p>Electrocatalytic oxygen evolution activity of rGO@CoNiO x and other control samples was first investigated with 0.1 m KOH electrolyte in a standard three-electrode configuration, in which a glassy carbon electrode (GCE) modified with the sample, a Pt plate, and an Ag/AgCl electrode were used as working electrode, counter electrode, and reference electrode, respectively (see details in the Experimental Section). Figure <ref type="figure">4a</ref> presents the polarization curves of the samples. As expected, the bare GCE has no measurable activity of OER. Similarly, pure rGO and rGO@CoNi-PDO precursor also exhibit negligible OER response. However, after thermal treatment, the precursor was transformed to the rGO@CoNiO x , which displays significantly enhanced catalytic activity with much larger current density and much more negative onset potential than the other control samples (i.e., rGO@ Co 3 O 4 , rGO@NiO, and free CoNiO x ). Clearly, to achieve the same current density, much lower potential is required for our rGO@CoNiO x . We then compare the operating potential required for different catalysts to achieve a current density of 1606325 (4 of 10) 10 mA cm -2 . This is an important benchmark indicator to evaluate the OER catalytic activity of materials as it is approximately the current density for a 10% efficient solar-to-fuel conversion device. <ref type="bibr">[7b]</ref> As displayed in Figure <ref type="figure">4a</ref>,<ref type="figure">c</ref>, specifically, the rGO@ CoNiO x requires an applied overpotential of as low as 320 mV to deliver a current density of 10 mA cm -2 , whereas the singlecomponent metal-oxide-based samples, rGO@Co 3 O 4 and rGO@NiO, need an overpotential of 370 and 361 mV, respectively. The higher OER activity of the binary metal oxides than those of monometal counterparts is attributed to the presence  (5 of 10) 1606325 of synergistic effects between the two metal species. On the other hand, unsupported CoNiO x catalyst (rGO-free) still shows an overpotential of 367 mV at 10 mA cm -2 , which corresponds to a positive shift of about 47 mV in comparison with that of the rGO@CoNiO x sample. Therefore, the contribution of rGO support is significant. Herein, rGO not only provides a base for the dispersion and fixation of CoNiO x nanocrystallites, which leads to an increase of catalytic active sites, but also promotes charge transport, which enhances overall OER performance. Furthermore, from the polarization curve (Figure <ref type="figure">4a</ref>), one can clearly find that rGO@CoNiO x is capable of delivering a large anodic current density when relatively low overpotential is applied. For example, a high current density of around 185 mA cm -2 can be achieved at 1.7 V, which is two to three times higher than those of the control samples (i.e., rGO@Co 3 O 4 , rGO@NiO, and unsupported CoNiO x ; Figure <ref type="figure">4e</ref>). It is noteworthy that the OER activity of our rGO@CoNiO x composite is among the best high-performance materials reported in the literature, which include transition metal, nonmetal, and the benchmark noblemetal-based electrocatalysts. <ref type="bibr">[3b,4c,e,9d,11]</ref> A detailed comparison of these OER electrocatalysts can be found in Table <ref type="table">S1</ref> (Supporting Information).</p><p>In addition, intrinsic catalytic activities of the above samples were further estimated in turnover frequency (TOF), assuming that all the metal sites in the materials (that is, Ni and/or Co elements) were active in the electrochemical reaction. For the rGO@CoNiO x , the TOF value was calculated to be 3.33 × 10 -2 s -1 at an overpotential of 350 mV. This value is much higher than those of rGO@Co 3 O 4 (4.08 × 10 -3 s -1 ), rGO@NiO (7.50 × 10 -3 s -1 ), and bare CoNiO x (5.77 × 10 -3 s -1 ) at identical reaction conditions, which reveals the strong enhanced activity of rGO@CoNiO x composite. It is worth mentioning that these TOF values should be considered as the lower limit, as in fact not all the metal sites in the catalysts were electrochemically accessible. Moreover, the Tafel plots of the studied electrocatalysts were recorded with the linear regions, and then fitted to the Tafel equation (η = b × log j + a, where η is the overpotential, j is the current density, and b is the Tafel slope). The Tafel slope, which describes the influence of potential or overpotential on the steady-state current density, is an important parameter used to evaluate the reaction kinetics of water oxidation. <ref type="bibr">[9b]</ref> As presented in Figure <ref type="figure">4b</ref>,<ref type="figure">d</ref>, the Tafel slope value of rGO@CoNiO x (45 mV dec -1 ) is much lower than those of rGO@Co 3 O 4 (64 mV dec -1 ), rGO@NiO (54 mV dec -1 ), and rGO-free CoNiO x (69 mV dec -1 ), revealing the favorable OER kinetics of rGO@ CoNiO x . Evidently, the small Tafel slope for the rGO@CoNiOx enables it to deliver a remarkably increased current density with a small increase in overpotential, as confirmed in the polarization curve (Figure <ref type="figure">4a</ref>), which is particularly beneficial for practical applications. Besides, it manifests again the superiority of the mixed transition metal oxides to their monocomponent counterparts, and the decreased charge-transfer resistance with the embedding of the rGO nanosheets in the sample. Of note, as listed in Table <ref type="table">S1</ref> (Supporting Information), the low Tafel slope of rGO@CoNiO x composite attained herein is also comparable to those of the previously reported highly active OER catalysts, including the well-established precious OER catalyst IrO 2 (≈47-50 mV dec -1 ). <ref type="bibr">[4c,8a,9b,11a]</ref> Figure 4. Electrochemical performances of rGO@CoNiO x , rGO@Co 3 O 4 , rGO@NiO, CoNiO x , rGO@CoNi-PDO precursor, and pure rGO nanosheets. a) Polarization curves and b) Tafel plots. Summary of c) the required overpotential obtained from OER polarization curves at the current density of 10 mA cm -2 , d) the Tafel slope of the samples, and e) the current density achieved at a potential of 1.7 V versus RHE. For all the measurements, the scan rate was 5 mV s -1 , the catalyst loading was about 0.2 mg cm -2 , and the electrolyte was 0.1 m KOH aqueous solution.</p><p>To further elucidate the strongly enhanced OER activity of rGO@CoNiO x composite, we also carried out electrochemical double-layer capacitance (C dl ) measurements on the studied samples by using the cyclic voltammetry (CV) method and evaluated their electrochemically active surface area (ECSA), since the C dl is linearly proportional to the ECSA of electrocatalyst. Figure <ref type="figure" target="#fig_3">5a</ref> displays the cyclic voltammetry curve of rGO@CoNiO x in a non-Faradaic region under different scan rates (1, 2, 5, 10, 20, and 40 mV s -1 ). By calculating the slope from the linear relationship of differences in current density (j a -j c ) against the scan rate (see calculation details in the Experimental Section), the C dl of rGO@CoNiO x is determined to be 21.2 mF cm -2 (Figure <ref type="figure" target="#fig_3">5b</ref>), which is much higher than those of rGO@Co 3 O 4 (9.3 mF cm -2 ) and rGO@NiO (10.0 mF cm -2 ). Clearly, this comparison affirms the benefits of the sandwichlike hierarchical structure of the rGO@CoNiO x , and the larger C dl (i.e., ECSA) can lead to better exposure and enhanced utilization of the catalytic active sites, thus giving rise to the improved OER activity.</p><p>In addition to the high activity, the long-term stability of OER is a key consideration for the development of highperformance electrocatalysts. To this end, the stability of our rGO@CoNiO x sample was first investigated with chronopotentiometric (CP) measurement in 0.1 m KOH electrolyte at a constant current density of 10 mA cm -2 . Quite impressively, as displayed in the chronopotentiometry plot (Figure <ref type="figure">6a</ref>), the significant enhancement of OER activity of the sample can be observed in this galvanostatic conditioning process. Furthermore, the high activity is maintained well over a prolonged CP test of 20 h. On the other hand, consistently, the chronoamperometric (CA) measurement result also exhibits the similar activation trend (Figure <ref type="figure">6b</ref>), in which the anodic current density increases gradually until it reaches a peak value at ≈4 h, and then almost retains constant over the remaining period of continuous operation (total 20 h). Both tests indicate the excellent durability of our catalyst over the long-term electrolysis. Moreover, we also examined the spent catalyst after 20 h of CP test by using TEM and EDX elemental mapping techniques. As displayed in Figure <ref type="figure">6c</ref>-e, the original morphology, structure, and chemical composition of the nanocomposite is kept well after use. Thus, all the analyses reveal that our rGO@CoNiO x electrocatalyst is indeed highly robust to sustain prolonged OER process.</p><p>Here, the OER activity enhancement of rGO@CoNiO x by the anodic conditioning is very interesting and deserves further clarification. It is understandable that surface chemical composition and chemical state of electrocatalysts are vitally important to the OER processes. In order to probe the origin of this promoting effect on OER activity, we further carried out XPS measurement on the rGO@CoNiO x sample before and after CP stability test. As shown in Figure <ref type="figure" target="#fig_6">7</ref>, the Co 2p (Figure <ref type="figure" target="#fig_6">7a</ref>) and Ni 2p spectra (Figure <ref type="figure" target="#fig_6">7b</ref>) are split into 2p 3/2 and 2p 1/2 doublets due to the spin-orbit coupling, together with shakeup satellite peaks. For the fresh rGO@CoNiO x , both Co 2p 3/2 and Ni 2p 3/2 spectra can be deconvoluted into two distinct metal species, i.e., Co 2+ (781.4 eV) and Co 3+ (779.7 eV), Ni 2+ (854.1 eV) and Ni 3+ (855.7 eV), indicating the coexistence of Co 2+ , Co 3+ , Ni 2+ , and Ni 3+ in the sample. <ref type="bibr" target="#b45">[12]</ref> Moreover, the majority of Co species in the sample are present as Co 3+ , as deduced from the relative peak intensities of the Co 2+ and Co 3+ in the Co 2p core level spectrum (Figure <ref type="figure" target="#fig_6">7a</ref>). For the O 1s spectrum (Figure <ref type="figure" target="#fig_6">7c</ref>), three peaks can be clearly identified. The peak with binding energy centered near 529.4 eV is attributed to the lattice oxygen in the spinel oxides; <ref type="bibr" target="#b46">[13]</ref> the peak at around 530.9 eV is assigned to the surface defect sites with a low oxygen coordination; <ref type="bibr" target="#b47">[14]</ref> and the peak at around 532.4 eV can be associated with the OH groups. <ref type="bibr" target="#b48">[15]</ref> After 20 h of CP test, Co species remain largely their original chemical states (Figure <ref type="figure" target="#fig_6">7a</ref>), whereas, for the Ni species, the intensity of the Ni 3+ 2p 3/2 peak is much stronger than that of the Ni 2+ 2p 3/2 peak, suggesting that the majority of the nickel species on the surface of the used sample is Ni 3+ (Figure <ref type="figure" target="#fig_6">7b</ref>). Besides, the O 1s spectrum of the used sample in Figure <ref type="figure" target="#fig_6">7c</ref> shows that the peak of the surface oxygen defect species and the peak of the hydroxyl species become dominantly stronger, while the peak of the spinel species almost diminishes. All these results from the XPS analysis suggest that during OER process, CoNiO x phase is hydroxylated, generating a significant amount of surface-hydrated oxides and (oxy)hydroxides phases (e.g., Co(OH) 2 , CoOOH, Ni(OH) 2 , and NiOOH), consistent with other reports for the first-row transition-metalbased electrocatalysts. <ref type="bibr">[7d]</ref> In addition, a large number of stable oxygen vacancies are created, accompanied with an enrichment (7 of 10) 1606325</p><p>of Ni 3+ ions at the surface of the catalyst. It has been previously reported that for the mixed cobalt-nickel-oxide-based electrocatalysts, the main reactive sites are active metal hydroxide/(oxy)hydroxide species, <ref type="bibr">[7d,13,15]</ref> and the Ni 3+ is capable of benefiting the formation of these active species. <ref type="bibr" target="#b49">[16]</ref> Also, it is found that the oxygen vacancies can promote the adsorption of H 2 O molecules onto the surface of the catalysts, which facilitates the OER process. <ref type="bibr" target="#b47">[14]</ref> Hence, we propose that the electrochemical conditioning process can induce the in situ formation of active species including transition metal hydroxide/(oxy)hydroxide species at the catalyst surface, and also produce substantial oxygen deficiencies, all of which contribute greatly to the activity improvement of the catalyst during water electrolysis.</p><p>The performance of electrocatalysts in concentrated alkaline electrolyte is another critical metric for practical application. Hence, we further evaluated the OER activity and the stability of our rGO@CoNiO x in 1.0 m KOH solution. From the polarization curve and the corresponding Tafel plot in Figure <ref type="figure" target="#fig_5">8a</ref>, the rGO@CoNiO x sample only requires an overpotential of as low as 280 mV to deliver a current density of 10 mA cm -2 , and the Tafel slope value is only 42 mV dec -1 , a superior performance that is unmatched by most of state-of-the-art electrocatalysts (see Table <ref type="table">S1</ref> in the Supporting Information for a detailed comparison with some high-performance electrocatalysts reported in the literature), <ref type="bibr">[6b,7b,8a,b,13,14,16]</ref> revealing the remarkable activity and reaction kinetics of our rGO@CoNiO x even in concentrated alkaline solution. In addition, an anodic current density of as high as ≈800 mA cm -2 can be obtained at 1.7 V, indicating again the great potential of our catalyst in mass production of oxygen. Similarly, the CP test of our rGO@ CoNiO x in 1.0 m KOH also features an observable electrochemical activation trend by the anodic conditioning (Figure <ref type="figure" target="#fig_5">8b</ref>). The required potential to deliver 10 mA cm -2 decreases gradually and then reamins almost constant over a successive operation of 20 h, demonstrating high durability of the rGO@CoNiO x , even inside a concentrated solution of alkaline electrolyte.</p><p>According to the above results, the high performance of our rGO@CoNiO x composite can be mainly attributed to the following factors. (i) Compared to their monometal counterparts, the mixed spinel phase of Co and Ni gives rise to synergistic effects and thus intrinsically active OER catalyst. (ii) The unique sandwich-like sheet-on-sheet hierarchical structure, ultrathin nanosheet building blocks, large surface area, and porous configuration are beneficial for better exposure and utilization of electrocatalytic active sites, as well as the smooth ion diffusion and transportation. (iii) Incorporation of rGO phase can not only promote the "sheet-on-sheet" construction of 2D catalysts but also endow the obtained composite with good conductivity for charge transfer in electrochemical processes. Besides, the in-situ-formed highly active catalytic species/phases and reaction sites (e.g., metal-hydroxides, metal-oxyhydroxides, and oxygen vacancies) via anodic conditioning can further boost the OER activity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Conclusion</head><p>In summary, we have reported a new and simple two-step strategy for the synthesis of hierarchical-structured sandwichlike rGO@CoNiO x nanocomposite composed of CoNiO x secondary nanosheets on rGO primary nanosheets. This composite effectively combines the high OER catalytic activity of the complex transition metal oxides with the electrical conducting graphene, and it exhibits advanced electrocatalytic activity and stability for water oxidation both in 0.1 and 1.0 m KOH alkaline solution with large current densities, low overpotentials (320 and 280 mV at 10 mA cm -2 , respectively), small Tafel slopes (45.0 and 42.0 mV dec -1 , respectively), and strong durability for up to 20 h of long-term electrolysis, a superior performance in comparison to the state-of-the-art noble-metal, transition-metal, as well as the nonmetal electrocatalysts. Quite impressively, we find that the electrocatalytic activity of rGO@CoNiO x composite can be further significantly promoted by anodic conditioning; we propose that the observation can be ascribed to in situ formation of catalytic active species such as metal hydroxide/(oxy)hydroxides and the enriched oxygen vacancies at the surface of catalyst. The remarkable OER performance of the nanocomposite can be attributed to its unique physicochemical structural features, such as hierarchical sheeton-sheet architecture, large surface area, ultrathin porous nanosheets composed of tiny CoNiO x particles (≈5 nm in size), and the embedding of charge conducting graphene. This work would open up new opportunities for the design and development of highly active, durable, and cost-effective OER electrocatalysts with optimized compositions and structures, serving as a promising alternative to the noble-metal-based ones, which will be potentially useful for multiple renewable energy production and storage applications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Experimental Section</head><p>Materials and Reagents: The following chemicals were used as received without any further purification: PDO (98+%, Merck), Co(CH 3 COO) 2 •4H 2 O (97%, Nacalai), Ni(CH 3 COO) 2 •4H 2 O (98%, Fluka), PVP (K30, 99%, Sigma-Aldrich), graphite (99.8%, Alfa Aesar), and ethanol (99.99%, Fisher). Deionized water was generated by the Elga Micromeg Purified Water system.</p><p>Preparation of Sandwich-Like rGO@CoNiO x Nanocomposite: The GO was prepared according to a modified Hummer's method. <ref type="bibr" target="#b50">[17]</ref> For the synthesis of rGO@CoNi-PDO, Co(CH 3 COO) 2 •4H 2 O (0.5 mmol), Ni(CH 3 COO) 2 •4H 2 O (0.5 mmol), and PVP (0.32 g) were first dissolved in 20 mL of PDO. Then, a certain amount of GO (2.5 mg) was added and ultrasonicated for 30 min at room temperature to obtain a homogeneous  suspension. Afterwards, the suspension was heated in an oil bath at 170 °C for 3 h. The as-obtained precipitate was centrifuged, rinsed with ethanol several times, then dried in an oven at 80 °C for 12 h, and further heated at 300 °C for 0.5 h in air with a heating rate of 1 °C min -1 , leading to the target product, rGO@CoNiO x nanocomposite.</p><p>Preparation of Control Samples-rGO@Co 3 O 4 Nanocomposite: rGO@Co 3 O 4 nanocomposite was fabricated by using a similar preparation procedure of rGO@CoNiO x composite without adding Ni(CH 3 COO) 2 •4H 2 O and the temperature of the oil bath was set at 160 °C.</p><p>Preparation of Control Samples-rGO@NiO Nanocomposite: rGO@NiO nanocomposite was fabricated by using a similar preparation procedure of rGO@CoNiO x composite without addition of Co(CH 3 COO) 2 •4H 2 O.</p><p>Preparation of Control Samples-rGO-Free CoNiO x : rGO-free CoNiO x was prepared through the aforementioned procedure for rGO@CoNiO x without adding GO.</p><p>Preparation of Control Samples-Pure rGO: The pure rGO was fabricated by dispersing GO in PDO to obtain a homogeneous suspension through ultrasonication for 30 min at room temperature. Then, the suspension was heated in an oil bath at 170 °C for 3 h. The as-obtained precipitate was centrifuged, rinsed with ethanol several times, and then dried in an oven at 80 °C for 12 h.</p><p>Electrochemical Measurements: The electrochemical measurements were carried out using a computer-controlled electrochemical workstation (Autolab, PGSTAT 302N) with a standard three-electrode system, in which a catalyst-modified GCE (3 mm in diameter) was used as the working electrode, a Pt plate as the counter electrode, and Ag/AgCl (filled with 3.0 m KCl solution) electrode as the reference electrode. The preparation for the working electrode was as follows: solid catalyst (3 mg) prepared in Section "Preparation of Sandwich-Like rGO@CoNiO x Nanocomposite" or "Preparation of Control Samples" was dispersed in 488.8 µL of water, 122.2 µL of ethanol, and 25.46 µL of 5 wt% Nafion solution. Then t,he homogeneous catalyst ink was obtained by ultrasonicating the mixture for about 30 min. Next, 3 µL of catalyst ink was loaded onto the GCE (loading amount for all the samples: about 0.2 mg cm -2 ). Finally, the electrode was dried at room temperature overnight. Prior to all experiments, the electrolyte solution (0.1 or 1.0 m KOH) was purged with O 2 for 30 min. Before the electrochemical catalytic measurements, all the working electrodes were conducted by a continuous CV for several times at a scan rate of 50 mV s -1 until the signals were relatively stabilized. Linear sweep voltammetry was recorded with a scan rate of 5 mV s -1 to obtain the polarization curves. All the polarization curves were corrected with iR-compensation. The electrochemical double-layer capacitance (C dl ) of the as-synthesized samples was measured from double-layer charging curves using cyclic voltammograms (CV) in a small potential range of open circuit potential ±0.05 V (i.e., the non-Faradaic region). The plot of current density differences (j a -j c ) against the scan rate (at open circuit potential) has a linear relationship and its slope is equivalent to twice of the C dl . The scan rates were 1, 2, 5, 10, 20, and 40 mV s -1 in these measurements. The long-term stability tests were performed by CP measurement and CA measurement in 0.1 or 1.0 m KOH electrolyte. For the CP measurement, the current density was set at 10 mA cm -2 , and for the CA measurement, the overpotential was set as 320 mV.</p><p>In this work, the electrochemical measurements were carried out at least on four working electrodes to check the reproducibility and their average was taken into account. All the current densities were normalized to the geometrical area of the GCE, and all the measured potentials versus Ag/AgCl (3.0 m KCl) were converted to a reversible hydrogen electrode (RHE) scale according to the Nernst equation: E (RHE) = E (Ag/AgCl) + 0.210 + 0.0591 × pH.</p><p>The TOF values of the catalysts were calculated from the equation (assuming that all the metal atoms in the materials were active in the electrochemical reaction, thus lower TOF limits were obtained): TOF = (J × A)/(4 × F × n), where J is the current density at a given overpotential (for example, 350 mV) in A cm -2 , A is the surface area of the GCE, F is the Faraday constant (96485 C mol -1 ), and n is the number of moles of the active metal sites of the catalyst deposited on the electrode.</p><p>Materials Characterization: Microscopic features of the aboveprepared samples were characterized by SEM (JEOL-6700F) equipped with an EDX analyzer (Oxford INCA), TEM (JEOL JEM-2010, 200 kV), and HRTEM (JEOL JEM-2100F, 200 kV). The elemental mapping was done by EDX spectroscopy (Oxford Instruments, model 7426). The wide-angle X-ray (Cu Kα radiation) diffraction patterns were taken using a Bruker D8 Advance system. Nitrogen adsorption-desorption isotherms were obtained on a Quantachrome NOVA-3000 system at 77 K. Prior to the measurement, the samples were degassed at 200 °C for 15 h with a gas flow of N 2 . The surface area of the materials was measured by the BET method. The pore size distribution curve was obtained using the NLDFT method from the desorption data and the pore volume was calculated at P/P 0 = 0.9754. TGA measurement was carried out at a heating rate of 5 °C min -1 (Shimadzu TGA-50 instrument). FTIR (Bio-Rad FTS-135) was used to obtain chemical bonding information of samples using the potassium bromide (KBr) pellet technique. The surface composition and oxidation state of the samples were further investigated by XPS (AXIS-HSi, Kratos Analytical) with a monochromated Al Kα X-ray source (hν = 1486.71 eV), and all binding energies were referred to the C 1s peak (284.5 eV) arising from the CC bonds.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Characterization of rGO@CoNi-PDO complex precursor: a,b) SEM, c,d) TEM images, e) FTIR spectrum, and f) XRD pattern.</figDesc><graphic url="image-6.png" coords="3,51.02,76.54,311.94,437.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. a,b) SEM, c-e) TEM, f) HRTEM images, and g) EDX elemental mapping of rGO@CoNiO x nanocomposite.</figDesc><graphic url="image-8.png" coords="4,86.28,76.56,419.94,364.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. a) XRD pattern and b) N 2 adsorption-desorption isotherm of rGO@CoNiO x nanocomposite. The inset in (b) is the corresponding NLDFT pore size distribution curve from the desorption data.</figDesc><graphic url="image-9.png" coords="4,116.22,560.17,360.00,137.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Electrochemical double-layer capacitance (C dl ) measurement of rGO@CoNiO x and the control samples. a) Cyclic voltammetry curve of rGO@CoNiO x in a non-Faradaic region under different scan rates (1, 2, 5, 10, 20, and 40 mV s -1 ) in 0.1 m KOH electrolyte. b) The current density differences (j a -j c ) at the open circuit potential plotted against the scan rate. The linear slope is equivalent to twice of the C dl .</figDesc><graphic url="image-13.png" coords="6,116.25,76.56,360.00,133.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>Figure 6. a) Long-term chronopotentiometric stability behavior of rGO@ CoNiO x nanocomposite under the constant current density of 10 mA cm -2 . b) Long-term chronoamperometric stability behavior of rGO@CoNiO x nanocomposite at a constant overpotential of 320 mV. The catalyst loading was ≈0.2 mg cm -2 , and the electrolyte was 0.1 m KOH solution. c,d) TEM images and e) EDX elemental mapping of the spent rGO@CoNiO x nanocomposite after 20 h of CP stability test.</figDesc><graphic url="image-15.png" coords="7,52.07,76.54,238.86,406.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 8 .</head><label>8</label><figDesc>Figure8. a) Polarization curve of rGO@CoNiO x composite. The inset shows the corresponding Tafel plot. Scan rate was 5 mV s -1 . b) Long-term chronopotentiometric stability behavior of rGO@CoNiO x under the constant current density of 10 mA cm -2 . For all the measurements, the catalyst loading was about 0.2 mg cm -2 and the electrolyte was 1.0 m KOH solution.</figDesc><graphic url="image-17.png" coords="8,60.68,397.75,216.00,271.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. a) Co 2p, b) 2p, c) O 1s, and d) C 1s XPS spectra of rGO@CoNiO x before and after OER stability test.</figDesc><graphic url="image-18.png" coords="8,116.25,76.56,360.00,284.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic url="image-11.png" coords="5,119.06,76.54,360.00,258.66" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Adv. Funct. Mater. 2017, 1606325 www.afm-journal.de www.advancedsciencenews.com</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>© 2017 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim wileyonlinelibrary.com</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors gratefully acknowledge the financial support provided by the <rs type="funder">Ministry of Education, Singapore</rs>, <rs type="funder">NUS</rs>, and <rs type="funder">GSK Singapore</rs>. This project was also funded by the <rs type="funder">National Research Foundation (NRF)</rs>, <rs type="funder">Prime Minister's Office, Singapore</rs>, under its <rs type="programName">Campus for Research Excellence and Technological Enterprise (CREATE) program</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_BZz5EyV">
+					<orgName type="program" subtype="full">Campus for Research Excellence and Technological Enterprise (CREATE) program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Supporting Information is available from the Wiley Online Library or from the author.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Dresselhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">L</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">414</biblScope>
+			<biblScope unit="page">332</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C H</forename><surname>Steele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heinzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">414</biblScope>
+			<biblScope unit="page">345</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Katsounaros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cherevko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Zeradjanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J J</forename><surname>Mayrhofer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page">102</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaroniec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Z</forename><surname>Qiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<date type="published" when="2015">2015. 2060</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Over</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">3356</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suntivich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao-Horn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">399</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gorlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Jaramillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">132</biblScope>
+			<date type="published" when="2010">2010. 13612</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dincă</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Surendranath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Nocera</surname></persName>
+		</author>
+		<title level="m">Proc. Natl. Acad. Sci. USA 2010</title>
+		<meeting>Natl. Acad. Sci. USA 2010</meeting>
+		<imprint>
+			<date>10337</date>
+			<biblScope unit="page">107</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suntivich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Gasteiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Goodenough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao-Horn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<date type="published" when="1383">2011. 1383</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaroniec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Z</forename><surname>Qiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page">7281</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kamiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakanishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hashimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2013">2013. 2390</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Appl. Mater. Interfaces</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">5002</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">1120</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Prévot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Fagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Sedach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K J</forename><surname>Siu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Trudel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Berlinguette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="page">60</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Lou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<date type="published" when="1488">2014. 1488</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Zakaria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pramanik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aldalbahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Alshehri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Malgras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yamauchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. -Asian J</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="1541">2015. 1541</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Blakemore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Deimund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Müller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page">13118</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Enman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Batchellor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Boettcher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2016">2016. 2416</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2015">2015. 1401880</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page">7077</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tüysüz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<date type="published" when="2014">2014, 4, 3701</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fominykh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Feckl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sicklinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Döblinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Böcklein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rathousky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E.-W</forename><surname>Scheidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fattakhova-Rohlfing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Funct. Mater</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">3123</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mendoza-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">3244</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chuan Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Chun</forename><surname>Zeng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">11591</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Louie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Bell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">135</biblScope>
+			<date type="published" when="2013">2013. 12329</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C L</forename><surname>Mccrory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Jaramillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">135</biblScope>
+			<date type="published" when="2013">2013. 16977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">123</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Enman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Batchellor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Boettcher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">7549</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Geng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kuai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Geng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">659</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">4477</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cabán-Acevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Forticaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Lett</title>
+		<imprint>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="1421">2015. 1421</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Cent. Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">244</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">5277</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Regier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">8452</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaroniec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Z</forename><surname>Qiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<date type="published" when="2014">2014. 13925</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page">7584</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Environ. Sci</title>
+		<imprint>
+			<date type="published" when="1320">2016, 9, 1320</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Herricks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">695</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">2426</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page">136</biblScope>
+			<date type="published" when="2014">2014. 15670</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tüysüz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">6127</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaroniec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Z</forename><surname>Qiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">4646</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Geng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2014">2014. 10909</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>-X. Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>-L. Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>-J. Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-B</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">10530</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Abidat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bouchenafa-Saib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Habrioux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Comminges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Canaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rousseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Napporn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dambournet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Borkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Kokoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="page">17433</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Trotochaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Ranney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Boettcher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page">17253</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">7399</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="page">25939</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H.-Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-Y</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Energy Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1500091</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Marcano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Kosynkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Berlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sinitskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Slesarev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Alemany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Tour</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">4806</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
