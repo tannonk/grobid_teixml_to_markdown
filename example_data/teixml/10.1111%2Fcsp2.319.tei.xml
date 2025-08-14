@@ -1,0 +1,2484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Evaluating potential effects of solar power facilities on wildlife from an animal behavior perspective</title>
+				<funder ref="#_6XxpSg4">
+					<orgName type="full">Animal Behavior Society</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">U.S. Fish and Wildlife Service</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Rachel</forename><forename type="middle">Y</forename><surname>Chock</surname></persName>
+							<email>rchock@sandiegozoo.org</email>
+							<affiliation key="aff0">
+								<orgName type="department">Recovery Ecology</orgName>
+								<orgName type="institution">San Diego Zoo Institute for Conservation Research</orgName>
+								<address>
+									<settlement>Escondido</settlement>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Barbara</forename><surname>Clucas</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Wildlife</orgName>
+								<orgName type="institution">Humboldt State University</orgName>
+								<address>
+									<settlement>Arcata</settlement>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elizabeth</forename><forename type="middle">K</forename><surname>Peterson</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Communities to Build Active STEM Engagement</orgName>
+								<orgName type="institution">Colorado State University-Pueblo</orgName>
+								<address>
+									<settlement>Pueblo</settlement>
+									<region>Colorado</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Colorado State University-Pueblo</orgName>
+								<address>
+									<settlement>Pueblo</settlement>
+									<region>Colorado</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bradley</forename><forename type="middle">F</forename><surname>Blackwell</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">U.S. Department of Agriculture, Animal and Plant Health Inspection Service</orgName>
+								<orgName type="institution" key="instit1">Wildlife Services</orgName>
+								<orgName type="institution" key="instit2">National Wildlife Research Center</orgName>
+								<address>
+									<settlement>Sandusky</settlement>
+									<region>Ohio</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><forename type="middle">T</forename><surname>Blumstein</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Ecology and Evolutionary Biology</orgName>
+								<orgName type="institution">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kathleen</forename><surname>Church</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Great Lakes Institute for Environmental Research</orgName>
+								<orgName type="institution">University of Windsor</orgName>
+								<address>
+									<settlement>Windsor</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Esteban</forename><surname>Fernández-Juricic</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">Purdue University</orgName>
+								<address>
+									<addrLine>Indiana 9 Sección Etología</addrLine>
+									<settlement>West Lafayette</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gabriel</forename><surname>Francescoli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alison</forename><forename type="middle">L</forename><surname>Greggor</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Recovery Ecology</orgName>
+								<orgName type="institution">San Diego Zoo Institute for Conservation Research</orgName>
+								<address>
+									<settlement>Escondido</settlement>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Kemp</surname></persName>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Faculty of Engineering and Physical Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Civil, Maritime and Environmental Engineering</orgName>
+								<orgName type="laboratory">International Centre for Ecohydraulics Research</orgName>
+								<orgName type="institution">University of Southampton</orgName>
+								<address>
+									<settlement>Southampton</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gabriela</forename><forename type="middle">M</forename><surname>Pinho</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Ecology and Evolutionary Biology</orgName>
+								<orgName type="institution">University of California Los Angeles</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Peter</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Sanzenbacher</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">U.S. Fish and Wildlife Service</orgName>
+								<address>
+									<addrLine>Palm Springs</addrLine>
+									<country>California</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Bruce</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Schulte</surname></persName>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Western Kentucky University</orgName>
+								<address>
+									<settlement>Bowling Green Kentucky</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pauline</forename><surname>Toni</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Université de Sherbrooke</orgName>
+								<address>
+									<region>Québec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="department">Facultad de Ciencias</orgName>
+								<orgName type="institution">Universidad de la República</orgName>
+								<address>
+									<settlement>Montevideo</settlement>
+									<country key="UY">Uruguay</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff13">
+								<orgName type="department">Recovery Ecology</orgName>
+								<orgName type="institution">San Diego Zoo Institute for Conservation Research</orgName>
+								<address>
+									<settlement>Escondido</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Evaluating potential effects of solar power facilities on wildlife from an animal behavior perspective</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/csp2.319</idno>
+					<note type="submission">Received: 27 April 2020 Revised: 7 September 2020 Accepted: 28 October 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-07-08T09:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Solar power is a renewable energy source with great potential to help meet increasing global energy demands and reduce our reliance on fossil fuels. However, research is scarce on how solar facilities affect wildlife. With input from professionals in ecology, conservation, and energy, we conducted a research-prioritization process and identified key questions needed to better understand impacts of solar facilities on wildlife. We focused on animal behavior, which can be used to identify population responses before mortality or other fitness consequences are documented. Behavioral studies can also offer approaches to understand the mechanisms leading to negative interactions (e.g., collision, singeing, avoidance) and provide insight into mitigating effects. Here, we review how behavioral responses to solar facilities, Rachel Y. Chock, Barbara Clucas, and Elizabeth K. Peterson contributed equally to this study.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>including perception, movement, habitat use, and interspecific interactions are priority research areas. Addressing these themes will lead to a more comprehensive understanding of the effects of solar power on wildlife and guide future mitigation.</p><formula xml:id="formula_0">K E Y W O R D S</formula><p>animal behavior, concentrating solar power (CSP), conservation, conservation behavior, photovoltaic (PV) cells, research prioritization process, solar power, utility-scale solar energy (USSE)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>As the global human population continues to grow, energy demand increases <ref type="bibr">(IEA, 2019;</ref><ref type="bibr" target="#b62">Pazheri, Othman, &amp; Malik, 2014)</ref>. Although fossil fuels still dominate energy production, renewable energy sources are a rapidly expanding sector of the global energy market <ref type="bibr" target="#b45">(Islam, Huda, Abdullah, &amp; Saidur, 2018;</ref><ref type="bibr" target="#b82">USEIA, 2019)</ref>. Renewable resources can help combat climate change, and with falling production costs, serve as an economical alternative to fossil fuels <ref type="bibr" target="#b44">(IRENA, 2019)</ref>. Most U.S. states now have Renewable Portfolio Standards and other policies that further incentivize production of renewable energy <ref type="bibr">(NCCETC, 2020;</ref><ref type="bibr">NREL, 2019)</ref>.</p><p>The number and size of utility-scale (e.g., &gt;20 MW) solar energy facilities (hereafter solar facilities) have dramatically increased during the past 20 years (Figure <ref type="figure">1</ref>; <ref type="bibr" target="#b36">Hernandez et al., 2014)</ref>; for example, the average utilityscale photovoltaic (PV) system installation size increased over 80% from 2010 to 2019 in the United States <ref type="bibr">(NREL, 2020)</ref>. Solar energy technologies typically fall into two main categories: (a) PV cells that convert sunlight into electrical current (Figures <ref type="figure">1a</ref> and <ref type="figure">2</ref>) concentrating solar power (CSP) which uses mirrors to focus sunlight to heat fluids that power steam turbines or generators (Figure <ref type="figure">1b</ref>,<ref type="figure">c</ref>).</p><p>Our current understanding of the impacts of solar facilities on wildlife is limited, despite the pace and scale of its development. Environmental effects, such as soil erosion, changes in water use, and increases in local temperature, are well documented <ref type="bibr" target="#b6">(Barron-Gafford et al., 2016;</ref><ref type="bibr" target="#b36">Hernandez et al., 2014;</ref><ref type="bibr" target="#b59">Moore-O'Leary et al., 2017)</ref>. A few studies suggest that solar facilities could affect wildlife through exclusionary fencing, habitat destruction or alteration, and direct mortality (Table <ref type="table">1</ref>; <ref type="bibr" target="#b61">Northrup &amp; Wittemyer, 2013;</ref><ref type="bibr" target="#b86">Walston, Rollins, LaGory, Smith, &amp; Meyers, 2016)</ref>, but their relative scarcity highlights the need for additional research (see also <ref type="bibr" target="#b0">Agha, Lovich, Ennen, &amp; Todd, 2020)</ref>. In particular, studies of wildlife behavioral response to solar facilities have been called for, including by working groups focused on bird interactions with solar facilities <ref type="bibr">(ASCWG, 2020;</ref><ref type="bibr">ASWG, 2020)</ref>; but such studies are largely still lacking from the literature <ref type="bibr" target="#b54">(Lovich &amp; Ennen, 2011;</ref><ref type="bibr" target="#b61">Northrup &amp; Wittemyer, 2013)</ref>.</p><p>Behavioral responses are often the most visible signs of detrimental effects, as behavioral shifts are usually an animal's first response to environmental change <ref type="bibr" target="#b23">(Dimitri &amp; Longland, 2018;</ref><ref type="bibr" target="#b61">Northrup &amp; Wittemyer, 2013)</ref>. Although direct mortality is the most obvious sign of negative impacts, large energy facilities may also impact individual fitness, as measured by survival and reproduction (hereafter "fitness"), resulting in population-level impacts that are harder to quantify without long-term demographic studies or using behavioral observations. For example, individuals could decrease mating behavior in response to increased disturbance <ref type="bibr" target="#b38">(Holloran, Kaiser, &amp; Hubert, 2010)</ref>, stress levels <ref type="bibr" target="#b54">(Lovich &amp; Ennen, 2011)</ref>, and pollution <ref type="bibr" target="#b63">(Peterson et al., 2017)</ref>. In addition, behavioral studies can offer approaches to understand the mechanisms leading to negative effects and to provide mitigative strategies. Animal behavior has been successfully utilized by wildlife and natural resource managers to mitigate problems and improve management strategies <ref type="bibr" target="#b9">(Berger-Tal et al., 2011;</ref><ref type="bibr" target="#b23">Dimitri &amp; Longland, 2018)</ref>. For example, animal behavior has been used to understand and develop approaches to mitigate avian collisions at airports <ref type="bibr" target="#b12">(Blackwell &amp; Fernández-Juricic, 2013)</ref>. It is imperative for the solar industry to incorporate behavioral research now, in a relatively early stage of the solar boom, to ensure solar power is sustainable for local wildlife populations and to avoid similar developmental and legal pitfalls that plagued the wind industry in its early boom <ref type="bibr" target="#b14">(Brown &amp; Escobar, 2007)</ref>.</p><p>Using a multiphase research-prioritization process (see Supporting Information 1 for detailed methods) we implemented an online survey to ask professionals in the fields of ecology, conservation and energy to identify key behavioral research questions related to potential wildlife conservation issues at solar facilities (see Supporting Information 2 for full survey). We reduced and prioritized these questions at a 2019 workshop held by the Animal Behavior Society Conservation Committee (Supporting Information 1), and summarize here the emerging themes that resulted from this process (Table <ref type="table">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| WILDLIFE PERCEPTION OF SOLAR FACILITIES</head><p>Solar facilities have the potential to deter, attract, or be imperceptible to individuals, all of which can lead to negative consequences for a variety of species <ref type="bibr" target="#b50">(Kagan et al., 2014;</ref><ref type="bibr" target="#b73">Smith &amp; Dwyer, 2016)</ref>. Avoidance of solar facilities may lead to use of lower quality habitat or population fragmentation <ref type="bibr" target="#b36">(Hernandez et al., 2014;</ref><ref type="bibr" target="#b68">Saunders, Hobbs, &amp; Margules, 1991)</ref> and species attracted to solar facilities might be victims of ecological traps <ref type="bibr" target="#b66">(Robertson &amp; Hutto, 2006)</ref>. When species attracted to facilities experience low survival or reproduction onsite, regional population dynamics could follow a source-sink pattern, affecting populations beyond site boundaries <ref type="bibr" target="#b19">(Delibes, Gaona, &amp; Ferreras, 2001)</ref>. Alternatively, solar facilities may attract and provide high quality habitat for non-native or urban adapted species <ref type="bibr" target="#b41">(Hufbauer et al., 2011;</ref><ref type="bibr" target="#b80">Tuomainen &amp; Candolin, 2011)</ref>. High population density of a few species could have cascading effects, potentially reducing food web integrity <ref type="bibr" target="#b49">(Jessop, Smissen, Scheelings, &amp; Dempster, 2012)</ref> or altering species' interactions (see below). Species unable to detect or avoid structures (e.g., power lines, glass windows) are at risk of collision and direct mortality <ref type="bibr" target="#b11">(Bevanger, 1994)</ref>.</p><p>At the core of the problem, we do not fully understand the mechanisms involved in wildlife perception of solar facilities or all the factors that influence avoidance or attraction (but see work by <ref type="bibr" target="#b39">Horváth et al. (2010)</ref> and others on aquatic insect attraction to polarized light and solar panels). Individuals deterred by noise pollution might avoid facilities during construction and operation <ref type="bibr" target="#b32">(Halfwerk &amp; Slabbekoorn, 2015)</ref> and could also be affected by road noise from traffic associated with them. Individuals might be attracted to these sites because of microclimatic conditions, cover, water availability (e.g., evaporative cooling ponds; <ref type="bibr" target="#b86">Walston et al., 2016)</ref>, enhanced prey density, lighting, confusion of visual cues, or other potential factors <ref type="bibr" target="#b24">(Dominoni et al., 2020)</ref>. We also need to know if there is variation in perception and response to solar facilities within and between species and at different temporal scales, both seasonal and daily.</p><p>We can identify key behavioral responses by studying how species perceive solar facility structures <ref type="bibr" target="#b50">(Kagan et al., 2014)</ref> relative to surrounding landscape elements. Ultimately, this process can allow for manipulation of Direct injury/ mortality Solar flux Birds, insects 2, 3, 4, 6, 7, 8, 9, 10 Undefined trauma Birds 8 Impact trauma Birds, bats 1, 2, 3, 5, 6, 8, 11 Electrocution Birds 6, 8, 11 Entrapment/drowning in water in-take structures and evaporation ponds Birds, mammals, insects 4, 6, 7 Entrapment in soil ruts from vehicle passage Amphibians, reptiles 10 Secondary mortality Predation trauma Amphibians, birds, reptiles 10, 8 Light pollution Amphibians, birds, bats, other mammals, insects, reptiles 4, 5, 10 Electromagnetic field effects Amphibians, bats, insects, reptiles 4, 10 Other anthropogenic effects Amphibians, birds, bats, other mammals, insects, reptiles 5, 7, 8, 10 Note: 1. Costantini, Gustin, Ferrarini, and Dell'Omo (2016); 2. Diehl, Valdez, Preston, Wellik, and Cryan (2016); 3. Ho (2016); 4. Horváth et al. (2010); 5. Huso, Dietsch, and Nicolai (2016); 6. Jeal, Perold, Ralston-Paton, and Ryan (2019); 7. Jeal, Perold, Seymour, Ralston-Paton, and Ryan (2019); 8. Kagan, Viner, Trail, and Espinoza (2014); 9. Loss, Dorning, and Diffendorfer (2019); 10. Lovich and Ennen (2011); 11. McCrary, McKernan, Schreiber, Wagner, and Sciarrotta (1986).</p><formula xml:id="formula_1">F I G U R E 1 (a)</formula><p>(i.e., water birds that cannot take off due to lack of water; ANL &amp; NREL, 2015). It is therefore important to understand how birds and other wildlife perceive solar facilities and why they are attracted, deterred, or fail to detect them. In addition to individual responses to cues generated by solar facilities, vulnerability will vary according to species' ecology and behavior. We discuss below how animal movement, breeding, foraging behavior, and interspecific interactions may influence population level responses to solar facilities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| MOVEMENT AND HABITAT USE IN AND AROUND SOLAR FACILITIES</head><p>Many animals, particularly those living in arid environments where solar facilities are more common, are living at their physiological limits; any added movement may thus be costly <ref type="bibr" target="#b83">(Vale &amp; Brito, 2015)</ref>. Whether and how movements are influenced by a solar facility will be determined by: (a) the trade-off of associated benefits and</p><p>T A B L E 2 Key themes in animal behavior research that could improve our understanding of impacts of solar facilities on wildlife and potential solutions. These themes emerged from a multiphase research prioritization process (see Supporting Information 1) and the final list of priority research questions (Table S4) Theme Research areas Research priority questions Examples from the literature related to or applicable to solar power facilities Perception of solar facilities: natural attraction or deterrence? 1. Understand factors involved in wildlife perception of solar facilities 2. Quantify key sensory mechanisms of species with high mortality at facilities 3. Use information in perception models to quantify conspicuousness of facility elements 4. Modify facility elements to enhance or reduce conspicuousness and measure behavioral response • Do solar facilities attract or deter species? • What are the behavioral/ sensory mechanisms involved in creating attraction or deterrence to solar facilities? • What characteristics of solar facilities are attracting and/or deterring certain species? What are the fitness consequences? • How can solar facilities be designed to reduce attraction and reduce negative fitness consequences? Blackwell, Fernández-Juricic, Seamans, and Dolans (2009), Horváth et al. (2010), Blackwell and Fernández-Juricic (2013), Arnett, Hein, Schirmacher, Huso, and Szewczak (2013), Kagan et al. (2014), Smith and Dwyer (2016), Fernández-Juricic (2016), Száz et al. (2016) Habitat use in and around solar facilities in resident and migratory species 1. Impacts on resident species a. Home range b. Habitat modification (e.g., fragmentation) 2. Impacts on migratory species a. Habitat connectivity b. Disruption of migratory behavior • What impact do solar facilities have on habitat use of resident species? • How far do the impacts on behavior extend into habitat? • How is migration behavior impacted by solar facilities? • How does solar facility type affect movement behavior? • Where should solar facilities be built to minimize impacts on behavior and fitness? Tsoutos, Frantzeskaki, and Gekas (2005), Arnett et al. (2008), Lovich and Ennen (2011), Turney and Fthenakis (2011), DeVault et al. (2014), Hernandez et al. (2014), Grippo, Hayse, and O'Connor (2015), Jeal et al. (2019,b) Other impacts on fitness associated behavior 1. Behavioral change before and after a. Impacts on foraging b. Impacts on species interactions i Antipredator behavior ii Predation iii Competition c. Impacts on reproduction • How does behavior (including activity patterns, foraging, predation, antipredator behavior, competition, habitat use, and movement) change before and after solar facility construction? • How do different types of solar facilities impact animal behavior of species directly and indirectly? Vistnes, Nellemann, Jordhoy, and Strand (2004); Epps et al. (2005); Reimers, Dahle, Eftestøl, Colman, and Gaare (2007); Sawyer, Kauffman, and Nelson (2009); Holloran et al. (2010); Cypher et al. (2019)</p><p>costs, (b) whether species are attracted or deterred by solar facilities, (c) whether a species is residential or migratory, and (d) the fitness impact of the responses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Resident species</head><p>Solar facility construction and operation directly and indirectly alter habitat use via functional habitat fragmentation, dispersal limitations, population isolation, and altered habitat quality (as previously reviewed in Lovich and Ennen (2011)). For example, vegetation at road edges appears to attract Agassiz's desert tortoises (Gopherus agassizii) to build burrows there, despite the apparent noise pollution and risk of vehicle collision <ref type="bibr" target="#b53">(Lovich &amp; Daniels, 2000;</ref><ref type="bibr" target="#b85">von Seckendorff Hoff &amp; Marlow, 2002)</ref>. CSP facilities can include evaporation ponds with chemically treated waters; these polluted waters can kill via drowning, poisoning, egg mortality, or biomagnification <ref type="bibr">(Jeal, Perold, Ralston-Paton, &amp; Ryan, 2019)</ref>. Electromagnetic fields created by buried and aerial cables transporting energy can affect orientation of some organisms, impairing habitat use and likely causing additional physiological harm <ref type="bibr" target="#b54">(Lovich &amp; Ennen, 2011;</ref><ref type="bibr" target="#b72">Shepherd et al., 2019;</ref><ref type="bibr" target="#b89">Wyszkowska, Shepherd, Sharkh, Jackson, &amp; Newland, 2016)</ref>. Also, changes in albedo from removal could cause local increases in temperature and evapotranspiration, which may influence movement patterns, reproductive success, and survival <ref type="bibr" target="#b6">(Barron-Gafford et al., 2016)</ref>. Although certain habitat modifications could benefit species, such as birds that can exploit solar facility structures for foraging, roosting or nesting <ref type="bibr">(Jeal, Perold, Ralston-Paton, &amp; Ryan, 2019)</ref> or prey species that experience reduced predation <ref type="bibr" target="#b18">(Cypher et al., 2019)</ref>, in most cases, modifications are likely to have negative impacts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Migratory species</head><p>Migratory animals are under escalating threat due to growth in human activity <ref type="bibr" target="#b33">(Hardesty-Moore et al., 2018;</ref><ref type="bibr" target="#b87">Wilcove &amp; Wikelski, 2008)</ref>. Compared to other groups of species, migratory birds appear to suffer disproportionately higher mortality from solar facilities, particularly those located on migration routes and/or near breeding and wintering grounds <ref type="bibr" target="#b86">(Walston et al., 2016)</ref>. The greater abundance of insect prey attracted by the high structures and light <ref type="bibr" target="#b22">(Diehl et al., 2016)</ref> likely attracts aerial insectivores, resulting in a higher risk to burning via solar flux from concentrated solar power (Figure <ref type="figure">2a</ref>; <ref type="bibr" target="#b57">McCrary et al., 1986;</ref><ref type="bibr" target="#b50">Kagan et al., 2014)</ref>. Migratory water bird species are also susceptible because solar facilities may be perceived as waterbodies (a hypothesized "lake effect"), attracting them to land and injuring, killing, or stranding them in the process (Figure <ref type="figure">2b</ref>; <ref type="bibr" target="#b50">Kagan et al., 2014)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| Facility siting</head><p>The effects of solar facilities on wildlife may be exacerbated or mitigated through decisions about where to build them. Models have been developed at regional scales to identify areas that have both high potential for solar energy development and suitability for species of special concern <ref type="bibr" target="#b64">(Phillips &amp; Cypher, 2019)</ref>, or high species richness <ref type="bibr" target="#b78">(Thomas et al., 2018)</ref>, representing potential conflict areas that should be avoided. These and other studies also identify priority areas for facility siting that minimizes the loss of high quality habitat <ref type="bibr">(DRECP, 2020;</ref><ref type="bibr" target="#b75">Stoms, Dashiell, &amp; Davis, 2013)</ref>. While these models provide greatest benefit to resident species, research on migratory routes for aerial and terrestrial wildlife is critical to improve siting recommendations (e.g., <ref type="bibr" target="#b67">Ruegg et al., 2014)</ref>. The infrastructure necessary to operate solar facilities often extends far into the habitat, and effects of these structures on migratory wildlife have been documented in other energy sectors. For instance, mule deer (Odocoileus hemionus) abandoned former migration corridors as a result of oil and gas exploration and moved into suboptimal habitat, resulting in migration bottlenecks with no observed acclimation over several years <ref type="bibr" target="#b69">(Sawyer et al., 2009)</ref>. Reindeer (Rangifer tarandus) actively avoid power lines <ref type="bibr" target="#b65">(Reimers et al., 2007;</ref><ref type="bibr" target="#b84">Vistnes et al., 2004)</ref>, a behavioral response that could similarly alter migration routes for other ungulates. Gene flow in populations of desert bighorn sheep (Ovis canadensis nelsoni) is impeded by the presence of barriers, including roadways and large mining operations, resulting in rapid declines in genetic diversity <ref type="bibr" target="#b27">(Epps et al., 2005)</ref>. Minimizing these off-site impacts by siting facilities closer to existing infrastructure is important for mitigating effects on wildlife <ref type="bibr" target="#b75">(Stoms et al., 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| OTHER FITNESS ASSOCIATED BEHAVIORS: FORAGING AND SPECIES INTERACTIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Foraging</head><p>Foraging involves a complex suite of behaviors, including detection of food sources, perceiving temporal and spatial cues about food availability, and food searching, choice, retrieval, and processing. Solar facilities might alter cues and predation risk assessment or disrupt normal search patterns via habitat change or construction of novel obstacles. Therefore, we must understand a species' trophic level <ref type="bibr" target="#b28">(Fauvelle, Diepstraten, &amp; Jessen, 2017;</ref><ref type="bibr" target="#b59">Moore-O'Leary et al., 2017)</ref> and the mechanisms underpinning its foraging decisions (e.g., olfactory cues; <ref type="bibr" target="#b70">Schmitt, Shuttleworth, Ward, &amp; Shrader, 2018)</ref> to estimate the impact of landscape alteration caused by solar facilities.</p><p>Spatial knowledge, which is critical in foraging behavior, increases individual fitness <ref type="bibr" target="#b74">(Spencer, 2012)</ref>, and changes in spatial distribution of resources may impact species depending on their capacity to update such information. Assessments on the plasticity of cognitive mapping and role of memory in animal foraging decisions would contribute to our understanding about the impact of solar facilities. For example, bison (Bison bison) remembered and used information about location and quality of meadows to make movement decisions, building individual cognitive maps of their environment <ref type="bibr" target="#b58">(Merkle, Fortin, &amp; Morales, 2014)</ref>. Studies of species affected by solar facilities measuring the effect of changes in the distribution and availability of resources on animal behavior can help predict impacts of development at a population level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Predation, antipredator behavior, and competition</head><p>Habitat modification can affect predator-prey dynamics <ref type="bibr" target="#b26">(Dorresteijn et al., 2015;</ref><ref type="bibr" target="#b35">Hawlena, Saltz, Abramsky, &amp; Bouskila, 2010)</ref> and competitive interactions between species <ref type="bibr" target="#b10">(Berger-Tal &amp; Saltz, 2019)</ref>. At solar facilities, reflective surfaces of buildings and PV panels create polarized light pollution that attracts polarotactic organisms, including many insects <ref type="bibr" target="#b40">(Horváth, Kriska, Malik, &amp; Robertson, 2009)</ref>. Insectivorous species might benefit from the increased availability of prey but trade off potential danger from collisions with reflective surfaces and increased competition for food. In the Mojave Desert, the population of urban-associated common ravens (Corvus corax) has increased with development, and they exert high predation pressure on threatened desert tortoise <ref type="bibr" target="#b51">(Kristan &amp; Boarman, 2003)</ref>, which also face other impacts due to solar development <ref type="bibr" target="#b54">(Lovich &amp; Ennen, 2011)</ref>.</p><p>Alternatively, PV panels or mirrors could serve as shelter for some animals against predators, especially aerial ones, and solar facility buildings and fences can also provide shelter and escape routes for smaller prey by excluding larger terrestrial predators <ref type="bibr" target="#b18">(Cypher et al., 2019)</ref>. Increased vegetation near structures due to runoff (BLM &amp; DOE, 2012) may be perceived as protective cover from predators <ref type="bibr" target="#b46">(Jacob, 2008)</ref>, but the vegetation may also make it more difficult to detect predators. Peripheral visibility has been shown to be valued by both mammals <ref type="bibr" target="#b7">(Bednekoff &amp; Blumstein, 2009)</ref> and birds <ref type="bibr" target="#b8">(Bednekoff &amp; Lima, 1998)</ref>; in areas with reduced peripheral visibility, animals perceive a greater risk of predation and may modify their behavior in potentially maladaptive ways, such as increasing time allocated to vigilance over foraging.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| FUTURE RESEARCH AND DESIGNING SOLUTIONS</head><p>As evidenced by our research and those of others <ref type="bibr" target="#b0">(Agha et al., 2020;</ref><ref type="bibr" target="#b15">Conkling, Loss, Diffendorfer, Duerr, &amp; Katzner, 2020)</ref>, more studies about the potential impacts of solar facilities on wildlife are needed to develop solutions. Documented efforts to deter wildlife from solar power facilities and other human-made structures include acoustic <ref type="bibr" target="#b3">(Arnett et al., 2013;</ref><ref type="bibr" target="#b56">May, Reitan, Bevanger, Lorentsen, &amp; Nygård, 2015;</ref><ref type="bibr" target="#b76">Swaddle, Moseley, Hinders, &amp; Smith, 2016)</ref>, visual <ref type="bibr" target="#b55">(Martin, 2011;</ref><ref type="bibr" target="#b30">Goller, Blackwell, DeVault, Baumhardt, &amp; Fernández-Juricic, 2018;</ref><ref type="bibr" target="#b34">Hausberger, Boigné, Lesimple, Belin, &amp; Henry, 2018)</ref>, and tactile deterrents <ref type="bibr" target="#b37">(Ho, 2016;</ref><ref type="bibr" target="#b71">Seamans, Martin, &amp; Belant, 2013)</ref>. Evaluation of the effectiveness of such deterrents, however, is often limited or inconclusive (e.g., <ref type="bibr" target="#b25">Dorey, Dickey, &amp; Walker, 2019)</ref>, and may not address why individuals are attracted to the facilities or collide with facility structures in the first place. A more effective approach may be to understand wildlife perception of solar facilities and minimize features that attract them (e.g., <ref type="bibr" target="#b39">Horváth et al., 2010)</ref>, or modify features so that wildlife detect them and avoid collisions, burning and singeing. For instance, we can better understand how wildlife visually or otherwise perceive solar facilities by: (a) quantifying key properties of the sensory systems of species that experience high mortality, (b) use this information to quantify the degree of conspicuousness of solar panels and other structures from the species' sensory perspective, then (c) modify the properties of the solar panels to enhance or reduce their conspicuousness, and (d) measure behavioral responses to these modifications <ref type="bibr" target="#b12">(Blackwell &amp; Fernández-Juricic, 2013;</ref><ref type="bibr" target="#b29">Fernández-Juricic, 2016)</ref>. For example, <ref type="bibr" target="#b39">Horváth et al. (2010)</ref> tested the attraction of several aquatic insect species to PV solar panels with various modified features and found that white-framed and white-gridded panels were less attractive than black panels.</p><p>Our survey identified several research priorities for designing solutions focusing on where and how solar facilities can be built to minimize influences on behavior and fitness (Table <ref type="table">2</ref> and Supporting Information 1). Another overarching question identified, while not specific to behavior, was whether facility designs should be exclusionary or permeable to wildlife. Some solar facilities are currently evaluating how to co-manage wildlife and PV panels by making them more permeable (e.g., <ref type="bibr" target="#b18">Cypher et al., 2019;</ref><ref type="bibr" target="#b88">Wilkening &amp; Rautenstrauch, 2019)</ref>. Nevertheless, the answer to this question is likely complex and specific to geography and species (see also Moore-O' <ref type="bibr">Leary et al., 2017)</ref>.</p><p>With regard to assessing and minimizing impacts of solar facilities on wildlife, our workshop identified the need for more purposeful study designs to begin addressing these priority questions (Table <ref type="table">2</ref>). Ideally, a before-after control-impact design is desirable; whereby, key behaviors are studied before and after the solar facility is developed, both at the facility location and at control sites <ref type="bibr" target="#b15">(Conkling et al., 2020;</ref><ref type="bibr" target="#b54">Lovich &amp; Ennen, 2011)</ref>. While this rarely happens (see <ref type="bibr" target="#b0">Agha et al., 2020)</ref>, such design is the most powerful way to isolate the effects of a solar facility on behavior while controlling for other spatial and temporal variation. Experimental studies assessing impacts of different design features (such as panel height and spacing, corridor placement and size, and vegetation treatment), in addition to studying behavior at different distances from solar facilities, are also necessary to minimize detrimental effects on wildlife.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">| CONCLUSIONS</head><p>Development of utility-scale solar facilities is expected to continue at a rapid pace (USEIA, 2019). There is an urgent need to address how to better locate, design, and operate solar facilities to mitigate potential negative effects on wildlife populations. We have highlighted major research themes addressing how approaches using animal behavior can be utilized to study wildlife-solar facilities interactions and how they could lead to solutions to reduce negative effects. Similar to how those in the wind energy industry have worked with animal behaviorists to reduce wildlife fatalities (e.g., <ref type="bibr" target="#b17">Cryan et al., 2014)</ref>, finding such solutions will need collaboration across industry, research, and management agencies. This can be achieved by forming working groups that can bring together entities from solar power facilities, wildlife agencies, and academia to determine shared research goals and to facilitate access to solar facilities, research permitting, and research funding opportunities (e.g., Bats and Wind Energy Cooperative, 2020).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>An example of photovoltaic (PV) solar panels at topaz solar (550 MW; 4,700 acres). Photo by Pacific Southwest Region from Sacramento, U.S.-Solar Panels at topaz solar 1, Public Domain, https://commons.wikimedia.org/w/index.php? curid=36895794. Inset: aerial photo by Earth Observatory image by Jesse Allen, using EO-1 ALI data provided courtesy of the NASA EO-1 team. Public Domain, https://commons.wikimedia.org/w/ index.php?curid=38864327. (b) An example of a concentrating solar power (CSP) tower at Ivanpah Solar Electric Generating System (377 MW; 3,500 acres). Photo by Craig Dietrich-Flickr: Ivanpah Solar Power Facility, CC BY 2.0, https://commons. wikimedia.org/w/index.php?curid=28676343. Inset: aerial photo by Jllm06-Own work, CC BY-SA 4.0, https://commons.wikimedia. org/w/index.php?curid=42975801. (c) An example of a CSP parabolic trough at Solar Energy Generating Systems (SEGS; 354 MW; 1,600 acres). Photo by USA.Gov-BLM-Public domain stimuli and associated behavior to reduce mortality (sensu Blackwell et al., 2009 and citations therein). Birds, for example, can experience risk of mortality due to collision (i.e., direct contact with the solar facility), solarflux (i.e., birds are either burned or singed by exposure to the solar facility; Figure 2a), or become stranded F I G U R E 2 (a) Concentrating solar power (CSP) facilities can cause direct mortality to aerial species that fly into solar flare, such as this yellow-rumped warbler burned mid-air at Ivanpah (photograph by U.S. Fish and Wildlife Service, 2013, public domain). (b) CSP or PV facilities can create a "lake effect" (photograph by Kerry Holcomb, used with permission, Ivanpah Solar Electric Generating System, CA); water birds that mistakenly land on the hard surfaces can die on impact, become injured, or are unable to take off from terrestrial surfaces and ultimately die of exposure T A B L E 1 Examples of direct injury and mortality effects, as well as secondary mortality effects, on wildlife species that use the airspace and land covers at solar energy facilities. Noted effects are based on a select number of government and peer-reviewed literature sources, but not a complete survey or synthesis of the current literatureEffectTaxa affected Source 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic url="image-6.png" coords="4,99.38,51.76,398.31,241.40" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>The authors thank the <rs type="funder">Animal Behavior Society</rs> for the opportunity and funding to organize a workshop (entitled "<rs type="projectName">Conservation Behavior Workshop: Implications of Solar Power on Wildlife Conservation</rs>") at the <rs type="institution">Animal Behavior Society Conference 2019 (Chicago, IL)</rs>, and the funding to publish this manuscript. The authors thank everyone who responded to the online survey and participated in the workshop, especially <rs type="person">Dr Thomas Dietsch</rs> and <rs type="person">Peter Sanzenbacher</rs> (<rs type="funder">U.S. Fish and Wildlife Service</rs>). The findings and conclusions in this article are those of the author(s) and do not necessarily represent the views of the <rs type="institution">U.S. Fish and Wildlife Service</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_6XxpSg4">
+					<orgName type="project" subtype="full">Conservation Behavior Workshop: Implications of Solar Power on Wildlife Conservation</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST</head><p>The authors declare no conflicts of interest.</p><p>AUTHOR' CONTRIBUTIONS Rachel Y. Chock, Barbara Clucas, and Elizabeth K. Peterson: Organized the workshop that resulted in this study and coordinated the manuscript. All authors participated in the workshop and extensively contributed to the writing and revision of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>Survey questionnaire and results from the workshop are freely available and included as Supporting Information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ETHICS STATEMENT</head><p>The survey was approved by the Humboldt State University Institutional Review Board (IRB# 18-161).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ORCID</head><p>Rachel Y. Chock <ref type="url" target="https://orcid.org/0000-0003-3954-5959">https://orcid.org/0000-0003-3954-5959</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information may be found online in the Supporting Information section at the end of this article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Wind, sun, and wildlife: Do wind and solar energy development &quot;short-circuit&quot; conservation in the western United States?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Agha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Lovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Ennen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Todd</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>Environmental Research Letters</publisher>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">75004</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A review of avian monitoring and mitigation information at existing utility-scale solar facilities</title>
+	</analytic>
+	<monogr>
+		<title level="m">for US Department of Energy</title>
+		<imprint>
+			<publisher>SunShot Initiation and Office of Energy Efficiency &amp; Renewable Energy</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+		<respStmt>
+			<orgName>Argonne National Laboratory &amp; National Renewable Energy Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Report prepared</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Patterns of bat fatalities at wind energy facilities in North America</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Arnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Erickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Fiedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Tankersley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="61" to="78" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Evaluating the effectiveness of an ultrasonic acoustic deterrent for reducing bat fatalities at wind turbines</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Arnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Schirmacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M P</forename><surname>Huso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Szewczak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS one</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">65794</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Avian Solar Work Group (ASWG)</title>
+		<ptr target="http://www.aviansolar.org/)" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>Avian solar work group</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Multiagency Avian-Solar Collaborative Working Group</title>
+		<author>
+			<persName><forename type="first">Avian-Solar</forename></persName>
+		</author>
+		<ptr target="https://blmsolar.anl.gov/program/avian-solar/" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>Collaborative Working Group (ASCWG)</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The photovoltaic heat island effect: Larger solar power plants increase local temperatures</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Barron-Gafford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Minor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Pavao-Zuckerman</surname></persName>
+		</author>
+		<ptr target="http://batsandwind.org/" />
+	</analytic>
+	<monogr>
+		<title level="m">Bats and Wind Energy Cooperative</title>
+		<imprint>
+			<date type="published" when="2016">2016. 2020</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">35070</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Bednekoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Blumstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Peripheral obstructions influence marmot vigilance: Integrating observational and experimental results</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1111" to="1117" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Randomness, chaos and confusion in the study of antipredator vigilance</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Bednekoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Lima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology &amp; Evolution</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="284" to="287" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Integrating animal behavior and conservation biology: A conceptual framework</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Berger-Tal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Polak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Kotler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Saltz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="236" to="239" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Invisible barriers: Anthropogenic impacts on inter-and intra-specific interactions as drivers of landscape-independent fragmentation</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Berger-Tal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Saltz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society B</title>
+		<imprint>
+			<biblScope unit="volume">374</biblScope>
+			<date type="published" when="2019">2019. 20180049</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Bird interactions with utility structures: Collision and electrocution, causes and mitigating measures</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bevanger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ibis</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="412" to="425" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Behavior and physiology in the development and application of visual deterrents at airports</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fernández-Juricic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wildlife management in airport environments</title>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Devault</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Blackwell</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Belant</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Baltimore, MD</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Johns Hopkins University Press</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="11" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Avian visual configuration and behavioural response to object approach</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fernández-Juricic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Seamans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dolans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="673" to="684" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Final programmatic environmental impact statement for solar energy development in six southwestern states</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Escobar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Law Journal</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="489" to="515" />
+			<date type="published" when="2007">2007. 2012</date>
+			<publisher>Bureau of Land Management &amp; U.S. Department of Energy (BLM &amp; DOE</publisher>
+		</imprint>
+	</monogr>
+	<note>Wind power: Generating electricity and lawsuits FES 12-24, DOE/EIS-0403</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Limitations, lack of standardization, and recommended best practices in studies of renewable energy effects on birds and bats</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Conkling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Loss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Diffendorfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duerr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Katzner</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cobi.13457</idno>
+		<ptr target="https://doi.org/10.1111/cobi.13457" />
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Estimates of avian collision with power lines and carcass disappearance across differing environments</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Costantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ferrarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dell'omo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="173" to="181" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Behavior of bats at wind turbines</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Cryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Gorresen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Schirmacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Diehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Huso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Heist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="15126" to="15131" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Response of San Joaquin kit foxes to topaz solar farms: Implications for conservation of kit foxes</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Cypher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Westall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Spencer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Meade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dart</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Job</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>Final Report prepared for: BHE Renewables Topaz Solar Farms</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effects of an attractive sink leading into maladaptive habitat selection</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delibes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gaona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ferreras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The American Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="277" to="285" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<ptr target="https://www.energy.ca.gov/programs-and-topics/programs/desert-renewable-energy-conservation-plan/" />
+		<title level="m">Desert Renewable Energy Conservation Plan (DRECP)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Bird use of solar photovoltaic installations at US airports: Implications for aviation safety</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Devault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Seamans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Belant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mooers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Pelt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Landscape and Urban Planning</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="122" to="128" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Evaluating the effectiveness of wildlife detection and observation technologies at a solar power tower facility</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Diehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Valdez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Preston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wellik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Cryan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS one</title>
+		<imprint>
+			<biblScope unit="page">158115</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The utility of animal behavior studies in natural resource management</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Dimitri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Longland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rangelands</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="9" to="16" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Why conservation biology can benefit from sensory ecology</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dominoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Halfwerk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Baird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Buxton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fernández-Juricic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Fristrup</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Barber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Ecology &amp; Evolution</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="502" to="511" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>J. R.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Testing efficacy of bird deterrents at wind turbine facilities: A pilot study in Nova Scotia</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dorey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dickey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canada. Proceedings of the Nova Scotian Institute of Science</title>
+		<imprint>
+			<biblScope unit="page">91</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Incorporating anthropogenic effects into trophic ecology: Predatorprey interactions in a human-dominated landscape</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dorresteijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schultner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Nimmo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanspach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kuemmerle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society B</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<date type="published" when="2015">2015. 20151602</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Highways block gene flow and cause a rapid decline in genetic diversity of desert bighorn sheep</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Epps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Palsbøll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Wehausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Roderick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Ramey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Mccullough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology Letters</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1029" to="1038" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A meta-analysis of home range studies in the context of trophic levels: Implications for policy-based conservation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fauvelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Diepstraten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jessen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">173361</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The role of animal sensory perception in behavior-based management</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fernández-Juricic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conservation behaviour: Applying behavioural ecology to wildlife conservation and management</title>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Saltz</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">O</forename><surname>Berger-Tal</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="149" to="175" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Assessing bird avoidance of highcontrast lights using a choice test approach: Implications for reducing human-induced avian mortality</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Devault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baumhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fernández-Juricic</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>PeerJ, 6, e5404</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Solar energy development and aquatic ecosystems in the southwestern United States: Potential impacts, mitigation, and research needs</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grippo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hayse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>O'connor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Management</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="244" to="256" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Pollution going multimodal: The complex impact of the human-altered sensory environment on animal perception and performance</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Halfwerk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Slabbekoorn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biology Letters</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2015">2015. 20141051</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Migration in the Anthropocene: How collective navigation, environmental system and taxonomy shape vulnerability of migratory species</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hardesty-Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deinet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Titcomb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Dillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stears</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccauley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society B</title>
+		<imprint>
+			<biblScope unit="volume">373</biblScope>
+			<date type="published" when="2018">2018. 20170017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Wide-eyed glare scares raptors: From laboratory evidence to applied management</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hausberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boigné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lesimple</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Belin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Henry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS one</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">204802</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Ecological trap for desert lizards caused by anthropogenic changes in habitat structure that favor predator activity</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hawlena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Saltz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Abramsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bouskila</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="803" to="809" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Environmental impacts of utility-scale solar energy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Easter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Murphy-Mariscal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Maestre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tavassoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Allen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="766" to="779" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Review of avian mortality studies at concentrating solar power plants</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Ho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AIP Conference Proceedings</title>
+		<imprint>
+			<biblScope unit="page">70017</biblScope>
+			<date type="published" when="1734">2016. 1734</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Yearling greater sage-grouse response to energy development in Wyoming</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Holloran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Hubert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="65" to="72" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Reducing the maladaptive attractiveness of solar panels to polarotactic insects</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horváth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blahó</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Egri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kriska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Seres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Robertson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1644" to="1653" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horváth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kriska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Malik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Robertson</surname></persName>
+		</author>
+		<title level="m">Polarized light pollution: A new kind of ecological photopollution. Frontiers in Ecology and the Environment</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="317" to="325" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Anthropogenically induced adaptation to invade (AIAI): Contemporary adaptation to human-altered habitats within the native range can promote invasions</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Hufbauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Facon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ravigné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Turgeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Foucaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Estoup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolutionary Applications</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="89" to="101" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Mortality monitoring design for utility-scale solar power facilities</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Huso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dietsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nicolai</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1087">2016. 2016-1087, 44</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">U.S. Geological Survey Open-File Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">World Energy Outlook</title>
+		<ptr target="https://www.iea.org/reports/world-energy-outlook-2019" />
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+			<publisher>International Energy Agency (IEA)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Renewable Power Generation Costs in 2018</title>
+		<author>
+			<persName><surname>Irena</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/SpringerReference_7300</idno>
+		<ptr target="https://doi.org/10.1007/SpringerReference_7300" />
+	</analytic>
+	<monogr>
+		<title level="m">International Renewable Energy Agency</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A comprehensive review of state-of-the-art concentrating solar power (CSP) technologies: Current status and research trends</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Huda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Abdullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Saidur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="987" to="1018" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Response of small rodents to manipulations of vegetation height in agro-ecosystems</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jacob</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integrative Zoology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="3" to="10" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Impacts of a concentrated solar power trough facility on birds and other wildlife in South Africa</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jeal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Perold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ralston-Paton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ryan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ostrich</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="129" to="137" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Utility-scale solar energy facilities: Effects on invertebrates in an arid environment</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jeal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Perold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Seymour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ralston-Paton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ryan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Arid Environments</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Demographic and phenotypic effects of human mediated trophic subsidy on a large Australian lizard (Varanus varius): Meal ticket or last supper?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Jessop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Scheelings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dempster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS one</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">34069</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Avian mortality at solar energy facilities in southern California: A preliminary analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Kagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Viner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Trail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">O</forename><surname>Espinoza</surname></persName>
+		</author>
+		<ptr target="http://www.ourenergypolicy.org/avian-mortality-at-solar-energy-facilities-in-southern-california-a-preliminary-analysis/" />
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>National Fish and Wild</publisher>
+			<pubPlace>Ashland, OR</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Spatial pattern of risk of common raven predation on desert tortoises</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Kristan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Boarman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="2432" to="2443" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Biases in the literature on direct wildlife mortality from energy development</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Loss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dorning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Diffendorfer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioScience</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="348" to="359" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Environmental characteristics of desert tortoise (Gopherus agassizii) burrow locations in an altered industrial landscape</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Lovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Daniels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chelonian Conservation and Biology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="714" to="721" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Wildlife conservation and solar energy development in the desert southwest</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Lovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Ennen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>United States. Bio-Science</publisher>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="982" to="992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Understanding bird collisions with man-made objects: a sensory ecology approach</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1474-919X.2011.01117.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1474-919X.2011.01117.x" />
+	</analytic>
+	<monogr>
+		<title level="j">IBIS</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="239" to="254" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Mitigating wind-turbine induced avian mortality: Sensory, aerodynamic and cognitive constraints and options</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Reitan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bevanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lorentsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nygård</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="170" to="181" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Avian mortality at a solar energy power plant</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mccrary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mckernan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sciarrotta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Field Ornithology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="135" to="141" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A memory-based foraging tactic reveals an adaptive mechanism for restricted space use</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Merkle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fortin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Morales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology Letters</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="924" to="931" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Sustainability of utility-scale solar energy-Critical ecological concepts</title>
+		<author>
+			<persName><forename type="first">Moore-O'</forename><surname>Leary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Abella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Swanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename></persName>
+		</author>
+		<ptr target="https://www.nrel.gov/docs/fy20osti/77010.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Frontiers in Ecology and the Environment</title>
+		<imprint>
+			<date type="published" when="2017">2017. 2019. 2020. 2019</date>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="385" to="394" />
+		</imprint>
+		<respStmt>
+			<orgName>National Renewable Energy Laboratory (NREL) ; National Renewable Energy Laboratory (NREL)</orgName>
+		</respStmt>
+	</monogr>
+	<note>Renewable Portfolio standards: Understanding costs and benefits</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Database of incentives for renewables and efficiency</title>
+		<ptr target="https://www.dsireusa.org/" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>NC Clean Energy Technology Center (NCCETC)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Characterising the impacts of emerging energy development on wildlife, with an eye towards mitigation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Northrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wittemyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology Letters</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="112" to="125" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">A review on global renewable electricity scenario</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Pazheri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Othman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Malik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="835" to="845" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Buchwalter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Kerby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Lefauve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Varian-Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Swaddle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Integrative behavioral ecotoxicology: Bringing together fields to establish new insight to behavioral ecology, toxicology, and conservation</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="185" to="194" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Solar energy development and endangered species in the San Joaquin Valley, California: Identification of conflict zones</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Cypher</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Western Wildlife</publisher>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="29" to="44" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Effects of a power line on migration and range use of wild reindeer</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Reimers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dahle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eftestøl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Colman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gaare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="484" to="494" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">A framework for understanding ecological traps and an evaluation of existing evidence</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hutto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="1075" to="1085" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Mapping migration in a songbird using high-resolution genetic markers</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Ruegg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Paxton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Apkenas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="5726" to="5739" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Biological consequences of ecosystem fragmentation: A review</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hobbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Margules</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="18" to="32" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Influence of well pad activity on winter habitat selection patterns on mule deer</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sawyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kauffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Nelson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="1052" to="1061" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">African elephants use plant odours to make foraging decisions across multiple spatial scales</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shuttleworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Shrader</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="17" to="27" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Wildlife in airport environments: Preventing animal-aircraft collisions through science-based management</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Seamans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Belant</surname></persName>
+		</author>
+		<editor>T. L. DeVault, B. F. Blackwell, &amp; J. L. Belant</editor>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Johns Hopkins University Press in association with The Wildlife Society</publisher>
+			<pubPlace>Baltimore, MD</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Tactile and auditory repellents to reduce wildlife hazards to aircraft</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Increased aggression and reduced aversive learning in honey bees exposed to extremely low frequency electromagnetic fields</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hollands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Godley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Sharkh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Newland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">223614</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Avian interactions with renewable energy infrastructure: An update</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Dwyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Condor</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="411" to="423" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Home ranges and the value of spatial information</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Spencer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammology</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="929" to="947" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Siting solar energy development to minimize biological impacts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Stoms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Dashiell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable Energy</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="289" to="298" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">A sonic net excludes birds from an airfield: Implications for reducing bird strike and crop losses</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Swaddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Moseley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Hinders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="339" to="345" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Polarized light pollution of matte solar panels: Anti-reflective photovoltaics reduce polarized light pollution but benefit only some aquatic insects</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Száz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mihályi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Farkas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Egri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kriska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horváth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Insect Conservation</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="663" to="675" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Landscape-scale wildlife species richness metrics to inform wind and solar energy facility siting: An Arizona case study</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jarchow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Arundel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jamwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Drost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Policy</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="145" to="152" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Environmental impacts from the solar energy technologies</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tsoutos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Frantzeskaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gekas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Policy</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="289" to="296" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Behavioural responses to human-induced environmental change</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Tuomainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Candolin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Reviews</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="640" to="657" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Environmental impacts from the installation and operation of large-scale solar power plants</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Turney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fthenakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="3261" to="3270" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<author>
+			<persName><surname>Useia</surname></persName>
+		</author>
+		<ptr target="https://www.eia.gov/outlooks/ieo/pdf/ieo2019.pdf" />
+		<title level="m">International Energy Outlook, U.S. Energy Information Administration</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Desert-adapted species are vulnerable to climate change: Insights from the warmest region on earth</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Vale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Brito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Ecology and Conservation</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="369" to="379" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Effects of infrastructure on migration and range use of wild reindeer</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vistnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nellemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jordhoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Strand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="101" to="108" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Impacts of vehicle road traffic on desert tortoise populations with consideration of conservation of tortoise habitat in southern Nevada</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Von Seckendorff Hoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Marlow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chelonian Conservation and Biology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="449" to="456" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">A preliminary assessment of avian mortality at utility-scale solar energy facilities in the United States</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Walston</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Rollins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Lagory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Meyers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable Energy</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="405" to="414" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Going, going, gone: Is animal migration disappearing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Wilcove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wikelski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">188</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Can solar farms be wildlife friendly? A facility in the southwest hopes to find the answer</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wilkening</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rautenstrauch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Professional</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="46" to="50" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Exposure to extremely low frequency electromagnetic fields alters the behaviour, physiology and stress protein levels of desert locusts</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wyszkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharkh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Newland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">36413</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

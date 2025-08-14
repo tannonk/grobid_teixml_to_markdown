@@ -13,6 +13,7 @@ import argparse
 import logging
 from pathlib import Path
 from typing import List, Dict, Optional
+from string import punctuation
 
 import xml.etree.ElementTree as ET
 from tqdm import tqdm
@@ -417,10 +418,10 @@ class TEIToMarkdownConverter:
             # Extract section header if present
             head_elem = child_div.find('tei:head', self.ns)
             if head_elem is not None:
-                header_text = self.extract_text_content(head_elem)
+                header_text = self.clean_header_text(self.extract_text_content(head_elem))
                 if header_text:
                     content.append(f"## {header_text}")
-            
+
             # Extract paragraphs
             for p in child_div.findall('tei:p', self.ns):
                 para_text = self.extract_text_content(p)
@@ -471,7 +472,7 @@ class TEIToMarkdownConverter:
             
             if child_tag == 'head':
                 # Section header
-                header_text = self.extract_text_content(child)
+                header_text = self.clean_header_text(self.extract_text_content(child))
                 if header_text:
                     content.append(f"## {header_text}")
                     self.logger.debug(f"Processed section header: {header_text[:50]}...")
@@ -952,6 +953,11 @@ class TEIToMarkdownConverter:
                 parts.append(f"({year})")
         
         return '. '.join(parts) + '.' if parts else ""
+
+    @staticmethod
+    def clean_header_text(header_text: str) -> str:
+        """Clean up the header text by removing unwanted whitespace and punctuation."""
+        return header_text.strip().strip(punctuation).strip()
 
 
 def main():
