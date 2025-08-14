@@ -17,18 +17,13 @@ pip install .
 
 Basic conversion:
 ```bash
-tei-to-markdown -i example_data/grobid_teixml -o example_data/md
+python -m tei_to_markdown -i example_data/grobid_teixml -o example_data/md
 ```
 
 With all optional content:
 ```bash
-tei-to-markdown -i example_data/grobid_teixml -o example_data/md \
+python -m tei_to_markdown -i example_data/grobid_teixml -o example_data/md \
     --include_tables --include_figures --include_bib --include_backmatter
-```
-
-Or run directly with Python:
-```bash
-python tei_to_markdown.py -i example_data/grobid_teixml -o example_data/md
 ```
 
 ## Options

@@ -56,7 +56,7 @@ def set_args():
     
     # Logging configuration
     parser.add_argument('--log_level', choices=['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'], 
-                       default='INFO', help='Set the logging level (default: INFO)')
+                       default='WARNING', help='Set the logging level (default: WARNING)')
     
     # Table and figure processing options (disabled by default)
     parser.add_argument('--include_tables', action='store_true', default=False, 
