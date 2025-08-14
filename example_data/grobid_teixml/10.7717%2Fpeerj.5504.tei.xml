@@ -1,0 +1,1479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Physical, mechanical and energy characterization of wood pellets obtained from three common tropical species</title>
+				<funder ref="#_sAhfgrt #_cfm5YkZ #_w8KAeqG">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_wXdQ2Nv">
+					<orgName type="full">Energy Sustainability Fund</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-09-04">4 September 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Heya</forename><surname>Ngangyo</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Maginot</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Andrea</forename><surname>Ghermandi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carrillo</forename><surname>Parra</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Instituto de Silvicultura e Industria de la Madera</orgName>
+								<orgName type="institution" key="instit2">Universidad Juárez del Estado de Durango</orgName>
+								<address>
+									<settlement>Durango</settlement>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Ngangyo</forename><surname>Heya Maginot</surname></persName>
+							<email>nheyamaginot@yahoo.fr</email>
+							<affiliation key="aff1">
+								<orgName type="department">Facultad de Ciencias Biológicas</orgName>
+								<orgName type="institution">Universidad Autónoma de Nuevo León</orgName>
+								<address>
+									<addrLine>San Nicolás de los Garza</addrLine>
+									<settlement>Nuevo León</settlement>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Colín-Urieta</forename><surname>Serafín</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Facultad de Ingeniería</orgName>
+								<orgName type="institution" key="instit1">en Tecnología de la Madera</orgName>
+								<orgName type="institution" key="instit2">Universidad Michoacana de San Nicolás de Hidalgo</orgName>
+								<address>
+									<settlement>Morelia</settlement>
+									<region>Michoacan</region>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Foroughbakhch</forename><surname>Pournavab</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Facultad de Ciencias Biológicas</orgName>
+								<orgName type="institution">Universidad Autónoma de Nuevo León</orgName>
+								<address>
+									<addrLine>San Nicolás de los Garza</addrLine>
+									<settlement>Nuevo León</settlement>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rutiaga</forename><surname>Quiñones</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">José</forename><surname>Guadalupe</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Facultad de Ingeniería</orgName>
+								<orgName type="institution" key="instit1">en Tecnología de la Madera</orgName>
+								<orgName type="institution" key="instit2">Universidad Michoacana de San Nicolás de Hidalgo</orgName>
+								<address>
+									<settlement>Morelia</settlement>
+									<region>Michoacan</region>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Correa-Méndez</forename><surname>Fermín</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Desarrollo Sustentable</orgName>
+								<orgName type="institution" key="instit1">Tecnologías Alternativas</orgName>
+								<orgName type="institution" key="instit2">Universidad Intercultural Indígena de Michoacán, Pichátaro</orgName>
+								<address>
+									<region>Michoacán</region>
+									<country key="MX">México</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Physical, mechanical and energy characterization of wood pellets obtained from three common tropical species</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-09-04">4 September 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.7717/peerj.5504</idno>
+					<note type="submission">Submitted 10 February 2018 Accepted 31 July 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-07-08T13:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=null, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Subjects Natural Resource Management</term>
+					<term>Environmental Impacts</term>
+					<term>Forestry Bioenergy</term>
+					<term>Physico-mechanical properties</term>
+					<term>Proximate analisis</term>
+					<term>Wood pellets</term>
+					<term>Tropical species</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background. The need for energy sources with low greenhouse gas emissions and sustainable production encourages the search for alternative biomass sources. However, the use of biomass fuels faces the problem of storage, transport and lower energy densities. Low-density values can negatively affect energy density, leading to an increase in transportation and storage costs. Use of pellets as alternative biomass source is a way to reduce the volume of biomass by densification, which improves their energy quality. They are produced by diverse biomass resources and mainly from wood materials. In all cases, it is important to evaluate the fuel characteristics, to determine their suitability on the heating system and handling properties. Methods. The present study determines and compares data from proximate analysis, calorific values, physical and mechanical properties of wood pellets produced from the common tropical species Acacia wrightii, Ebenopsis ebano and Havardia pallens. Data were obtained from pellets produced from each species chips collected from an experimental plantation and analyzed through ANOVA and Kruskal-Wallis test at 0.05 significance level. Results. The results of diameter, length and length/diameter ratio didn't show statistical differences (p &gt; 0.05) among species. Acacia wrightii showed the highest density (1.2 g/cm 3 ). Values on weight retained and compression test showed statistical differences (p = 0.05) among species. Havardia pallens was more resistant to compression strength than A. wrightii and Ebenopsis ebano. Statistical differences (p &lt; 0.01) were also observed for the volatile matter and calorific value. E. ebano has the lowest volatile matter (72%), highest calorific value (19.6 MJ/kg) as well as the fixed carbon (21%). Discussion. The pellets of the species studied have a high energy density, which makes them suitable for both commercial and industrial heating applications. A pellet with low compression resistance tends to disintegrate easily, due to moisture adsorption. The percentages obtained for the resistance index were higher than 97.5%, showing that the pellets studied are high-quality biofuels. Proximate analysis values also indicate How to cite this article Artemio et al. ( <ref type="formula">2018</ref>), Physical, mechanical and energy characterization of wood pellets obtained from three common tropical species. PeerJ 6:e5504; DOI 10.7717/peerj.5504 good combustion parameters. Pellets of Acacia wrightii and Ebenopsis ebano are the more favorable raw material sources for energy purposes because of their high density, calorific value, low ash content and they also met majority of the international quality parameters.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>The present society development provides increasing levels of comfort to people, inevitably leading to an increase in energy consumption in all its forms <ref type="bibr" target="#b53">(Van Duren et al., 2015)</ref> that requires a constant and permanent supply <ref type="bibr" target="#b39">(Song et al., 2015)</ref>. It is estimated that 80% to 85% of the world's energy consumption is obtained directly from fossil fuels <ref type="bibr">(BP, 2013)</ref> which cause greenhouse gas emissions, global warming; in addition; they are limited in supply and they will eventually be depleted. Therefore, it is important to develop new energy policies, aimed at reducing the rate of energy consumption and the environmental impact associated with the use of fossil fuels.</p><p>Biomass is a clean source of energy whose use implies a reduction in the energy dependence of fossil fuels <ref type="bibr" target="#b1">(Antolín, 2006)</ref>. Thus, biomass energy is a promising alternative to such limited fossil fuel reserves as coal, oil and gas <ref type="bibr" target="#b55">(Zhao et al., 2012)</ref> since the natural ecosystems produce more than 230 billion tons of biomass each year, of which only a quarter (24%) is used to satisfy basic needs and industrial production, leaving 76% of the total biomass existing, which can therefore become a living ''green'' carbon source to supply or partially replace the ''black'' fossil fuels currently supporting the industrial economies <ref type="bibr">(ETC Group, 2010)</ref>. However, one of the challenges facing the energy industry is how to store the large quantities of biomass fuel required for thermal power plants <ref type="bibr">(Craven et al., 2015)</ref>. Moreover, biomasses are scattered resources with lower energy densities <ref type="bibr" target="#b9">(Hu et al., 2014)</ref>, and to be practical in large-scale applications, they must be first pretreated by grinding, drying and compressing <ref type="bibr">(Chen, Peng &amp; Bi, 2015)</ref>, so that they are dry and dense with a higher energy density.</p><p>Densification then appears as a way of producing solid biofuels, easily transportable, manageable and storable, with optimum commercial quality. Densified biomass fuels such as pellets are preferred as they provide better economic viability for transport, storage and handling than other biofuels <ref type="bibr" target="#b44">(Tauro et al., 2018)</ref>. According to <ref type="bibr" target="#b28">Patzek &amp; Pimentel (2007)</ref>, they are easy to process, transport over long distances, and are relatively safe. Also, wood pellets are an efficient source of biomass energy, which is important, as fossil fuels contribute dramatically to CO 2 emissions <ref type="bibr" target="#b49">(Thomson &amp; Liddell, 2015)</ref>, whereas pellets burn cleanly and thus create less air polluting emissions, as explained by <ref type="bibr" target="#b13">Kowollik (2014)</ref> with the concept of neutral carbon, compared to other combustion heating energy sources. Many scientists and organizations believe that if efforts to develop renewable energy continue, by 2050 renewable energy will provide about 30% of the world's demanded energy and a significant amount of this energy could come from wood pellets <ref type="bibr" target="#b6">(Guo, Song &amp; Buhain, 2015)</ref>, which are less expensive than fossil fuels, such as oil, liquefied petroleum gas, and electric powered systems, particularly as wood pellets have higher energy content than oil <ref type="bibr" target="#b49">(Thomson &amp; Liddell, 2015)</ref>. In addition, producing wood pellets is very cost effective since the raw materials are relatively cheap and mills can operate automatically needing only a few employees <ref type="bibr" target="#b17">(Lu &amp; Rice, 2010)</ref>. These wood pellets' high availability and the low price of raw materials make their cost more stable, which is especially positive as prices of fossil fuels fluctuate widely <ref type="bibr" target="#b33">(Roh, 2016)</ref>.</p><p>Thus, wood as a primary energy source responds to available evidence and to a need for energy; this is especially relevant for a time of deep economic crisis, which has forced many to rethink future strategies <ref type="bibr">(Brian Vad, Lund &amp; Karlsson, 2011)</ref>. In this way, the use of wood pellets is a sustainable energy alternative <ref type="bibr" target="#b19">(Mola-Yudego, Selkimaki &amp; Gonzalez-Olabarria, 2014;</ref><ref type="bibr" target="#b38">Sgarbossa et al., 2015)</ref> that represents a positive globalization of wealth and local employment generation. This has resulted in a soaring demand for wood pellets in Europe and North America <ref type="bibr" target="#b7">(Heinimo &amp; Junginger, 2009)</ref> so that they are produced by diverse biomass resources, such as wood waste, energy forest and grape marc <ref type="bibr">(Cespi et al., 2014;</ref><ref type="bibr">Dwivedi et al., 2014)</ref>. Therefore, the pelletizing can be considered as an option to counteract the problem of excess waste normally generated in agro industrial and forestry activities <ref type="bibr">(IRENA, 2013)</ref>.</p><p>In tropical conditions, many agricultural and forestry crops are developed, generating a large amount of lignocellulosic waste <ref type="bibr" target="#b51">(Ulloa et al., 2004)</ref> that could be used as fuel or energy source <ref type="bibr" target="#b37">(Sekyere et al., 2004)</ref> through pelletization. However, before these woody pellets can be used, it is essential to first evaluate their fuel characteristics, taking as reference some standards, to ensure their uniformity, reducing market barriers and creating a product flow in which these biofuels can be traded between producers and users regardless of countries or regions <ref type="bibr">(Cabral et al., 2012)</ref>. This is directly related to the physical, mechanical and chemical properties that determine the quality of densified biomass during transportation and storage, as well as their energy capacity. Thus, in this study, three common tropical species are tested and characterized, to compare and determine the suitability of their pellets according to the international standards and end-user's requirements based on the heating system and handling properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS &amp; METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Origin of raw materials and pellets production</head><p>Four trees from each of the species Acacia wrightii, Ebenopsis ebano and Havardia pallens were cut from an experimental plantation established in Northeast Mexico <ref type="bibr" target="#b20">(Ngangyo-Heya et al., 2016)</ref>. The material was chipped, and then milled into a particle length lower than 4 mm. The pellets were produced in a press with compression channel length of 8 mm and channel diameter of 6 mm, without adding binder-additives to obtain pellet production of 400 kg/h. The pellets were cooled and left in plastic bags at laboratory conditions for the physical and chemical tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Physical properties</head><p>The pelletizing press and wood particles characteristics affect pellets' physical properties such as length, diameter and density. Pellet diameter is the result of the die dimension, and pellet length from the distance between plate and knife placed down the dish; however, particle density is related to pelletizing conditions and wood particles characteristics. The pellets diameter and length was measured for 50 samples of each species with a caliper, and the particle density was determined by the ratio of mass to volume according to Eq. ( <ref type="formula">1</ref>). All values were the average of 50 samples of each species.</p><formula xml:id="formula_0">D = m/v (1)</formula><p>where, D = Particle density (g/cm 3 ), m = Mass of pellet (g), V = Volume of pellet (cm 3 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical properties</head><p>Compression resistance at diametrical load was determined for 20 samples of each species, using a universal testing machine (Instron 300Dx; Instron, Norwood, MA, USA), the pellet was placed between two flats and parallel platens, and an increasing load was applied at the constant velocity of 2 mm/min until the pellet failed by cracking or braking according to the test established by <ref type="bibr" target="#b21">Nielsen, Holm &amp; Felby (2009)</ref>.</p><p>Impact resistance also known as ''drop resistance'' or ''shattering resistance'' was used to determine the safe height of pellet production <ref type="bibr" target="#b10">(Kaliyan &amp; Morey, 2009;</ref><ref type="bibr" target="#b29">Pietsch, 2008)</ref>. The impact resistance index (IRI) was obtained from the total number of pellets pieces produced after dropping each of the 20 pellets per species four times from 1.8 m height. The data was calculated according to Eq. ( <ref type="formula">2</ref>), developed by <ref type="bibr" target="#b31">Richards (1990)</ref>.</p><formula xml:id="formula_1">IRI = 100 × N /n</formula><p>(2)</p><p>Where: IRI = impact resistance index, N = number of drops, n = total number of pieces after the four drops.</p><p>The retained weight percentage was determined from the weight of the total number of pellets pieces produced from the four drops divided by the initial weight of the pellet multiplied by 100 according to Eq. ( <ref type="formula">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RW = Wnp/WN</head><p>(3)</p><p>where: RW = retained weight (%), Wnp = weight of the total pieces produced after four drops, WN = weight of the initial piece of pellet.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proximate analysis and energy production</head><p>Moisture content (%), volatile matter (%), and ash content (%) were determined according to the standards Spanish Association for Standardization (UNE)(2010a), Spanish Association for Standardization (UNE)(2010b), Spanish Association for Standardization (UNE)( <ref type="formula">2009</ref>), respectively. Fixed carbon content was calculated by subtracting from the sum of the volatile matter, moisture and ash content from 100. Gross calorific value of pellets was calculated according to Eq. ( <ref type="formula" target="#formula_2">4</ref>) established by <ref type="bibr" target="#b27">Parikh, Channiwala &amp; Ghosal (2005)</ref>.</p><formula xml:id="formula_2">GCV = 0.3536FC + 0.1559VM -0.0078A<label>(4)</label></formula><p>Where, GCV = Gross calorific value (KJ/kg), FC = Fixed carbon (%), VM = Volatile matter (%), A = Ash (%). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>The data means and standard error values for the properties of the pellets produced from the three species studied were determined, normality for all variables was corroborated by Shapiro-Wilk. Data in percentage were transformed using the arc sine square root function to develop comparison tests. Variables showing normal distribution were analyzed using one-way analysis of variance (ANOVA) with a random arrangement. Comparisons with statistical differences (p &lt; 0.05) between species, Tukey's honestly significant difference (HSD) tests were developed, this test consider statistically significant at p &lt; 0.05 for all pair-wise comparisons <ref type="bibr" target="#b43">(Steel &amp; Torrie, 1960)</ref>. For variables non-normally distributed, comparisons among species were developed with Kruskal-Wallis test. All statistical analyses were performed using the free R software, version 3.2.2 R <ref type="bibr" target="#b5">(Bolker, 2012)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Physical properties</head><p>The average and standard error of length, diameter and density of pellets produced with the three tropical species studied are shown in Fig. <ref type="figure" target="#fig_0">1</ref>. Pellets density values showed statistical differences (p &lt; 0.05) among species (Table <ref type="table">1</ref>). The density showed two statistical groups: (a) with pellets of Acacia wrightii, which were the denser pellets (1.18 g/cm 3 ), and (b) constituted of pellets obtained from Ebenopsis ebano and Havardia pallens that were statistically similar, with values of 1.10 and 1.12 g/cm 3 , respectively. As for the dimensions, the pellets of the three species have similar diameters: A. wrightii (6.05 ± 0.01 mm), E. ebano (6.03 ± 0.01 mm) and H. pallens (6.07 ± 0.01 mm), while for the length, the E. ebano pellets (17.37 ± 1.61 mm) were longer than those of A. wrightii (13.17 ± 0.82 mm) and H. pallens (13.44 ± 0.99 mm). The ratio length/diameter was 2.89 ± 0.27, 2.22 ± 0.17 and 2.17 ± 0.14 for pellets of E. ebano, H. pallens and A. wrightii, respectively. Table 1 Shapiro-Wilk and Kruskal-Wallis tests of the physical properties of pellets elaborated from chips of three common tropical species. Physical property Shapiro-Wilk test Kruskal-Wallis test Statistic p-value chi-squared p-value Diameter 0.79371 2.90E-13 2.5197 0.2837 Length 0.88039 1.19E-09 1.4084 0.4945 Ratio Length/Diameter 0.90761 3.64E-08 1.4516 0.4839 Density 0.94534 1.37E-05 9.1343 0.0104 Notes. Value highlighted bold indicated statistical differences (p &lt; 0.05) among species.</p><p>Table 2 Shapiro-Wilk and Kruskal-Wallis tests of the mechanical properties of pellets elaborated from chips of three common tropical species. Mechanical property Shapiro-Wilk test Kruskal-Wallis test Statistic p-value chi-squared p-value Compression 0.95677 3.28E-02 14.868 0.0005909 Drop resistance 0.69085 5.94E-10 3.9705 0.1373 Weigth retained 0.95128 1.79E-02 7.7059 0.02122 Notes.</p><p>Bold data shows the variable with statistical differences (p &lt; 0.05) among species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical properties</head><p>Compression resistance values showed statistical differences (p &lt; 0.05) among species (Table <ref type="table">2</ref>). The bonds between pellet particles produced from Acacia wrightii wood chips were stronger than those from E. ebano. H. pallens has the weakest particle bond (Fig. <ref type="figure" target="#fig_1">2</ref>).</p><p>The drop resistance index values for the three species ranges between 117 to 160. A. wrightii produced the most resistant pellets, while H. pallens produced less resistant pellets. The registered values did not show statistical differences (p &gt; 0.05) among species Table 3 Shapiro-Wilk and Kruskal-Wallis tests of the proximate analysis and energy values of pellets elaborated from chips of three common tropical species. Proximate analysis and energy values Shapiro-Wilk test Kruskal-Wallis test Anova test Statistic p-value chi-squared p-value F value p-value Moisture content 0.92759 0.4588 32.40 0.000609 Volatile matter 0.93752 0.556 --59.12 0.000113 Ash 0.96381 0.8373 --1.764 0.25 Fixed carbon 0.82073 0.03512 7.2 0.02732 --Gross calorific value 0.83748 0.05415 --23.14 0.00151 Notes.</p><p>Bold data shows the variable with statistical differences (p &lt; 0.05) among species.</p><p>(Table <ref type="table">2</ref>). Weight retained values showed statistical differences (p &lt; 0.05) among species (Table <ref type="table">2</ref>). Pellets of A. wrightii and E. ebano were in the same statistical group ''a'' with values of 66.27 and 61.74, respectively, different from those of Havardia pallens in the statistical group ''b'', with the value of 49.49 (Fig. <ref type="figure" target="#fig_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proximate analysis and energy production</head><p>Moisture content, volatile matter, fixed carbon and gross calorific value showed statistical differences (p &lt; 0.005) among species, while ash showed similar values among species (Table <ref type="table">3</ref>). The moisture content of all the pellets produced from the common tropical species tested was lower than 7%, with E. ebano (4.62 ± 0.23%), H. pallens (6.18 ± 0.03%) and A. wrightii (6.74 ± 0.15%) as presented in Fig. <ref type="figure" target="#fig_2">3</ref>. Volatile matters oscillated from 72.25 to 79.38%, values corresponding to pellets of E. ebano and H. pallens, respectively. The ash content ranged between 2.41 to 3.22%, being the smallest value obtained for pellets of H. pallens and the highest value for pellets of A. wrightii. Fixed carbon varied significantly, with values ranging between 12 to 21%, thereby forming three statistical groups: ''a'' H. pallens (12.03 ± 0.11%), ''b'' A. wrightii (13.44 ± 0.51%) and ''c'' E. ebano (20.61 ± 1.01%). Calorific values found in this research were higher than 17.8 MJ/kg, and is the highest value obtained from pellets of E. ebano (19.64 MJ/kg).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Physical properties</head><p>The values of pellets density obtained in this work are similar to 1.12-1.3 g/cm 3 reported in The Pellets Handbook by <ref type="bibr" target="#b48">Thek &amp; Obernberger (2012)</ref>. Comparing wood density average, <ref type="bibr" target="#b32">Rodriguez et al. (2016)</ref> found that wood pellets density of A. wrightii, E. ebano and H. pallens increased 30%, 25% and 93%, respectively, which confirm that pelletization is a good process to increase the density even to denser species. The bulk density of the input material is an important factor in pelleting the mills are fed by volume rather than weight <ref type="bibr">(Filbakk et al., 2011a)</ref>. The consideration for this property is a good estimator of pellet quality for fuel applications, as it equates to more energy per unit volume, and means greater economy in fuel use, transportation and storage space <ref type="bibr" target="#b34">(Rollinson &amp; Williams, 2016)</ref>. Low density values can negatively affect the energy density causing an increase in transportation and storage costs. According to <ref type="bibr" target="#b22">Obernberger &amp; Thek (2006)</ref>, the pellets of high energy density (18-20 MJ kg -1 ) are suitable for both commercial and industrial heating applications.</p><p>Comparisons between physical properties of pellets studied against values stated by standards CEN/TS 14961 <ref type="bibr">(CEN/TS EN 14961-2, 2012)</ref>, SS 18 71 20 and CTI R04/05 showed that they met the standards <ref type="bibr">(Duca et al., 2014)</ref>. According to the CEN-EN 14961-1, pellets from the three species were ''D 06'' with a diameter of 6 mm and length between 3.15 to 40 mm <ref type="bibr">(CEN/TC 335-Solid Biofuels, 2005)</ref>. All pellets of the studied species are suitable for combustion in boilers with pneumatic feeding systems because their lengths were small enough to prevent a blockage in the mechanism. Also, the ratio of length and diameter was lower than maximum of five stated by <ref type="bibr">Obernberger &amp;</ref><ref type="bibr" target="#b22">Thek (2006) and</ref><ref type="bibr" target="#b24">ÖNORM (2000)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical properties</head><p>The compression resistance values of Acacia wrightii were within the range (295 to 692 N) reported by <ref type="bibr" target="#b47">Tenorio et al. (2014)</ref> and <ref type="bibr" target="#b26">Pampuro et al. (2017)</ref>, while compression resistances of pellets of E. ebano and H. pallens were higher than the values reported. For wooden pellets, the resistance to change from its original appearance is very important, since it indicates how well they can resist external forces after a sustained period of use. This property is important in the wood pellet industry and trade (Oveisi-Fordiie, 2011). A pellet with low compression resistance is usually associated with problems such as difficulty in storage and shipping as well as health and environmental issues. This is because such pellet has the tendency to disintegrate easily due to moisture adsorption, fall or friction as reported by <ref type="bibr" target="#b46">Temmerman et al. (2006)</ref>. Thus, measuring this parameter for pellets indicates their market values.</p><p>The values of the impact resistance index were higher than the ratio of 33 to 50% reported by <ref type="bibr">Forero-Nuñez, Jochum &amp; Sierra (2015)</ref>. Pellets with a percentage higher than 97.5% as defined by ASABE <ref type="bibr">Standards (2006)</ref> are considered a high quality biofuel because the particles have good adhesion forces that allow pellets withstand transportation stress before reaching to the end users.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proximate analysis and energy production</head><p>The moisture content of about 7% for all the studied species is in conformity with <ref type="bibr" target="#b12">Koppejan &amp; Van Loo (2012)</ref>, who stipulated that moisture content of quality pellets should be lower than 15%. Moisture content values place the studied pellets as super premium (≤8%), according to US standard which has other three lower grades, i.e., premium (≤8%), standard (≤10%) and utility (≤10%) <ref type="bibr" target="#b50">(Tumuluru et al., 2010)</ref>. Moisture content is a property that should be considered with caution, since water has a crucial role in the pelletizing process <ref type="bibr" target="#b35">(Samuelsson et al., 2009)</ref>. A number of studies on wooden pellets showed a positive correlation between MC and pellet durability <ref type="bibr" target="#b54">(Whittaker &amp; Shield, 2017)</ref>, being this, one of the most important physical characteristic of pellets. Higher MCs can reduce friction by lubricating the biomass <ref type="bibr" target="#b21">(Nielsen, Holm &amp; Felby, 2009)</ref>, and increase the extent at which pellets 'relax' after formation thereby leading to a decrease in durability <ref type="bibr" target="#b0">(Adapa, Tabil &amp; Schoenau, 2011)</ref>. Water is not compressible, however, limiting the final density of the pellet <ref type="bibr">(Carone, Pantaleo &amp; Pellerano, 2011)</ref>. When moisture content is at the level of 8.62%, the maximum durability of 96.7% can be reached <ref type="bibr">(Colley et al., 2006)</ref>. With MC of 8-15%, there is an increase in durability in Norway spruce and Scots pine <ref type="bibr" target="#b16">(Lehtikangas, 2001)</ref>. <ref type="bibr">Filbakk et al. (2011b)</ref> also found a positive correlation in durability (r2 = 0.62) with MC of 7-12% in Scots pine. Tulip wood pellets showed the highest durability at a moisture content of 13% <ref type="bibr" target="#b15">(Lee et al., 2013)</ref>. Across a range of biomass types including wood and straw, the optimum MC for pellet durability was between 6.5 and 10.8% <ref type="bibr" target="#b18">(Miranda et al., 2015)</ref>.</p><p>The volatile matters range (72 to 79%) is in agreement with the results of <ref type="bibr">Arranz et al. (2015)</ref>, <ref type="bibr" target="#b12">Koppejan &amp; Van Loo (2012)</ref>, <ref type="bibr" target="#b47">Tenorio et al. (2014)</ref>, and are lower than 82.8% reported by Chen, <ref type="bibr">Peng &amp; Bi (2015)</ref> for commercial pellets. The amount of volatile matters influences the behavior during the combustion of solid fuels <ref type="bibr" target="#b44">(Tauro et al., 2018)</ref> such that when volatile matters are high, the biomass is considered a suitable fuel for thermal conversion <ref type="bibr" target="#b23">(Olsson &amp; Kjällstrand, 2004;</ref><ref type="bibr" target="#b8">Holt, Blodgett &amp; Nakayama, 2006)</ref>. <ref type="bibr" target="#b11">Kataki &amp; Konwer (2002)</ref> additionally indicated that high levels of volatile matters produce a fast burning, a disadvantage to fuels.</p><p>Fixed carbon varied from 12 to 21%, similar results were reported by Chen, <ref type="bibr">Peng &amp; Bi (2015)</ref> and <ref type="bibr" target="#b2">Arranz et al. (2015)</ref>. Fixed carbon has been reported to influence the gross calorific value <ref type="bibr" target="#b47">(Tenorio et al., 2014)</ref>. Also, in relation to the potential of energy production, this property is the most valuable parameter, since raw materials with high fixed carbon have higher heating values <ref type="bibr">(Forero-Nuñez, Jochum &amp; Sierra, 2015)</ref>.</p><p>The ash content ranged between 2.41 to 3.22%, which is promising for the species studied. Pellets with low ash contents are suitable for thermal conversion because they cause low ash accumulation, slagging or corrosion in the boilers <ref type="bibr" target="#b22">(Obernberger &amp; Thek, 2006;</ref><ref type="bibr" target="#b30">Rhén et al., 2007)</ref>. Ashes reduce the quality of pellets, increase the emission of particles to the environment and reduce the heat value of biomass <ref type="bibr" target="#b50">(Tumuluru et al., 2010)</ref>. According to <ref type="bibr" target="#b52">Uribe (1986)</ref>, the higher the ash content in a solid fuel, the lower will be the heat obtained, causing problems with the handling and management of large quantities of ash produced. High ash content feedstock may also result in increase in maintenance cost for both household and industries users. The relatively small amount of ash indicates small ash forming elements, allowing the pellets to be used for industrial heating requirements, where problems associated with slagging, fouling and sintering formation are major concerns.</p><p>Gross calorific values found in this research were higher than 17.8 MJ/kg, that are similar to the values reported by <ref type="bibr" target="#b45">Telmo &amp; Lousada (2011)</ref>, indicating that pellet of the studied species are suitable to be used as feedstock <ref type="bibr" target="#b14">(Laxamana, 1984;</ref><ref type="bibr" target="#b36">San Luis, Briones &amp; Estudillo, 1984)</ref>. Also, these values are within the minimum requirements of DIN 51731 <ref type="bibr">(1996)</ref> for solid fuel, for industrial heating processes. High gross calorific values allow the biofuel to produce a high amount of energy within low fuel volume (energy density) <ref type="bibr" target="#b4">(Atuesta-Boada &amp; Sierra-Vargas, 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BP. 2013.</head><p>Statistical review of world energy. London. Available at <ref type="url" target="http://www.bp.com/statisticalreview">http:// www.bp.com/  statisticalreview</ref>. Brian Vad M, Lund H, Karlsson K. 2011. 100% Renewable energy systems, climate mitigation and economic growth. Applied Energy 88.2:488-501. Cabral J, Tatiane D, Braga M, Mitiko M, Behling C, Dias P, Dilicio J. 2012. Produção de briquetes e péletes a partir de resíduos agrícolas, agroindustrais e florestais. Available at <ref type="url" target="https://ainfo.cnptia.embrapa.br/digital/bitstream/item/78690/1/DOC-13.pdf">https:// ainfo.cnptia.embrapa.br/ digital/ bitstream/ item/ 78690/ 1/ DOC-13.pdf</ref> . Carone MT, Pantaleo A, Pellerano A. 2011. Influence of process parameters and biomass characteristics on the durability of pellets from the pruning residues of Olea europaea L. Biomass and Bioenergy 35(1):402-410 DOI 10.1016/j.biombioe.2010.08.052. CEN/TC 335-Solid Biofuels. 2005. CEN/TS 14961: solid biofuels-fuel specifications and classes. Brussels: CEN/TC 335-Solid Biofuels. Cespi D, Passarini F, Ciacci L, Vassura I, Castellani V, Collina E, Piazzalunga A, Morselli L. 2014. Heating systems LCA: comparison of biomass-based appliances. The International Journal of Life Cycle Assessment 19(1):89-99 DOI 10.1007/s11367-013-0611-3. Chen WH, Peng J, Bi XT. 2015. A state-of-the-art review of biomass torrefaction, densification and applications. Renewable and Sustainable Energy Reviews 44:847-866 DOI 10.1016/j.rser.2014.12.039. Colley Z, Fasina OO, Bransby D, Lee YY. 2006. Moisture effect on the physical characteristics of switchgrass pellets. American Society of Agricultural and Biological Engineers 49(6):1845-1851. Craven JM, Swithenbank J, Sharifi VN, Peralta-Solorio D, Kelsall G, Sage P. 2015. Hydrophobic coatings for moisture stable wood pellets. Biomass and Bioenergy 80:278-285 DOI 10.1016/j.biombioe.2015.06.004. DIN 51731. 1996. Testing of solid fuels-compressed untreated wood, requirements and testing. Berlin: Deutsches Institut fur Normung. Duca D, Riva G, Pedretti EF, Toscano G. 2014. Wood pellet quality with respect to EN 14961-2 standard and certifications. Fuel 135:9-14 DOI 10.1016/j.fuel.2014.06.042. Dwivedi P, Khanna M, Bailis R, Ghilardi A. 2014. Potential greenhouse gas benefits of transatlantic wood pellet trade. Environmental Research Letters 9:024007. ETC Group. 2010. Los nuevos amos de la biomasa. Biología sintética y el próximo asalto a la biodiversidad. Ottawa: ETC Group. Filbakk T, Høibø OA, Dibdiakova J, Nurmi J. 2011a. Modelling moisture content and dry matter loss during storage of logging residues for energy. Scandinavian Journal of Forest Research 26(3):267-277 DOI 10.1080/02827581.2011.553199. Filbakk T, Skjevrak G, Høibø OA, Dibdiakova J, Jirjis R. 2011b. The influence of storage and drying methods for Scots pine raw material on mechanical pellet properties and production parameters. Fuel Processing Technology 92(5):871-878 DOI 10.1016/j.fuproc.2010.12.001. Forero-Nuñez CA, Jochum J, Sierra FE. 2015. Effect of particle size and addition of cocoa pod husk on the properties of sawdust and coal pellets. Ingenieria E Investigación 35:17-23 DOI 10.15446/ing.investig.v35n1.46157.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure1Average and standard error of length, diameter, ratio length/diameter and particle density of wood pellets produced from three common tropical species. Density of species with the same letters are statistically similar (p &lt; 0.05) according to Tukey's honestly significant difference test.Full-size DOI: 10.7717/peerj.5504/fig-1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Average and standard error of drop resistance, weight retained and compression resistance of wood pellets produced from three common tropical species. Weight retained and compression resistance values of species with the same letters are statistically similar (p &lt; 0.05) according to Kruskal test. Full-size DOI: 10.7717/peerj.5504/fig-2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Figure 3 Proximate analysis and energy values of wood pellets from three tropical species. Moisture content, volatile material and gross calorific values of species with the same letters are statistically similar (p &lt; 0.05) according to Tukey's honestly significant difference test, and by fixed carbon values according to Kruskal test. Full-size DOI: 10.7717/peerj.5504/fig-3</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Artemio et al. (2018), PeerJ, DOI 10.7717/peerj.5504</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding</head><p>This work was supported by the <rs type="funder">Energy Sustainability Fund</rs> through the project <rs type="projectName">SENER</rs> <rs type="projectName">CONACYT 2014 (No 246911): Cluster of Solid Biofuels for Thermal and Electric Generation</rs>. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></div>
+<div><head>Grant Disclosures</head><p>The following grant information was disclosed by the authors: <rs type="programName">Energy Sustainability Fund</rs> through the project <rs type="projectName">SENER</rs> <rs type="projectName">CONACYT 2014</rs>: <rs type="grantNumber">No 246911</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_wXdQ2Nv">
+					<orgName type="project" subtype="full">SENER</orgName>
+				</org>
+				<org type="funded-project" xml:id="_sAhfgrt">
+					<orgName type="project" subtype="full">CONACYT 2014 (No 246911): Cluster of Solid Biofuels for Thermal and Electric Generation</orgName>
+				</org>
+				<org type="funded-project" xml:id="_cfm5YkZ">
+					<orgName type="project" subtype="full">SENER</orgName>
+					<orgName type="program" subtype="full">Energy Sustainability Fund</orgName>
+				</org>
+				<org type="funded-project" xml:id="_w8KAeqG">
+					<idno type="grant-number">No 246911</idno>
+					<orgName type="project" subtype="full">CONACYT 2014</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability</head><p>The following information was supplied regarding data availability:</p><p>The raw data are provided in Data S1.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>The wooden chips of the common tropical species A. wrightii, E. ebano and H. pallens from experimental plantations are suitable to produce pellets that meet the international quality parameters. Pellets' physical parameters values such as length/diameter ratio and density indicate a well bonding mechanism. Resistance, compression and weight retained values of the three species guarantee that the pellets will produce low levels of fines during transportation. Proximate analysis values indicate good combustion parameters for the species. Pellets of these species are classified as M10 (moisture content lower than 10%) and A0.5 (ash content lower than 0.5%). Gross calorific values from all three species were higher than 17.8 MJ/kg. From the values of the wood pellets studied, A. wrightii and E. ebano are the more favorable raw materials sources for energy purposes because of their high density, gross calorific value, and low ash content, which met the majority of international quality parameters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ADDITIONAL INFORMATION AND DECLARATIONS Competing Interests</head><p>The authors declare there are no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>• Carrillo Parra Artemio conceived and designed the experiments, performed the experiments, analyzed the data, contributed reagents/materials/analysis tools, prepared figures and/or tables, authored or reviewed drafts of the paper, approved the final draft.</p><p>• Ngangyo Heya Maginot conceived and designed the experiments, performed the experiments, analyzed the data, prepared figures and/or tables, authored or reviewed drafts of the paper, approved the final draft.</p><p>• Colín-Urieta Serafín performed the experiments, authored or reviewed drafts of the paper, approved the final draft.</p><p>• Foroughbakhch Pournavab Rahim analyzed the data, authored or reviewed drafts of the paper, approved the final draft.</p><p>• Rutiaga Quiñones José Guadalupe conceived and designed the experiments, contributed reagents/materials/analysis tools, authored or reviewed drafts of the paper, approved the final draft.</p><p>• Correa-Méndez Fermín performed the experiments, prepared figures and/or tables, authored or reviewed drafts of the paper, approved the final draft.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplemental Information</head><p>Supplemental information for this article can be found online at <ref type="url" target="http://dx.doi.org/10.7717/peerj.5504#supplemental-information">http://dx.doi.org/10.7717/  peerj.5504#supplemental-information</ref>.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Grinding performance and physical properties of non-treated and steam exploded barley, canola, oat and wheat straw</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Adapa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tabil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schoenau</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biombioe.2010.10.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="549" to="561" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">La gestión y el aprovechamiento de los residuos en la industria de la madera</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Antolín</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Instituto Nacional de Tecnología Industrial</publisher>
+			<pubPlace>Maderas. Buenos Aires</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Characterization and combustion behaviour of commercial and experimental wood pellets in South West Europe</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Arranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Sepúlveda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Rojas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fuel.2014.10.059</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fuel</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="199" to="207" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Cubes, pellets and crumblesdefinitions and methods for determining density, durability and moisture content</title>
+		<idno>ASABE Standards. 2006. S269.4</idno>
+		<imprint>
+			<publisher>American Society of Agricultural Engineers</publisher>
+			<pubPlace>St. Joseph</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Caracterización físico-química de pellets producidos a partir de mezclas 50/50 carbón bituminoso/madera residual</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Atuesta-Boada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sierra</forename><forename type="middle">-</forename><surname>Vargas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename></persName>
+		</author>
+		<idno type="DOI">10.23850/22565035.133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Informador Técnico</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="18" to="25" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">R Development Core Team, bbmle: tools for general maximum likelihood estimation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bolker</surname></persName>
+		</author>
+		<ptr target="https://cran.r-project.org/web/packages/bbmle/index.html" />
+	</analytic>
+	<monogr>
+		<title level="m">R package version</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Bioenergy and biofuels: history, status, and perspective</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Buhain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="712" to="725" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Production and trading of biomass for energy-an overview of the global status</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heinimo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Junginger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biombioe.2009.05.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Physical and combustion characteristics of pellet fuel from cotton gin by-products produced by select processing treatments</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Blodgett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Nakayama</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.indcrop.2006.06.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial Crops and Products</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="204" to="213" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Economic, environmental and social assessment of briquette fuel from agricultural residues in China: a study on flat die briquetting using corn stalk</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.energy.2013.10.028</idno>
+	</analytic>
+	<monogr>
+		<title level="m">International Renewable Energy Agency (IRENA)</title>
+		<imprint>
+			<date type="published" when="2013">2014. 2013</date>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="557" to="566" />
+		</imprint>
+	</monogr>
+	<note>Renewable power generation costs in 2012: an overview. Abu Dhabi: International Renewable Energy Agency</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Factors affecting strength and durability of densified biomass products</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kaliyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Morey</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biombioe.2008.08.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="337" to="359" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Fuelwood characteristics of indigenous tree species of northeast India</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kataki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Konwer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0961-9534(02)00026-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="433" to="437" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">The handbook of biomass combustion and co-firing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Koppejan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Loo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Earthscan</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Costa Rica carbono neutral: un país pequeño con metas grandes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kowollik</surname></persName>
+		</author>
+		<ptr target="http://library.fes.de/pdf-files/bueros/fesamcentral/11122.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Perspectivas FES Costa Rica</title>
+		<imprint>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Heating value of some Philippine woods, non-woods and barks</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Laxamana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FPRDI Journal</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="6" to="12" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effects of densification variables on the durability of wood pellets fabricated with Larix kaempferi C. and Liriodendron tulipifera L. sawdust</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Quality properties of pelletised sawdust, logging residues and bark</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lehtikangas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0961-9534(00)00092-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="351" to="360" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Characteristics of wood fuel pellet manufacturers and markets in the Unitied States</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forest Products Journal</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="310" to="315" />
+			<date type="published" when="2010">2010. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A review of pellets from different sources</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sepúlveda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nogales</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma8041413</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1413" to="1427" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Spatial analysis of the wood pellet production for energy in Europe</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mola-Yudego</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Selkimaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Gonzalez-Olabarria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renew. Energy</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="76" to="83" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Calorific value and chemical composition of five semi-arid Mexican tree species</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ngangyo-Heya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Foroughbahchk-Pournavab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carrillo-Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Rutiaga-Quiñones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zelinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pintor-Ibarra</forename><surname>Lf</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/f7030058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Forests</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Effect of fiber orientation on compression and frictional properties of sawdust particles in fuel pellet production</title>
+		<author>
+			<persName><forename type="first">Npk</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Holm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Felby</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ef800923v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Energy &amp; Fuels</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3211" to="3216" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Recent developments concerning pellet combustion technologies-a review of Austrian developments</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Obernberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Thek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. of the 2nd world conference on pellets</title>
+		<meeting>of the 2nd world conference on pellets</meeting>
+		<imprint>
+			<date type="published" when="2006-05">2006. May/June 2006</date>
+			<biblScope unit="page" from="47" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Emissions from burning of softwood pellets</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Olsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kjällstrand</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biombioe.2003.08.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="607" to="611" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">7135: compressed wood or compressed bark in natural state, pellets and briquettes, requirements and test specifications</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Önorm</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Österreichisches Normungsinstitut</publisher>
+			<pubPlace>Vienna</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Durability of wood pellets. Master of Science thesis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Oveisi-Fordiie</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">134</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>The University of British Columbia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effects of pelletizing pressure and the addition of woody bulking agents on the physical and mechanical properties of pellets made from composted pig solid fraction</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pampuro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bagagiolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Priarone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cavallo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.powtec.2017.01.092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technology</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="page" from="112" to="119" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A correlation for calculating HHV from proximate analysis of solid fuels</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Channiwala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Ghosal</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fuel.2004.10.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fuel</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="487" to="494" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Thermodynamics of energy production from biomass</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Patzek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pimentel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Critical Reviews in Plant Sciences</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="327" to="340" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Agglomeration processes: phenomena, technologies, equipment</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Pietsch</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>Weinheim</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Effect of raw material composition in woody biomass pellets on combustion characteristics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rhén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Öhman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gref</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wästerlund</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biombioe.2006.06.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Physical testing of fuel briquettes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Richards</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0378-3820(90)90098-D</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fuel Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="89" to="100" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Variability in wood density and wood fibre characterization of woody species and their possible utility in northeastern Mexico</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kumari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Sarkar</surname></persName>
+		</author>
+		<idno type="DOI">10.4236/ajps.2016.77109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Plant Sciences</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">07</biblScope>
+			<biblScope unit="page" from="1139" to="1150" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Wood Pellets as a Biofuel: current status and their Market Potential</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Roh</surname></persName>
+		</author>
+		<ptr target="http://hdl.handle.net/2429/59204" />
+	</analytic>
+	<monogr>
+		<title level="j">Series FRST</title>
+		<imprint>
+			<biblScope unit="volume">497</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of British Columbia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Experiments on torrefied wood pellet: study by gasification and characterization for waste biomass to energy applications</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Rollinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsos.150578</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Royal Society Open Science</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effect of biomaterial characteristics on pelletizing properties and biofuel pellet quality</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Samuelsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thyrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sjöström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Lestander</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fuproc.2009.05.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fuel Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1129" to="1134" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">An evaluation of giant Ipil-ipil for charcoal production and briquetting</title>
+		<author>
+			<persName><forename type="first">San</forename><surname>Luis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Briones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Estudillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FPRDI Journal</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="31" to="40" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Availability and characteristics of different types of wood residue for energy production. Development of energy alternatives for the efficient utilization of wood processing residue: co-generation and Briquette Production</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sekyere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Okyere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Darkwah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Nketiah</surname></persName>
+		</author>
+		<idno>ITTO PROJECT PPD 53/02/ Rev.1</idno>
+		<ptr target="http://www.itto.int/files/itto_project_db_input/2765/Project/E-PPD-53-02-R1-I-Pre-Project-Document.pdf" />
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>(I) Final technical report</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sgarbossa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Menesatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Antonucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pallottino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zanetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grigolato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cavalli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A multivariate SIMCA index as discriminant in wood pellet quality assessment</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="258" to="263" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Evaluation of potential fossil fuel conservation by the renewable heat obligation in Korea</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yoo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.energy.2014.10.093</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Renew. Energy</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="140" to="149" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">UNE-CEN/TS 14775 EX: biocombustibles sólidos: método para la determinación del contenido en cenizas</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>UNE</publisher>
+			<pubPlace>Madrid</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">2010a. UNE-EN 14774: biocombustibles sólidos. Determinación del contenido de humedad. Método de secado en estufa</title>
+		<imprint>
+			<publisher>UNE</publisher>
+			<pubPlace>Madrid</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m">Spanish Association for Standardization (UNE). 2010b. UNE-EN 15148: biocombustibles sólidos. Determinación del contenido en materias volátiles. Madrid: Spanish Association for Standardization</title>
+		<imprint>
+			<publisher>UNE</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Principles and procedures of statistics</title>
+		<author>
+			<persName><forename type="first">Rgd</forename><surname>Steel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Torrie</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1960">1960</date>
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The potential for sustainable biomass pellets in Mexico: An analysis of energy potential, logistic costs and market demand</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tauro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Skutschc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Masera</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.rser.2017.09.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="380" to="389" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The explained variation by lignin and extractive contents on higher heating value of wood</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Telmo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lousada</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biombioe.2010.12.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Comparative study of durability test methods for pellets and briquettes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Temmerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rabier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Böhm</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biombioe.2006.06.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomass and Bioenergy</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="964" to="972" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Quality of pellets made from agricultural and forestry crops in Costa Rican tropical climates</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tenorio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tomazello-Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Valaert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioResources</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="482" to="498" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">The pellet handbook: the production and thermal utilization of biomass pellets</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Thek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Obernberger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Routledge</publisher>
+			<pubPlace>Abingdon</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The suitability of wood pellet heating for domestic households: a review of literature</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liddell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1362" to="1369" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Quality of wood pellets produced in British Columbia for export</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Tumuluru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sokhansanj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Melin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Oveisi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Annual Meeting as Paper No</title>
+		<meeting><address><addrLine>Paris, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">7265</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Tropical agricultural residues and their potential uses in fish feeds: the Costa Rica situation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Ulloa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Weerd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Verreth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wasman.2003.09.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Waste Management</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="87" to="97" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<author>
+			<persName><forename type="first">Bca</forename><surname>Uribe</surname></persName>
+		</author>
+		<title level="m">Introducción a la Tecnología del Carbón: Origen, Composición, Propiedades, Clasificación -Informe No</title>
+		<meeting><address><addrLine>Bogota</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cundinamarca</publisher>
+			<date type="published" when="1980">1986. 1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Where to produce rapeseed biodiesel and why? Mapping European rapeseed energy efficiency</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Van Duren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Voinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Arodudu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Firrisa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.renene.2014.07.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable Energy</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="49" to="59" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Factors affecting wood, energy grass and straw pellet durability</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Shield</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.rser.2016.12.119</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A review. Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">China&apos;s wind, biomass and solar power generation: what the situation tells us?</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.rser.2012.07.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable &amp; Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="6173" to="6182" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

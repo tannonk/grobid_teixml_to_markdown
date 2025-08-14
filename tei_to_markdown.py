@@ -454,35 +454,190 @@ class TEIToMarkdownConverter:
         return "\n\n".join(content) if len(content) > 1 else ""
     
     def process_section(self, div: ET.Element) -> str:
-        """Process a section div element"""
+        """
+        Process a section div element, handling all child elements in document order.
+        
+        Args:
+            div: TEI div element to process
+            
+        Returns:
+            Formatted section content as markdown string
+        """
         content = []
         
-        # Extract section header
-        head_elem = div.find('tei:head', self.ns)
-        if head_elem is not None:
-            header_text = self.extract_text_content(head_elem)
-            if header_text:
-                content.append(f"## {header_text}")
-                # # Determine header level based on section number
-                # section_num = head_elem.get('n', '')
-                # if section_num and '.' not in section_num:
-                #     content.append(f"## {header_text}")
-                # else:
-                #     content.append(f"### {header_text}")
+        # Process all children in document order to preserve structure
+        for child in div:
+            child_tag = child.tag.split('}')[-1] if '}' in child.tag else child.tag
+            
+            if child_tag == 'head':
+                # Section header
+                header_text = self.extract_text_content(child)
+                if header_text:
+                    content.append(f"## {header_text}")
+                    self.logger.debug(f"Processed section header: {header_text[:50]}...")
+            
+            elif child_tag == 'p':
+                # Paragraph
+                para_text = self.extract_text_content(child)
+                if para_text:
+                    content.append(para_text)
+                    self.logger.debug(f"Processed paragraph ({len(para_text)} chars)")
+            
+            elif child_tag == 'formula':
+                # Mathematical formula - direct child of div
+                formula_content = self.process_formula(child)
+                if formula_content:
+                    content.append(formula_content)
+                    self.logger.debug("Processed formula element")
+            
+            elif child_tag == 'div':
+                # Nested subsection
+                subsection_content = self.process_section(child)
+                if subsection_content:
+                    content.append(subsection_content)
+                    self.logger.debug("Processed nested div section")
+            
+            elif child_tag == 'list':
+                # List elements
+                list_content = self.process_list(child)
+                if list_content:
+                    content.append(list_content)
+                    self.logger.debug("Processed list element")
+            
+            elif child_tag == 'quote':
+                # Block quotations
+                quote_content = self.process_quote(child)
+                if quote_content:
+                    content.append(quote_content)
+                    self.logger.debug("Processed quote element")
+            
+            elif child_tag == 'table':
+                # Tables (less common as direct children, but possible)
+                table_content = self.process_table(child)
+                if table_content:
+                    content.append(table_content)
+                    self.logger.debug("Processed table element")
+            
+            elif child_tag == 'figure':
+                # Figures (less common as direct children, but possible)  
+                figure_content = self.process_figure(child)
+                if figure_content:
+                    content.append(figure_content)
+                    self.logger.debug("Processed figure element")
+            
+            else:
+                # Fallback for any other element types - extract text content
+                fallback_text = self.extract_text_content(child)
+                if fallback_text:
+                    content.append(fallback_text)
+                    self.logger.debug(f"Processed unknown element '{child_tag}' as text ({len(fallback_text)} chars)")
         
-        # Extract paragraphs
-        for p in div.findall('tei:p', self.ns):
-            para_text = self.extract_text_content(p)
-            if para_text:
-                content.append(para_text)
+        result = "\n\n".join(content)
+        self.logger.debug(f"Section processing complete: {len(result)} characters from {len(content)} elements")
+        return result
+    
+    def process_formula(self, formula_elem: ET.Element) -> str:
+        """
+        Process mathematical formula elements as standalone blocks.
         
-        # Process nested subsections
-        for subdiv in div.findall('tei:div', self.ns):
-            subsection_content = self.process_section(subdiv)
-            if subsection_content:
-                content.append(subsection_content)
+        Args:
+            formula_elem: TEI formula element
+            
+        Returns:
+            Formatted formula as LaTeX-style math block
+        """
+        # Extract formula content - handle both text and child elements (like label)
+        formula_text = ""
+        label_text = ""
         
-        return "\n\n".join(content)
+        # Get direct text content
+        if formula_elem.text:
+            formula_text += formula_elem.text
+        
+        # Process child elements
+        for child in formula_elem:
+            child_tag = child.tag.split('}')[-1] if '}' in child.tag else child.tag
+            
+            if child_tag == 'label':
+                # Formula label (like equation number)
+                if child.text:
+                    label_text = child.text.strip()
+            else:
+                # Other content - add to formula text
+                if child.text:
+                    formula_text += child.text
+            
+            # Add tail text after child element
+            if child.tail:
+                formula_text += child.tail
+        
+        # Clean up the formula text
+        formula_text = formula_text.strip()
+        
+        if not formula_text:
+            self.logger.warning("Formula element found but no content extracted")
+            return ""
+        
+        # Format as LaTeX math block
+        if label_text:
+            result = f"$${formula_text}$$ {label_text}"
+            self.logger.debug(f"Processed labeled formula: {formula_text[:50]}... ({label_text})")
+        else:
+            result = f"$${formula_text}$$"
+            self.logger.debug(f"Processed unlabeled formula: {formula_text[:50]}...")
+        
+        return result
+    
+    def process_list(self, list_elem: ET.Element) -> str:
+        """
+        Process TEI list elements.
+        
+        Args:
+            list_elem: TEI list element
+            
+        Returns:
+            Formatted markdown list
+        """
+        items = []
+        list_type = list_elem.get('type', 'unordered')
+        
+        # Process list items
+        for item in list_elem.findall('tei:item', self.ns):
+            item_text = self.extract_text_content(item)
+            if item_text:
+                if list_type == 'ordered':
+                    items.append(f"1. {item_text}")
+                else:
+                    items.append(f"- {item_text}")
+        
+        result = "\n".join(items) if items else ""
+        if result:
+            self.logger.debug(f"Processed {list_type} list with {len(items)} items")
+        
+        return result
+    
+    def process_quote(self, quote_elem: ET.Element) -> str:
+        """
+        Process TEI quote elements as block quotes.
+        
+        Args:
+            quote_elem: TEI quote element
+            
+        Returns:
+            Formatted markdown block quote
+        """
+        quote_text = self.extract_text_content(quote_elem)
+        
+        if not quote_text:
+            return ""
+        
+        # Format as markdown block quote
+        lines = quote_text.split('\n')
+        quoted_lines = [f"> {line}" if line.strip() else ">" for line in lines]
+        result = "\n".join(quoted_lines)
+        
+        self.logger.debug(f"Processed quote block ({len(quote_text)} characters)")
+        return result
     
     def extract_text_content(self, element: ET.Element) -> str:
         """Extract clean text content from an element, handling references and formatting"""
@@ -497,23 +652,6 @@ class TEIToMarkdownConverter:
                 text_parts.append(elem.text)
             
             for child in elem:
-                # Handle references
-                if child.tag.endswith('ref'):
-                    ref_text = child.text or ""
-                    if child.get('target'):
-                        # This is a reference citation - keep the text but clean it up
-                        text_parts.append(f"[{ref_text}]")
-                    else:
-                        text_parts.append(ref_text)
-                
-                elif child.tag.endswith('formula'):
-                    formula_text = self.extract_text_content(child)
-                    if formula_text:
-                        text_parts.append(f"$${formula_text}$$")
-
-                # # elif child.tag.endswith('figure'):
-                #     # text_parts.append(self.process_figure(child))
-                # else:
                 extract_recursive(child)
                 
                 if child.tail:
