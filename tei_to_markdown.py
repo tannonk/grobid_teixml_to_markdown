@@ -4,7 +4,7 @@ Converts GROBID-generated TEI XML files to readable Markdown format
 
 Example usage:
 
-    python -m format_conversion.tei_to_markdown -i path/to/teixml/files -o path/to/output/dir
+    python -m tei_to_markdown -i path/to/teixml/files -o path/to/output/dir
 
 """
 
