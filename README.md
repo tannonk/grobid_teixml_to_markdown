@@ -64,3 +64,7 @@ Once installed, you can run GROBID in batch mode to extract text from a collecti
 # Run GROBID in batch mode
 java -Xmx4g -jar grobid-core/build/libs/grobid-core-0.8.2-onejar.jar -gH grobid-home -dIn example_data/pdf -dOut example_data/teixml -exe processFullText
 ```
+
+## Limitations
+
+This tool is a work in progress. It does not guarantee perfect conversion of all TEI XML features to well-formed Markdown! Use at own risk.
